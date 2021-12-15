@@ -34,3 +34,19 @@ IdentityFile C:\Users\admin\.ssh\id_rsa.gitlab
 // ssh -T git@github.com
 ```
 
+- git的其他命令---如取消设置用户名等
+
+```javascript
+//查看全部配置
+git config --list
+
+//删除全局配置
+git config --global --unset user.name
+git config --global --unset user.email
+
+//添加全局配置
+git config --global user.name "yurenjiedeta"
+
+
+```
+
