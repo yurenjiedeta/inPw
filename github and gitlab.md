@@ -46,7 +46,14 @@ git config --global --unset user.email
 
 //添加全局配置
 git config --global user.name "yurenjiedeta"
+```
 
+- git以http链接拉取代码要输入账号密码问题
 
+```bash
+#方法1、拉取的时候带上账号密码：
+git cloen http://账号:密码@git.ops.test.com.cn/root/puppet.git
+#方法2、修改配置文件：位于项目根目录下的 .git 文件夹下的 config 文件
+url = http://账号:密码@gitlab.powershopin.top/lu-front-shoppy/shopywinwin-buyer-front.git
 ```
 
