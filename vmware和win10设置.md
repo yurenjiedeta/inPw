@@ -22,3 +22,12 @@
 */
 ```
 
+- nodejs全局设置
+
+```js
+/*
+npm config set prefix ""
+npm config set cache ""
+*/
+```
+
