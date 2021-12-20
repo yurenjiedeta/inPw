@@ -28,6 +28,7 @@
 /*
 npm config set prefix ""
 npm config set cache ""
+生成的配置文件位于用户文件夹下的: .npmrc 文件
 */
 ```
 
