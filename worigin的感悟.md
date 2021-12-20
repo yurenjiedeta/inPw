@@ -38,14 +38,6 @@ var res = [].map(function(){return ".."});//res的值为:[]，还是空数组
 var res = [].join("/");// res的值为 ""
 ```
 
-- 一些正则
-
-```javascript
-/\/$/   //表示以 "/" 结尾
-/^$/    //用来匹配空字符串, 如：""
-/^[.\/]/ //通过运行得到结果是匹配 . 或者 /
-```
-
 - process.execPath 和 path.dirname
 
 ```javascript
