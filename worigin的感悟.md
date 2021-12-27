@@ -1,8 +1,9 @@
 - path.join方法
 
-```javascript
+```tex
 //该方法是用正在运行的平台特有的分割符号，连接组成新的路径字符串
 //如果字符串是零长度，则返回 "."
+//path.join(__dirname,"..");//返回的是 __dirname 的父级目录
 ```
 
 - path.normalize
