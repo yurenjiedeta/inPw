@@ -8,7 +8,7 @@
 
 - 关于响应式
 
-```javascript
+```tex
 /*
 响应式站点
 第一按比例，比例的问题不能兼容文字
@@ -18,5 +18,14 @@
 https://blog.csdn.net/weixin_40779234/article/details/113701444
 svg的居中特点
 */
+```
+
+- hover后的子元素
+
+```css
+.container .themeList .theme:hover .web[data-v-1265c99f] {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
 ```
 
