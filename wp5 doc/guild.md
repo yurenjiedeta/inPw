@@ -24,3 +24,11 @@
 2、测试库的使用 npm install --save-dev 命令
 ```
 
+- 模块
+
+```tex
+1、模块，就是被模块化的；
+2、模块支持很多种模块的写法，import、export；require、module.exports等等，详见API，打包后的转化兼容是webpack的独创精巧设计;
+3、webpack不会更改import和export语句意外的部分。代码的转换需要使用到其他库。
+```
+
