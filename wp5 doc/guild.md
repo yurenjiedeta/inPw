@@ -40,5 +40,165 @@
 了解如何通过webpack来管理资源，如images、fonts。
 ```
 
+- 加载CSS
 
+```tex
+根据正则表达式来加载以来资源，并会寻找到指定的loader，最后会返回成js可以使用的。
+```
+
+- 加载images图像
+
+```tex
+1、使用wp5内容的 Asset modules，可以很轻松的实现混入到系统的目的。
+2、看下面代码块的例子
+```
+
+webpack.config.js
+
+```diff
+ const path = require('path');
+
+ module.exports = {
+   entry: './src/index.js',
+   output: {
+     filename: 'bundle.js',
+     path: path.resolve(__dirname, 'dist'),
+   },
+   module: {
+     rules: [
+       {
+         test: /\.css$/i,
+         use: ['style-loader', 'css-loader'],
+       },
++      {
++        test: /\.(png|svg|jpg|jpeg|gif)$/i,
++        type: 'asset/resource',
++      },
+     ],
+   },
+ };
+```
+
+- loader的进一步说明
+
+```
+1.经过laoder处理后会变成什么，可以直接打印require 或者 import 后的变量。
+2.只要输入和输出目录保持对其，那就比较完美了。
+3.一个例子说明：在 import MyImage from './my-image.png' 时，此图像将被处理并添加到 output 目录，并且 MyImage 变量将包含该图像在处理后的最终 url。
+```
+
+- 加载 fonts 字体、加载数据
+
+```tex
+1.assets module 可以处理静态资源；
+2.csv-loader、xml-loader分别可以处理 CSV、TSV和XML；
+3.该类型的loader作用直接把对应文件的数据提取出来，最后成了可使用的json变量；
+4.看下面例子。
+```
+
+webpack.config.js
+
+```diff
+ const path = require('path');
+
+ module.exports = {
+   entry: './src/index.js',
+   output: {
+     filename: 'bundle.js',
+     path: path.resolve(__dirname, 'dist'),
+   },
+   module: {
+     rules: [
+       {
+         test: /\.css$/i,
+         use: ['style-loader', 'css-loader'],
+       },
+       {
+         test: /\.(png|svg|jpg|jpeg|gif)$/i,
+         type: 'asset/resource',
+       },
++       {
++         test: /\.(woff|woff2|eot|ttf|otf)$/i,
++         type: 'asset/resource',
++       },
++      {
++        test: /\.(csv|tsv)$/i,
++        use: ['csv-loader'],
++      },
++      {
++        test: /\.xml$/i,
++        use: ['xml-loader'],
++      },
+     ],
+   },
+ };
+```
+
+- 其他数据资源
+
+```bash
+npm install toml yamljs json5 --save-dev
+```
+
+webpack.config.js
+
+```diff
+const path = require('path');
++const toml = require('toml');
++const yaml = require('yamljs');
++const json5 = require('json5');
+
+ module.exports = {
+   entry: './src/index.js',
+   output: {
+     filename: 'bundle.js',
+     path: path.resolve(__dirname, 'dist'),
+   },
+   module: {
+     rules: [
+       {
+         test: /\.css$/i,
+         use: ['style-loader', 'css-loader'],
+       },
+       {
+         test: /\.(png|svg|jpg|jpeg|gif)$/i,
+         type: 'asset/resource',
+       },
+       {
+         test: /\.(woff|woff2|eot|ttf|otf)$/i,
+         type: 'asset/resource',
+       },
+       {
+         test: /\.(csv|tsv)$/i,
+         use: ['csv-loader'],
+       },
+       {
+         test: /\.xml$/i,
+         use: ['xml-loader'],
+       },
++      {
++        test: /\.toml$/i,
++        type: 'json',
++        parser: {
++          parse: toml.parse,
++        },
++      },
++      {
++        test: /\.yaml$/i,
++        type: 'json',
++        parser: {
++          parse: yaml.parse,
++        },
++      },
++      {
++        test: /\.json5$/i,
++        type: 'json',
++        parser: {
++          parse: json5.parse,
++        },
++      },
+     ],
+   },
+ };
+```
 
