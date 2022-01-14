@@ -1,4 +1,4 @@
-- ### 起步--指南
+- # 起步--指南
 
 ```tex
 1、目的：理解和掌握webpack提供的各种工具和特性；
@@ -31,4 +31,14 @@
 2、模块支持很多种模块的写法，import、export；require、module.exports等等，详见API，打包后的转化兼容是webpack的独创精巧设计;
 3、webpack不会更改import和export语句意外的部分。代码的转换需要使用到其他库。
 ```
+
+
+
+- # 资源管理
+
+```tex
+了解如何通过webpack来管理资源，如images、fonts。
+```
+
+
 
