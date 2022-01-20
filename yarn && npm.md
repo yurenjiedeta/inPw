@@ -17,3 +17,9 @@ npx会在当前以来内寻找包来运行项目.
 yarn add xxx --dev
 ```
 
+- yarn --remove
+
+```bash
+yarn remove xxx xxxx xxxx
+```
+
