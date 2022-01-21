@@ -57,3 +57,9 @@ git cloen http://账号:密码@git.ops.test.com.cn/root/puppet.git
 url = http://账号:密码@gitlab.powershopin.top/lu-front-shoppy/shopywinwin-buyer-front.git
 ```
 
+- github添加成员
+
+```tex
+头像--》Your Profile--》Settings--》Add collaborates
+```
+
