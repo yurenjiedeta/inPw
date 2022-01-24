@@ -23,3 +23,10 @@ yarn add xxx --dev
 yarn remove xxx xxxx xxxx
 ```
 
+- npm安装特定的版本或者tag
+
+```bash
+npm install --save-dev webpack/webpack#<tagname/branchname>
+# 安装特定的 tag/分支
+```
+
