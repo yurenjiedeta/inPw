@@ -24,3 +24,12 @@ Code Runner
 3、右键面板，选择 Stop Code Run命令。
 ```
 
+- 另外一个运行代码的方法
+
+```tex
+1、视图 -- 》 控制台；
+2、node filename.js
+
+其他的则添加 .vscode 文件夹配置等。
+```
+
