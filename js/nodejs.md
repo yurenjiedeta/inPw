@@ -8,5 +8,11 @@ global.__base = __dirname + '/';
 global.rootRequire = function(name) {
     return require(__dirname + '/' + name);
 }
+
+//下面的写法可以运行
+var oldRequire = require;
+require = function (name) {
+  return oldRequire(__dirname + '/' + name);
+}
 ```
 
