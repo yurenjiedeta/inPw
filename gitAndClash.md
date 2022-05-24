@@ -10,3 +10,13 @@ git config --global --unset http.proxy
 git config --global --unset https.proxy
 ```
 
+- github ssh无法使用的时候：
+
+```bash
+#去github后台，Settings/Developer settings / Personal access tokens
+#修改 .git 文件夹目录下的配置为：https://<githubtoken>@github.com/<username>/<repositoryname>.git
+#最后就可以使用了
+
+git config --local -e      //编辑本地git配置
+```
+
