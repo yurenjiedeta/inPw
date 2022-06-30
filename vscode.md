@@ -23,3 +23,25 @@
 css的技巧也有点类似
 ```
 
+- extension with me
+
+```tex
+Bracket Pair Colorizer2
+Auto Rename Tag
+Beautify
+Chinese Language
+Code Runner
+colorize
+CSS Peek
+GitLens
+Liquid
+Liquid Languages Support
+Live Server
+Markdown All in One
+Markdown Preview Enhanced
+Markdown Preview Github Styling
+Peacock
+Reverse Search
+Vetur
+```
+
