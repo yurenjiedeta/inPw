@@ -52,3 +52,11 @@ npm config delete registry
 npm config delete disturl
 ```
 
+- yarn和npm清除本地缓存
+
+```bash
+yarn cache clean
+npm cache clean --force
+#yarn缓存位置：C:\Users\admin\AppData\Local\Yarn
+```
+
