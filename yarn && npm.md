@@ -30,3 +30,25 @@ npm install --save-dev webpack/webpack#<tagname/branchname>
 # 安装特定的 tag/分支
 ```
 
+- yarn镜像
+
+```bash
+#默认 https://registry.yarnpkg.com
+
+#设置国内镜像 yarn config set registry https://registry.npm.taobao.org --global
+
+#删除国内镜像 yarn config delete registry --global
+```
+
+- npm镜像
+
+```bash
+npm config set registry https://registry.npm.taobao.org
+
+npm config set disturl https://npm.taobao.org/dist
+
+npm config delete registry
+
+npm config delete disturl
+```
+
