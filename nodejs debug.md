@@ -7,3 +7,18 @@
 "%_prog%" --inspect-brk "%dp0%\node_modules\yarn\bin\yarn.js" %*
 ```
 
+- nodejs设置端口
+
+```bash
+指定端口调试：--inspect-brk=[host:port]
+node --inspect-brk ../../bin/webpack.js --verbose --min example.js js/output.js
+
+//jest-debug:使用chrome调试jest
+//node --inspect node_modules/.bin/jest   或者node --inspect-brk node_modules/.bin/jest
+//这条命令可以调试成功：node --inspect-brk ./node_modules/jest/bin/jest --runInBand --no-cache --no-watchman
+
+
+//gulp-debug:使用chrome调试gulp
+//node --inspect-brk ./node_modules/gulp/bin/gulp loc --runInBand --no-cache --no-watchman  
+```
+
