@@ -63,3 +63,13 @@ url = http://账号:密码@gitlab.powershopin.top/lu-front-shoppy/shopywinwin-bu
 头像--》Your Profile--》Settings--》Add collaborates
 ```
 
+- 当git的配置文件被加密的时候
+
+```bash
+问题，下面操作报错：
+git commit 时一直报 .git/hooks/pre-commit: No such file or directory
+
+使用下面方案解决：
+npx husky install
+```
+
