@@ -22,3 +22,9 @@ node --inspect-brk ../../bin/webpack.js --verbose --min example.js js/output.js
 //node --inspect-brk ./node_modules/gulp/bin/gulp loc --runInBand --no-cache --no-watchman  
 ```
 
+- mocha的调试命令
+
+```bash
+node --inspect-brk .\node_modules\mocha\bin\mocha -b test\test.js
+```
+
