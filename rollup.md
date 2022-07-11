@@ -21,7 +21,7 @@ rollup "main entry"="src/entry 1.js" "src/other entry.js" --format es #用双引
  2-3、output.name的一些规则，不能以 `数字` 开头，不能包含 `等于号` ，当 extend 为true的时候，则name可以以 `数字开头` 和 `包含等号`
  
 3、output.compact
-去除多余的空格和换行符号。
+true的时候，去除多余的空格和换行符号。
 
 4、output.format
  4-1、amd，像 RequireJS 的代码；
@@ -45,8 +45,10 @@ rollup "main entry"="src/entry 1.js" "src/other entry.js" --format es #用双引
  7-3、如果含有斜杠 / ，则会生成子目录。
  
 8、output.globals
- 8-1、当 format 为 umd 或者 iife 的时候，如果设置了 `external`选项，该选项需要配合设置 output.globals 属性
- 8-2、示例  output:{globals:{lodash:"_"}},
+ 8-1、当 format 为 umd 或者 iife 的时候，如果设置了 `external`选项，该选项需要配合设置 output.globals 属性，示例  output:{globals:{lodash:"_"}};
+
+9、output.noConflict
+ 9-1、生成旧版本兼容，引用的属性为 `xxx.noConflict` ，是一个执行函数，返回值就是那个旧的版本;
 ```
 
 - rollup选项output.name值为 `@my.@nested/value.bundle` 时候
@@ -181,7 +183,7 @@ import('dynamic').then(({dynamic}) => console.log(dynamic));
 'function renderedFn() {}\nclass renderedClass {}\nconst renderedConst = 1;\n\nexport { renderedClass, renderedConst, renderedFn };\n'
 ```
 
-- 当除去`CJS`，`ES`的 `format` 外， `iife`模式下，如果未能寻找到依赖，则会有警告消息
+- 当除去`CJS`，`ES`的 `format` 外， `umd`、`iife`模式下，如果未能寻找到依赖，则会有警告消息
 
 ```js
 it('warns if node builtins are unresolved in a non-CJS, non-ES bundle (#1051)', () => {
@@ -215,4 +217,31 @@ it('warns if node builtins are unresolved in a non-CJS, non-ES bundle (#1051)', 
     });
 });
 ```
+
+- rollup的错误插件配置会被自动忽略
+
+```js
+it('ignores falsy plugins', () =>
+   rollup.rollup({
+    input: 'x',
+    plugins: [loader({ x: `console.log( 42 );` }), null, false, undefined]// 含有错误插件
+}));
+```
+
+- 输出的代码可以对`id`进行修改
+
+```js
+return rollup.rollup({
+				input: 'x',
+				external: ['the-answer'],
+				plugins: [loader({ x: `import 'the-answer'` })]}).then(bundle =>{
+    					bundle.generate({ format: 'es', paths: id => `//unpkg.com/${id}@?module` }).then(generated =>assert.equal(generated.output[0].code,"import '//unpkg.com/the-answer@?module';\n",'with render path'))
+})
+```
+
+- 在rollup中，options作为入口选项和 `bundle.generate(options)`可以公用，例子：`rollup.rollup(options)`、`bundle.generate()`。
+
+- rollup生成代码最后一个字符是一个换行符`\n`。
+
+- `bundle.close()`后，`generate`、`write`方法调用会报错。
 
