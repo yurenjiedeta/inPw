@@ -49,6 +49,17 @@ true的时候，去除多余的空格和换行符号。
 
 9、output.noConflict
  9-1、生成旧版本兼容，引用的属性为 `xxx.noConflict` ，是一个执行函数，返回值就是那个旧的版本;
+
+10、output.banner/output.footer
+ 10-1、给生成的代码添加页头和页脚；
+ 10-2、示例：
+ export default {
+  ...,
+  output: {...,banner: '/* my-library version ' + version + ' */',footer: '/* follow me     on Twitter! @rich_harris */'}
+ };
+
+11、output.generatedCode
+ 11-1、`output.generatedCode.symbols`：设置输出的代码是否保留 `Symbol`；
 ```
 
 - rollup选项output.name值为 `@my.@nested/value.bundle` 时候
@@ -244,4 +255,23 @@ return rollup.rollup({
 - rollup生成代码最后一个字符是一个换行符`\n`。
 
 - `bundle.close()`后，`generate`、`write`方法调用会报错。
+- `context`，设置上下文变量(this等)；
+
+- strictDeprecations选项
+
+```tex
+# 如果启用该选项(true)，`rollup`将以抛出错误代替`警告信息`
+```
+
+- perf选项
+
+```tex
+# 如果启用该选项(true)，`rollup`的js API对象中会包含 getTimings 方法，用来返回打包性能的方法，下面是返回的示例结果：
+{
+  "# BUILD": [ 698.020877, 33979632, 45328080 ],
+  "## parse modules": [ 537.509342, 16295024, 27660296 ],
+  "load modules": [ 33.253778999999994, 2277104, 38204152 ],
+  ...
+}
+```
 
