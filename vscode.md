@@ -45,3 +45,15 @@ Reverse Search
 Vetur
 ```
 
+- vscode去除flow语法检查
+
+```tex
+此时在当前目录下新建.vscode文件夹，里面创建settings.json文件，文件内写入如下代码：
+```
+
+```json
+{
+  "javascript.validate.enable": false
+}
+```
+
