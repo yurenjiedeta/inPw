@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ruck Hits Supermarket</title>
+    <link href="./static/css/video-js.min.css" rel="stylesheet">
+    <script src="./static/js/video.min.js"></script>
+    <script src="./static/js/ts.js"></script>
+    <script src="./static/js/jquery-1.8.0.js"></script>
+</head>
+
+<body>
+    <h3>Truck Hits Supermarket – level 1</h3>
+    <p>
+        There is an incident in <b src="./static/audios/Irkutsk-ying.mp3">Irkutsk</b>. It is a city in <b
+            src="./static/audios/Siberia-woman.mp3">Siberia</b>.
+        A truck
+        drives into a supermarket. A security
+        camera
+        films the moment. The truck is going quite fast. It seriously injures one <b
+            src="./static/audios/shopper-mei.mp3">shopper</b>. The driver is uninjured. He
+        says that the <b src="./static/audios/brakes.mp3">brakes</b> do not work.
+    </p>
+    <video id="example_video_1" class="video-js" controls preload="none" height="264" poster="./static/images/truck.jpg"
+        data-setup="{}" style="max-width: 100%;">
+        <source src="./static/videos/Truck Hits Supermarket – level 1 - News in Levels.mp4" type="video/mp4">
+    </video>
+    <h3 class="show-words">显示隐藏生词</h3>
+    <div style="display:none;">
+        <p><i src="./static/audios/Irkutsk-ying.mp3">Irkutsk</i>：伊尔库次克（西伯利亚的主要城市，位于俄罗斯东部贝加尔湖西岸）</p>
+        <p><i src="./static/audios/Siberia-woman.mp3">Siberia</i>：西伯利亚</p>
+        <p><i src="./static/audios/shopper-mei.mp3">shopper</i>：购物者;(商店的)顾客</p>
+        <p><i src="./static/audios/brakes.mp3">brake</i>：刹车;制动器;车闸;阻力;障碍 v 用闸减速;刹(车)</p>
+    </div>
+
+    <hr>
+    <script>
+        var myAudio = mAudio.default;
+        // MP3文件播放方法
+        function playMp3(file) {
+            var audio = myAudio({
+                file: file,
+                loop: false,
+                volume: 1,
+            });
+            audio.play();
+        }
+        // 文章内容播放逻辑
+        var playList = $("b,i");
+        playList.click(function () {
+            var file = $(this).attr("src");
+            file && playMp3(file)
+        })
+        /* var bList = document.getElementsByTagName("b");
+        var iList = document.getElementsByTagName("i");
+        for (var i = 0; i < bList.length; i++) {
+            bList[i].addEventListener("click", function (event) {
+                var file = event.target.getAttribute("src");
+                file && playMp3(file);
+            }, false)
+        } */
+    </script>
+    <script>
+        // 显示生词与否
+        $(".show-words").click(function () {
+            $(this).next("div").slideToggle()
+        })
+    </script>
+    <style>
+        b,
+        i {
+            color: #f50707;
+            font-weight: bold;
+        }
+    </style>
+</body>
+
+</html>
