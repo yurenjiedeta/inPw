@@ -28,3 +28,9 @@ node --inspect-brk ../../bin/webpack.js --verbose --min example.js js/output.js
 node --inspect-brk .\node_modules\mocha\bin\mocha -b test\test.js
 ```
 
+- rt-script调试命令
+
+```bash
+"start": "node --inspect-brk ./node_modules/react-scripts/bin/react-scripts start"
+```
+
