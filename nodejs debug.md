@@ -13,6 +13,9 @@
 指定端口调试：--inspect-brk=[host:port]
 node --inspect-brk ../../bin/webpack.js --verbose --min example.js js/output.js
 
+换端口例子：
+"build:dev": "node --inspect-brk=127.0.0.1:9222 ./node_modules/webpack/bin/webpack.js --mode=development",
+
 //jest-debug:使用chrome调试jest
 //node --inspect node_modules/.bin/jest   或者node --inspect-brk node_modules/.bin/jest
 //这条命令可以调试成功：node --inspect-brk ./node_modules/jest/bin/jest --runInBand --no-cache --no-watchman
