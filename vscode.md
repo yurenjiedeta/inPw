@@ -57,3 +57,9 @@ Vetur
 }
 ```
 
+- 我的 vscode 扩展
+
+```tex
+Vetur、Smarty、Reverse Search、Reverse Aggregate、Peacock、Markdown Preview Github Styling、Markdown Preview Enhanced、Markdown All in Onc、Live Server、Liquid Languages Support、Liquid、GitLens、CSS Peek、colorize、Code  Runner、Beautify、Chinese (Simplified)(简体中文)Language Pack、Babel JavaScript、Auto Rename Tag、Bracket Pair Colorizer 2
+```
+
