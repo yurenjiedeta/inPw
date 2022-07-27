@@ -23,3 +23,38 @@ let test = {
 test.abc  //此处会自动运行上面方法
 ```
 
+- Symbol.iterator
+
+```js
+var myIterable = {}
+myIterable[Symbol.iterator] = function* () {
+    yield 1;
+    yield 2;
+    yield 3;
+};
+var iterator = myIterable[Symbol.iterator]();
+
+// 获取 value
+var step = iterator.next();
+console.log(step);//  {value: 1, done: false}
+```
+
+- Object.seal
+
+```js
+// Object.seal()方法封闭一个对象，阻止添加新属性并将所有现有属性标记为不可配置。当前属性的值只要原来是可写的就可以改变。
+const object1 = {
+  property1: 42
+};
+
+Object.seal(object1);
+object1.property1 = 33;
+console.log(object1.property1);
+// expected output: 33
+
+delete object1.property1; // cannot delete when sealed
+console.log(object1.property1);
+// expected output: 33
+
+```
+
