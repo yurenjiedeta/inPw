@@ -60,12 +60,15 @@ Vetur
 - 我的 vscode 扩展
 
 ```tex
-Vetur、Smarty、Reverse Search、Reverse Aggregate、Peacock、Markdown Preview Github Styling、Markdown Preview Enhanced、Markdown All in Onc、Live Server、Liquid Languages Support、Liquid、GitLens、CSS Peek、colorize、Code  Runner、Beautify、Chinese (Simplified)(简体中文)Language Pack、Babel JavaScript、Auto Rename Tag、Bracket Pair Colorizer 2、Todo Tree
+Vetur、Smarty、Reverse Search、Reverse Aggregate、Peacock、Markdown Preview Github Styling、Markdown Preview Enhanced、Markdown All in Onc、Live Server、Liquid Languages Support、Liquid、GitLens、CSS Peek、colorize、Code  Runner、Beautify、Chinese (Simplified)(简体中文)Language Pack、Babel JavaScript、Auto Rename Tag、Bracket Pair Colorizer 2、Todo Tree、TODO Highlight
 ```
 
 - Todo Tree的说明
 
 ```tex
 直接在左侧标签出现了todo的菜单。
+// TODO语法两个案例：
+// TODO:
+/* TODO 
 ```
 
