@@ -189,6 +189,36 @@
             font-weight: bold;
         }
     </style>
+    <script>
+        //异步代码
+        setTimeout(function () {
+            for (var i = 0; i < 100000000; i++) { }
+            console.log('timer a');
+        }, 0)
+        //同步代码
+        for (var j = 0; j < 5; j++) {
+            console.log(j);
+        }
+        //异步代码
+        setTimeout(function () {
+            console.log('timer b');
+        }, 0)
+        //函数
+        function waitFiveSeconds() {
+            var now = (new Date()).getTime();
+            while (((new Date()).getTime() - now) < 5000) { }
+            console.log('finished waiting');
+        }
+        //异步代码
+        document.addEventListener('click', function () {
+            console.log('click');
+        })
+        //同步代码
+        console.log('click begin');
+        //同步代码，调用函数，执行函数体
+        waitFiveSeconds();
+
+    </script>
 </body>
 
 </html>

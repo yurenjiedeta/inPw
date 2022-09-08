@@ -20,3 +20,58 @@ window.addEventListener("setItemEvent", function (e) {
 localStorage.setItem("name","wang");
 ```
 
+- 事件循环调用机制
+
+```js
+//只有用户触发点击事件才会被推入队列中（如果点击时间小于定时器指定的时间，则先于定时器推入，否则反之）
+document.querySelector("#box").onclick = function(){
+  console.log("click");
+};
+//第一个推入队列中
+setTimeout(function(){
+  console.log("1");
+},0);
+//第三个推入队列中
+setTimeout(function(){
+ console.log("2");
+},1000);
+//第二个推入队列中
+setTimeout(function(){
+  console.log("3");
+},0);
+```
+
+- 事件另一个案例
+
+```js
+//异步代码
+setTimeout(function(){
+    for(var i = 0; i < 100000000; i++){}
+    console.log('timer a');
+}, 0)
+//同步代码
+for(var j = 0; j < 5; j++){
+    console.log(j);
+}
+//异步代码
+setTimeout(function(){
+    console.log('timer b');
+}, 0)
+//函数
+function waitFiveSeconds(){
+    var now = (new Date()).getTime();
+    while(((new Date()).getTime() - now) < 5000){}
+    console.log('finished waiting');
+}
+//异步代码
+document.addEventListener('click', function(){
+    console.log('click');
+})
+//同步代码
+console.log('click begin');
+//同步代码，调用函数，执行函数体
+waitFiveSeconds();
+
+// 在线程执行过程中，JS引擎线程空闲后，会先查看是否有事件可执行，接着再处理其他异步任务。
+```
+
