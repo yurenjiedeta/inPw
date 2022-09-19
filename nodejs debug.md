@@ -43,5 +43,9 @@ node --inspect-brk .\node_modules\mocha\bin\mocha -b test\test.js
 node --inspect-brk ./node_modules/jest/bin/jest --testPathPattern=packages/scheduler/src/__tests__/Scheduler-test.js
 
 node --inspect-brk ./node_modules/jest/bin/jest --findRelatedTests packages/scheduler/src/__tests__/Scheduler-test.js
+
+"debug-test": "yarn test --debug  --findRelatedTests packages/scheduler/src/__tests__/Scheduler-test.js"
+
+scripts/jest/matchers/schedulerTestMatchers.js
 ```
 
