@@ -37,3 +37,11 @@ node --inspect-brk .\node_modules\mocha\bin\mocha -b test\test.js
 "start": "node --inspect-brk ./node_modules/react-scripts/bin/react-scripts start"
 ```
 
+- jest针对某个文件的调试
+
+```bash
+node --inspect-brk ./node_modules/jest/bin/jest --testPathPattern=packages/scheduler/src/__tests__/Scheduler-test.js
+
+node --inspect-brk ./node_modules/jest/bin/jest --findRelatedTests packages/scheduler/src/__tests__/Scheduler-test.js
+```
+
