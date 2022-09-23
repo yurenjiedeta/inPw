@@ -1,0 +1,20 @@
+#github
+Host github.com
+HostName github.com
+User yurenjiedeta
+PreferredAuthentications publickey
+IdentityFile C:\Users\admin\.ssh\id_rsa.github
+
+#gitlab
+Host gitlab.powershopin.top
+HostName gitlab.powershopin.top
+User luyigen
+PreferredAuthentications publickey
+IdentityFile C:\Users\admin\.ssh\id_rsa.gitlab
+
+#gitlab
+Host gitlab.powerbuyin.top
+HostName gitlab.powerbuyin.top
+User luyigen
+PreferredAuthentications publickey
+IdentityFile C:\Users\admin\.ssh\id_rsa.gitlab

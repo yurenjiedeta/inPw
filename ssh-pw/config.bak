@@ -1,0 +1,16 @@
+#github
+Host github.com
+HostName github.com
+User yurenjiedeta
+PreferredAuthentications publickey
+IdentityFile C:\Users\admin\.ssh\id_rsa.github
+
+#gitlab
+Host gitlab.powershopin.top
+HostName gitlab.powershopin.top
+Port 80
+User luyigen
+PreferredAuthentications publickey
+IdentityFile C:\Users\admin\.ssh\id_rsa.gitlab
+
+
