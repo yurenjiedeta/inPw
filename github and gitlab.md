@@ -73,3 +73,16 @@ git commit 时一直报 .git/hooks/pre-commit: No such file or directory
 npx husky install
 ```
 
+- github生成token
+
+```tex
+进入个人github账户setting.
+点击Developer settings.
+选择Personal access tokens.
+点击Generate new token.
+为你创建的token添加描述
+选择token有效期时间。 可以选择永不过期
+为token赋予权限。 ...
+点击生成。
+```
+
