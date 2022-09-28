@@ -1,4 +1,4 @@
-变量说明
+相关变量及属性说明
 
 - container._reactRootContainer
 
