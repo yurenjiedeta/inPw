@@ -39,3 +39,20 @@ npm config set cache ""
 导入：文件--》打开，选择 .ovf 文件类型。
 ```
 
+- Windows11和VM 15的冲突设置
+
+```tex
+#Device Guard或Credential Guard与Workstation不兼容
+第一步：
+“win+ R“打开运行，输入gpedit.msc，确定打开 本地组策略编辑器 转到 本地计算机策略➡计算机配置➡管理模板➡系统➡Device Guard 打开 基于虚拟化的安全设置 为 “已禁用”；
+第二步：
+“win+ R“打开运行，输入services.msc，确定打开 本地服务➡找到HV主机服务➡启动类型设置 为 “禁用”；
+第三步：
+“ 控制面板” ➡ “ 卸载程序” ➡ “ 打开或关闭Windows功能” 以关闭 Hyper-V，选择不重启；
+第四步：
+通过命令关闭Hyper-V（控制面板关闭Hyper-V起不到决定性作用）“win+ x”,然后运行以管理员身份运行Windows Powershell (管理员)也可以选择“cmd” 以管理员身份运行
+命令：bcdedit /set hypervisorlaunchtype off(auto)
+```
+
+
+
