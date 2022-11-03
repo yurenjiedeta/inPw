@@ -44,3 +44,20 @@ Ctrl + Alt + T
 .host:/ /mnt/hgfs fuse.vmhgfs-fuse auto,allow_other 0 0
 ```
 
+- 安装nvm
+
+```bash
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+
+#再设置文件(~/.bash_profile, ~/.zshrc, ~/.profile, or ~/.bashrc).
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+```
+
+- ubuntu设置网络代理
+
+```bash
+clash --> General --> Allow LAN
+ubuntu --> Setting --> 网络 --> 网络代理 --> 手动 --> HTTP 代理（HTTPS代理、Socks主机） --> 分别填写安装clash机器的 ip 地址 和 clash 的端口号
+```
+
