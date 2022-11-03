@@ -61,3 +61,8 @@ clash --> General --> Allow LAN
 ubuntu --> Setting --> 网络 --> 网络代理 --> 手动 --> HTTP 代理（HTTPS代理、Socks主机） --> 分别填写安装clash机器的 ip 地址 和 clash 的端口号
 ```
 
+- ubuntu卸载软件
+
+```bash
+sudo apt-get --purge remove <programname>
+```
