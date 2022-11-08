@@ -43,6 +43,7 @@ Markdown Preview Github Styling
 Peacock
 Reverse Search
 Vetur
+Highlight Matching Tag
 ```
 
 - vscode去除flow语法检查
