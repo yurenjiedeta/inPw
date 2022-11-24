@@ -33,3 +33,9 @@
 备懒未脱悬基范，阻屏遗。
 ```
 
+- 各种`context`的类型
+
+```tex
+1、空箱子（noContext）,排队（batchedContext），流行划过（eventContext），离散流星划过（），做作业（legacy），染缸（render），重试。
+```
+
