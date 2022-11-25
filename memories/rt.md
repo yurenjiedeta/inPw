@@ -39,3 +39,16 @@
 1、空箱子（noContext）,排队（batchedContext），流行划过（eventContext），离散流星划过（），做作业（legacy），染缸（render），重试。
 ```
 
+- 队列的变量
+
+```tex
+1、向日葵（requestPaint），2、鞠躬（shouldYield）,3、排队鞠躬（syncQueue）
+```
+
+- root状态
+
+```tex
+1、阿房宫（未完成、RootIncomplete），项羽（严重毁坏、RootFatalErrored），咸阳城（毁坏、RootError）;
+2、长城（等待30多年、RootSuspended）未延期（RootSuspendedWithDelay）,完成（RootCompleted）。
+```
+
