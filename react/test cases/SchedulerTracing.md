@@ -1,4 +1,4 @@
-- SchedulerTracing
+- `SchedulerTracing`
 
 ```tex
 unstable_trace:
