@@ -75,3 +75,13 @@ waitFiveSeconds();
 // 在线程执行过程中，JS引擎线程空闲后，会先查看是否有事件可执行，接着再处理其他异步任务。
 ```
 
+- 事件的默认行为
+
+```js
+// 默认行为的概念
+// <a href="https://www.baidu.com">百度一下</a> ，链接的跳转，是链接标签的默认行为；
+// <form action=""></form> ，击表单元素中嵌套的提交按钮，表单提交，是表单的默认行为；
+e.preventDefault();// 是阻止其中的默认行为；在 原生 的事件绑定中，可使用 return false; 来阻止默认行为；
+e.stopPropagation();// 是阻止 dom 元素中的事件冒泡；
+```
+
