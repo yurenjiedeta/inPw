@@ -49,3 +49,10 @@ node --inspect-brk ./node_modules/jest/bin/jest --findRelatedTests packages/sche
 scripts/jest/matchers/schedulerTestMatchers.js
 ```
 
+- react fixtures dom的另外运行命令
+
+```bash
+node --inspect-brk F:/codes/github-in-pw/react/fixtures/dom/node_modules/react-scripts/scripts/start.js
+
+```
+
