@@ -24,3 +24,17 @@ require = function (name) {
 3、除了exports 的以外，其他的都是外部不用考虑的。
 ```
 
+- __dirname
+
+```js
+//当前模块的目录名。 这与 __filename 的 path.dirname() 相同。
+//示例：从 /Users/mjr 运行 node example.js
+
+console.log(__dirname);
+// 打印: /Users/mjr
+console.log(path.dirname(__filename));
+// 打印: /Users/mjr
+console.log(path.resolve(__dirname))
+// 打印: /Users/mjr
+```
+
