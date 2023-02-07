@@ -56,3 +56,21 @@ node --inspect-brk F:/codes/github-in-pw/react/fixtures/dom/node_modules/react-s
 
 ```
 
+- jest超时报错方案
+
+```js
+// jest.config.js  方案一
+module.exports = {
+    // ...
+    testTimeout: 20000
+}
+
+// 方案二
+describe('Puppeteer tests', () => {
+  jest.setTimeout(10000);// 放在 describe 下层
+  test('Best Jest test fest', async () => {
+    // Blah
+  });
+});
+```
+
