@@ -1,4 +1,4 @@
-- compileBooleanMatcher
+- `compileBooleanMatcher`
 
 ```js
 const { itemsToRegexp } = require("../lib/util/compileBooleanMatcher");
