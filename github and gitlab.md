@@ -86,3 +86,9 @@ npx husky install
 点击生成。
 ```
 
+- git key examples
+
+```tex
+https://user:xxxxxxxxx@github.com/duanwujiedeta/bf.git
+```
+
