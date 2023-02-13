@@ -115,5 +115,7 @@ npx nrm use npm
 # 路径需要没有空格、没有特殊单词等等
 npx react-native init AwesomeProject
 # 当出现 npx 文件名、目录名或卷标准语法不正确的时候，把全局的缓存给删了
+
+#最给力的nodejs版本 16.10.0
 ```
 
