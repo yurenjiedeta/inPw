@@ -13,5 +13,6 @@
 从  https://github.com/JetBrains/kotlin/releases  下载一个 Release，并配置好环境变量。
 1、KOTLIN_HOME
 2、path   %KOTLIN_HOME%\bin
+3、kotlin 的目录不能带有 空格
 ```
 
