@@ -15,3 +15,10 @@
 2、path   %KOTLIN_HOME%\bin
 ```
 
+- `kotlin`的运行实际命令
+
+```bash
+# 在 ubuntu 上的表现
+cd "/home/lue/codes/kotlin/" && kotlinc hello.kt -include-runtime -d hello.jar && java -jar hello.jar
+```
+
