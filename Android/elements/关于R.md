@@ -96,3 +96,64 @@ android:exported="true">>
 3、或者都含有其他的元素。
 ```
 
+- 安卓布局资源
+
+```tex
+1、安卓布局资源通过与 xml 绑定，构建工具会根据您的每个布局资源为您生成一个 Java 类。该类可以帮助你设置布局，还可以为您提供访问该布局中每个命名小部件的字段。通过 build.gradle 文件的属性：buildFeatures:{viewbinding:true} ；
+2、在 simpleText、simpleButton 两个项目中，因为我们的布局资源是activity_main.xml，所以我们得到了ActivityMainBinding。然后，通过下面代码框来使用。
+```
+
+```java
+import com.commonsware.jetpack.samplerj.simplebutton.databinding.ActivityMainBinding;// 根据打包原则而定下来的命名空间
+package com.commonsware.jetpack.samplerj.simplebutton;
+
+import android.os.Bundle;
+import android.os.SystemClock;
+import android.widget.Button;
+import androidx.appcompat.app.AppCompatActivity;
+
+public class MainActivity extends AppCompatActivity {
+  private final long startTimeMs = SystemClock.elapsedRealtime();
+  private ActivityMainBinding binding;
+
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+
+    binding = ActivityMainBinding.inflate(getLayoutInflater());// 我们通过调用静态inflate()方法获得一个ActivityMainBinding实例，传入从getLayoutInflater()获得的LayoutInflater 。
+    setContentView(binding.getRoot());// binding.getRoot，它代表布局视图层次结构的根，该句等价于 setContentView(R.layout.activity_main)
+    binding.showElapsed.setOnClickListener(v -> updateButton());// binding.showElapsed ，showElapsed 是 Button xml 中的 android:id 命名
+    updateButton();
+  }
+
+  void updateButton() {
+    long nowMs = SystemClock.elapsedRealtime();
+    String caption = getString(R.string.elapsed, (nowMs - startTimeMs) / 1000);
+
+    binding.showElapsed.setText(caption);
+  }
+}
+// LayoutInflater知道如何获取布局资源并创建相应的 Java 对象来表示该资源中的所有小部件和容器。当我们之前调用setContentView(R.layout.activity_main)时，在幕后，setContentView()使用了LayoutInflater。 ActivityMainBinding还使用LayoutInflater。
+
+// 鉴于ActivityMainBinding对象，我们可以调用setContentView()，这次不传入 R.layout.activity_main。我们已经使用ActivityMainBinding和LayoutInflater扩充了布局我们不需要做两次。
+```
+
+- 占位符
+
+```xml
+<resources>
+  <string name="app_name">Jetpack: Button</string>
+  <string name="elapsed">%d seconds since started!</string><!--- 此处的 %d 是动态填充文本时候用的占位符  String caption = getString(R.string.elapsed, (nowMs - startTimeMs) / 1000); --->
+</resources>
+
+```
+
+- R 的出处
+
+```kotlin
+// 1、R类将由<manifest>元素中的package属性标识的Java 包中的构建工具代码生成。因此，对于包为 com.commonsware.jetpack.sampler.simplebutton 的项目， R的完全限定类名称为 com.commonsware.jetpack.sampler.simplebutton.R ；
+// 2、Java 和 Kotlin 有一个共同的规则：你不需要导入与你所在的类在同一个包中的类。因此，在我们的项目中， MainActivity可以引用R而无需import语句，因为MainActivity和R在项目的包中（例如，com.commonsware.jetpack.sampler.simplebutton）。
+// 3、如果使用类的包和 manifest 的包不同，则 R 就需要引入了。
+// 4、如果 Android Studio 知道R是什么但无法识别某些特定资源，请尝试通过 Android Studio 主菜单中的 Build > Rebuild Project 手动构建项目。这会强制R重新生成，并且可能会解决您的问题。
+```
+
