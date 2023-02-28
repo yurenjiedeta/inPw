@@ -92,3 +92,9 @@ npx husky install
 https://user:xxxxxxxxx@github.com/duanwujiedeta/bf.git
 ```
 
+- git项目初始化
+
+```bash
+git init
+```
+
