@@ -34,3 +34,17 @@ sudo nginx -s reload
 # 访问域名后，最后在 /var/log/nginx/access.log 就可以看到日志了。
 ```
 
+- nginx通用命令
+
+```bash
+nginx -h
+
+nginx -v
+nginx -V
+
+nginx -t
+nginx -T
+
+nginx -s start/stop/reload/reopen
+```
+
