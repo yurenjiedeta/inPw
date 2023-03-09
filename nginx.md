@@ -48,3 +48,17 @@ nginx -T
 nginx -s start/stop/reload/reopen
 ```
 
+- 覆盖默认的域名
+
+```nginx
+server {
+     listen 80 default_server; # 可以配置多条，设置多个端口一个站点。
+     server_name www.example.com;
+     location / {
+         root /usr/share/nginx/html;
+         # alias /usr/share/nginx/html;
+         index index.html index.htm;
+     }
+}
+```
+
