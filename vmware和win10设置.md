@@ -54,5 +54,12 @@ npm config set cache ""
 命令：bcdedit /set hypervisorlaunchtype off(auto)
 ```
 
+- 解决：VMware Workstation 与 Device/Credential Guard 不兼容
 
+```tex
+1、按下WIN+R打开运行，然后输入services.msc回车；
+2、在服务中找到 HV主机服务，双击打开设置为禁用；
+3、win+x，然后打开powershell（管理员）运行命令bcdedit /set hypervisorlaunchtype off；
+4、重启电脑，大功告成。
+```
 
