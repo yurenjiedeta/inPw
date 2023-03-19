@@ -20,3 +20,15 @@
 | 3.4.0 - 3.4.1 | 5.1.1+             |
 | 3.5.0+        | 5.4.1-5.6.4        |
 
+- 黄油刀问题
+
+```tex
+An Obsolete warning API " 'variantOutput.getProcessResources()' is obsolete and has been replaced with 'variantOutput.getProcessResourcesProvider()'." is shown in Library At V10.1.0 #1431
+
+
+https://github.com/JakeWharton/butterknife/issues/1431
+
+修改为下面图片的配置：
+```
+
+![sdk](hyd.jpg)
