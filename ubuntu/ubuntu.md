@@ -42,6 +42,7 @@ Ctrl + Alt + T
 7、自动挂载的方法：
 打开 /etc/fstab，添加
 .host:/ /mnt/hgfs fuse.vmhgfs-fuse auto,allow_other 0 0
+8、虚拟机设置--》选项--》共享文件夹--》添加（名称 lf--->对应一个文件夹）
 ```
 
 - 安装nvm
@@ -95,5 +96,9 @@ sudo gdebi GitHubDesktop-linux-2.9.3-linux3.deb
 sudo apt update
 sudo apt install openjdk-11-jdk
 java -version
+- ununtu显示隐藏文件文件夹
+
+```tex
+Ctrl + H 组合键
 ```
 
