@@ -89,3 +89,11 @@ sudo gdebi GitHubDesktop-linux-2.9.3-linux3.deb
 #sudo wget https://github.com/shiftkey/desktop/releases/download/release-2.1.0-linux1/GitHubDesktop-linux-2.1.0-linux1.deb
 #sudo gdebi GitHubDesktop-linux-2.1.0-linux1.deb
 ```
+
+- 安装JAVA
+```bash
+sudo apt update
+sudo apt install openjdk-11-jdk
+java -version
+```
+
