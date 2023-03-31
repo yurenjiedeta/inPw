@@ -26,3 +26,12 @@ $ service mysql restart
 $ mysql -u root -p
 ```
 
+- 设置完毕后，show databases处问题处理
+
+```bash
+$ mysql> create user 'mysql.infoschema'@'%' identified by "密码";
+$ mysql> grant all privileges on *.* to 'mysql.infoschema'@'%';
+$ mysql> flush privileges;
+$ mysql> show databases; # 最后就可以查看数据库了
+```
+
