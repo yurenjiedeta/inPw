@@ -23,7 +23,7 @@ sudo /etc/init.d/apache2 start
 sudo /etc/init.d/apache2 restart
 
 #停止 apache 服务
-sudo /etc/init.d/apache stop
+sudo /etc/init.d/apache2 stop
 
 
 # nginx 启动不了命令
