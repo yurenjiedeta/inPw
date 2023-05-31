@@ -31,7 +31,7 @@ $ kubectl version --client
 - minikube启动
 
 ```bash
-$ minikube start --driver=docker # 运行的时候设置容器
+$ sudo minikube start --driver=docker --force # 运行的时候设置容器
 $ minikube config set dirver docker #设置默认的容器
 ```
 
