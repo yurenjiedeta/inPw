@@ -34,5 +34,8 @@ $ kubectl version --client
 $ sudo minikube start --driver=docker --force # 运行的时候设置容器
 $ swapoff -a
 $ minikube config set dirver docker #设置默认的容器
+
+#打开另一个命令窗口
+$ sudo minikube dashboard
 ```
 
