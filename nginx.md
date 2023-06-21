@@ -62,3 +62,9 @@ server {
 }
 ```
 
+- nginx重启命令
+
+```bash
+sudo service nginx restart
+```
+
