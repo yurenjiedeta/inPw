@@ -30,3 +30,9 @@ $ directory ../test1/ # 切换目录
 $ b test1.cpp:2
 ```
 
+- 编译的问题
+
+```bash
+# 需要把 #include <head1.h>  改为 #include "head1.h"
+```
+
