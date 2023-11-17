@@ -1,0 +1,55 @@
+{
+    "scope": {
+        "allNativeEvents": "数组，浏览器页面事件名称、如 click、keypress 等",
+        "IS_CAPTURE_PHASE": 4,
+        "DefaultEventPriority": 32,
+        "dispatchEvent": "一个函数，事件监听的回调"
+    },
+    "desc": {
+        "comment": "表示添加注释",
+        "@#": "表示来自于更顶层的闭包或者全局",
+        "->": "表示结构变化",
+        "~": "表示上层的引用",
+        "!!": "表示初始定义区 或实参定义传入",
+        "!": "表示指针引用"
+    },
+    "legacyCreateRootFromDOMContainer": {
+        "container -> 01": {
+            "_reactRootContainer": "! root",
+            "internalContainerInstanceKey": "! root.current(uninitializedFiber)"
+        },
+        "listenToAllSupportedEvents": {
+            "rootContainerElement(container)": "~",
+            "rootContainerElement(container)  ->": {
+                "listeningMarker": true
+            },
+            "allNativeEvents  @#  allNativeEvents ": "@#",
+            "allNativeEvents.forEach": {
+                "domEventName !!": "事件名字符串",
+                "listenToNativeEvent": {
+                    "domEventName": "~",
+                    "isCapturePhaseListener !!": false,
+                    "target(rootContainerElement(container))": "~",
+                    "eventSystemFlags  @# IS_CAPTURE_PHASE": "@#  4",
+                    "addTrappedEventListener": {
+                        "targetContainer(target(rootContainerElement(container)))": "~",
+                        "comment ": "{\n     \"domEventName\": \"~\",\n    \"eventSystemFlags  @# IS_CAPTURE_PHASE\": \"@#  4\"\n    }",
+                        "createEventListenerWrapperWithPriority": {
+                            "comment": "{\n     \"targetContainer(target(rootContainerElement(container)))\": \"~\",\n\n     \"domEventName\": \"~\",\n    \"eventSystemFlags  @# IS_CAPTURE_PHASE\": \"@#  4\"\n    }",
+                            "getEventPriority": {
+                                "domEventName": "~"
+                            },
+                            "eventPriority  !!  @#  DefaultEventPriority": "@#",
+                            "listenerWrapper  !!  @#  dispatchEvent": "@#",
+                            "listenerWrapper   ->": {
+                                "01": "绑定三个参数，domEventName、eventSystemFlags、targetContainer"
+                            }
+                        },
+                        "listener  !!": "!listenerWrapper",
+                        "target(rootContainerElement(container))   ->": "最后生成一些列的事件监听"
+                    }
+                }
+            }
+        }
+    }
+}

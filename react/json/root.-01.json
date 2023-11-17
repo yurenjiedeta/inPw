@@ -1,0 +1,104 @@
+{
+    "desc": {
+        "comment": "表示添加注释",
+        "@#": "表示来自于更顶层的闭包或者全局",
+        "->": "表示结构变化",
+        "~": "表示上层的引用",
+        "!!": "表示初始定义区 或实参定义传入",
+        "!": "表示指针引用"
+    },
+    "scope": {
+        "NoMode": 0,
+        "HostRoot": 3,
+        "LegacyRoot": 0,
+        "noopOnRecoverableError": "空函数"
+    },
+    "render": {
+        "element": "createElement的返回",
+        "container": "dom元素",
+        "callback": "undefined(未传值)",
+        "legacyRenderSubtreeIntoContainer": {
+            "comment --> 沿用属性": "{\n    \"children(element)\": \"~\",\n    \"container\": \"~\",\n    \"callback\": \"~\",}",
+            "parentComponent  (!!)": null,
+            "forceHydrate  (!!)": false,
+            "legacyCreateRootFromDOMContainer": {
+                "comment --> 沿用属性": "{\"container\": \"~\",\n    \"initialChildren(children(element))\": \"~\",\n    \"parentComponent\": \"~\",\n    \"callback\": \"~\",\n    \"isHydrationContainer(forceHydrate)\": \"~\",}",
+                "container ===>": {
+                    "0": "移除子元素"
+                },
+                "createContainer": {
+                    "containerInfo(container)": "~",
+                    "tag  @# LegacyRoot": "@#",
+                    "hydrationCallbacks !!": null,
+                    "isStrictMode !!": false,
+                    "concurrentUpdatesByDefaultOverride !!": false,
+                    "identifierPrefix  !!": "",
+                    "onRecoverableError  @# noopOnRecoverableError": "@#",
+                    "hydrate !!": false,
+                    "initialChildren !!": null,
+                    "createFiberRoot": {
+                        "comment -> 沿用属性 ": "{\n    \"containerInfo(container)\": \"~\",\n    \"tag  @# LegacyRoot\": \"@# ~\",\n    \"hydrationCallbacks !!\": null,\n    \"isStrictMode\": \"~\",\n    \"concurrentUpdatesByDefaultOverride\": \"~\",\n    \"identifierPrefix\": \"~\",\n    \"onRecoverableError  @# noopOnRecoverableError\": \"@# ~\",\n    \"hydrate\": \"~\",\n    \"initialChildren\": \"~\",}",
+                        "FiberRootNode | root ->": {
+                            "tag @# LegacyRoot": "@#",
+                            "containerInfo(container)": "~",
+                            "identifierPrefix": "~",
+                            "onRecoverableError  @# onRecoverableError": "@#",
+                            "comment": "{\"pendingChildren\": null,\n            \"current\": null,\n            \"pingCache\": null,\n            \"finishedWork\": null,\n            \"timeoutHandle\": -1,\n            \"context\": null,\n            \"pendingContext\": null,\n            \"callbackNode\": null,\n            \"callbackPriority\": 0,\n            \"eventTimes\": [\n                \"32个元素都为 0\"\n            ],\n            \"expirationTimes\": [\n                \"32个元素都为  -1\"\n            ],\n            \"pendingLanes\": 0,\n            \"suspendedLanes\": 0,\n            \"pingedLanes\": 0,\n            \"expiredLanes\": 0,\n            \"mutableReadLanes\": 0,\n            \"finishedLanes\": 0,\n            \"errorRecoveryDisabledLanes\": 0,\n            \"entangledLanes\": 0,\n            \"entanglements\": [\n                \"32个元素都为 0\"\n            ],\n            \"hiddenUpdates\": [\n                \"32个元素都为 null\"\n            ],\n            \"pooledCache\": null,\n            \"pooledCacheLanes\": 0,\n            \"mutableSourceEagerHydrationData\": null,\n            \"incompleteTransitions\": {},\n            \"effectDuration\": 0,\n            \"passiveEffectDuration\": 0,\n            \"memoizedUpdaters\": {},\n            \"pendingUpdatersLaneMap\": [\n                \"32个元素都为 {}\"\n            ]}"
+                        },
+                        "createHostRootFiber": {
+                            "comment --> 沿用属性": "{\n    \"tag  @# LegacyRoot\": \"@#\",\n    \"isStrictMode !!\": \"~\",\n    }",
+                            "createHostRootFiber || createFiber": {
+                                "tag  @# HostRoot": "@#",
+                                "mode  @# NoMode": "@#"
+                            }
+                        },
+                        "createHostRootFiber | uninitializedFiber ->": {
+                            "tag  @# HostRoot": "@#",
+                            "mode  @# NoMode": "@#",
+                            "comment --> 沿用属性": "{\"key\":null,\"elementType\":null,\"type\":null,\"stateNode\":null,\"return\":null,\"child\":null,\"sibling\":null,\"index\":0,\"ref\":null,\"refCleanup\":null,\"pendingProps\":null,\"memoizedProps\":null,\"updateQueue\":null,\"memoizedState\":null,\"dependencies\":null,\"flags\":0,\"subtreeFlags\":0,\"deletions\":null,\"lanes\":0,\"childLanes\":0,\"alternate\":null,\"actualDuration\":0,\"actualStartTime\":-1,\"selfBaseDuration\":0,\"treeBaseDuration\":0}"
+                        },
+                        "root -> 01": {
+                            "current": "!uninitializedFiber"
+                        },
+                        "uninitializedFiber-> 01": {
+                            "stateNode": "!root"
+                        },
+                        "initialCache !!": {
+                            "controller": {},
+                            "data": {},
+                            "refCount": 1
+                        },
+                        "root -> 02": {
+                            "pooledCache": "!initialCache"
+                        },
+                        "initialState !!": {
+                            "element(initialChildren)": "~",
+                            "isDehydrated(hydrate)": "~",
+                            "cache": "!initialCache"
+                        },
+                        "uninitializedFiber-> 02": {
+                            "memoizedState": "!initialState"
+                        },
+                        "initializeUpdateQueue": {
+                            "uninitializedFiber": "~",
+                            "queue !!": {
+                                "baseState": "!initializeUpdateQueue.memoizedState(initialState)",
+                                "firstBaseUpdate": null,
+                                "lastBaseUpdate": null,
+                                "shared": {
+                                    "pending": null,
+                                    "lanes": 0,
+                                    "hiddenCallbacks": null
+                                },
+                                "callbacks": null
+                            },
+                            "initializeUpdateQueue -> 03": {
+                                "updateQueue": "!queue"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
