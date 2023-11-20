@@ -1,0 +1,73 @@
+{
+    "scope": {
+        "NoLanes": 0,
+        "currentUpdateIsNested": false,
+        "nestedUpdateScheduled": false,
+        "executionContext": 0,
+        "Dispatcher": {
+            "current": null
+        },
+        "ReactCurrentDispatcher$2": {
+            "current": null
+        },
+        "ReactCurrentCache": {
+            "current": null
+        },
+        "DefaultCacheDispatcher": {
+            "getCacheSignal": "getCacheSignal",
+            "getCacheForType": "getCacheForType"
+        },
+        "ContextOnlyDispatcher": "运行时进行操作的对象，含有 useXxx 等等",
+        "previousDispatcher": null,
+        "ReactDOMClientDispatcher": {
+            "preload": "preload",
+            "preinit": "preinit"
+        },
+        "workInProgressRoot": null,
+        "workInProgress": null
+    },
+    "performSyncWorkOnRoot": {
+        "root": "!root",
+        "currentUpdateIsNested  ->  @# nestedUpdateScheduled": "!nestedUpdateScheduled",
+        "nestedUpdateScheduled  ->": false,
+        "renderRootSync": {
+            "executionContext  -> ": 2,
+            "pushDispatcher": {
+                "prepareRendererToRender | prepareToRenderResources": {
+                    "lastCurrentDocument  ->": "为顶部的document",
+                    "Dispatcher  ->": {
+                        "current  @# ReactDOMClientDispatcher": "!ReactDOMClientDispatcher  @#"
+                    }
+                },
+                "ReactCurrentDispatcher$2  ->": {
+                    "current  @# ContextOnlyDispatcher": "@#"
+                }
+            },
+            "prevDispatcher  !!  @#  ContextOnlyDispatcher": "!ContextOnlyDispatcher",
+            "pushCacheDispatcher": {
+                "ReactCurrentCache  ->": {
+                    "current @# DefaultCacheDispatcher": "@# DefaultCacheDispatcher"
+                }
+            },
+            "prepareFreshStack": {
+                "root": "!root",
+                "lanes(lanes) @# updateState": 2,
+                "root  ->": {
+                    "finishedWork": null,
+                    "finishedLanes @# NoLanes": "@#"
+                },
+                "timeoutHandle  !!": -1,
+                "workInProgressRoot ->": "!root",
+                "workInProgress ->": "root.current 的复制品",
+                "createWorkInProgress": {
+                    "workInProgress ->": {
+                        "alternate  ->": "alternate @# current"
+                    },
+                    "current -> 01": {
+                        "alternate  ->": "alternate @# workInProgress"
+                    }
+                }
+            }
+        }
+    }
+}

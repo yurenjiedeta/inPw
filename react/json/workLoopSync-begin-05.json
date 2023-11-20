@@ -1,0 +1,26 @@
+{
+    "scope": {
+        "workInProgress": "current的复制品",
+        "renderLanes$1": 2,
+        "NoLanes": 0
+    },
+    "workLoopSync": {
+        "workLoopSync": {
+            "performUnitOfWork": {
+                "unitOfWork @# workInProgress": "@#",
+                "current": "!unitOfWork .alternate",
+                "next": "undefined",
+                "beginWork": {
+                    "comment  --> 沿用属性": "current、workInProgress",
+                    "renderLanes(renderLanes$1)": "~",
+                    "oldProps !!": "!current.memoizedProps",
+                    "newProps !!": "!workInProgress.pendingProps",
+                    "workInProgress  ->": {
+                        "lanes @# Nolanes": "@#"
+                    },
+                    "updateHostRoot": {}
+                }
+            }
+        }
+    }
+}

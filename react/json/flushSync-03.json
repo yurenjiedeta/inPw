@@ -1,0 +1,95 @@
+{
+    "scope": {
+        "updateContainer": "更新函数",
+        "rootWithPendingPassiveEffects": null,
+        "executionContext": 1,
+        "RenderContext": 2,
+        "CommitContext": 4,
+        "NoContext": 0,
+        "prevExecutionContext": 0,
+        "prevTransition": null,
+        "DiscreteEventPriority": 2,
+        "currentEventTime": -1,
+        "SyncLane": 2,
+        "emptyContextObject": "空对象  {}",
+        "UpdateState": 0,
+        "performSyncWorkOnRoot": "一个函数，转了一道，bing(null,root)",
+        "includesLegacySyncCallbacks": false,
+        "syncQueue": "空数组",
+        "isFlushingSyncQueue": false
+    },
+    "flushSync": {
+        "fn @# updateContainer": "@#",
+        "executionContext  -> ": "值变为 1",
+        "previousPriority  -> ": "值变为 0",
+        "currentUpdatePriority  -> ": "值变为  2",
+        "updateContainer": {
+            "element(initialChildren(element))": "~",
+            "container(_root)": "!root",
+            "parentComponent": "~",
+            "callback": "~",
+            "current": "!root.current",
+            "requestEventTime": {
+                "currentEventTime": "更改为当前时间戳"
+            },
+            "lane @#  SyncLane": "@#",
+            "context  @#  emptyContextObject": "@#",
+            "container(_root)  ->": {
+                "context": "context"
+            },
+            "update  !!": {
+                "eventTime @# currentEventTime ": "  @#   4244287.5",
+                "lane   @# SyncLane": "@#",
+                "tag  @#  UpdateState": "@#",
+                "payload": null,
+                "callback": null,
+                "next": null
+            },
+            "update  ->": {
+                "payload": {
+                    "element": "!element(initialChildren(element))"
+                },
+                "callback": "!callback"
+            },
+            "enqueueUpdate$1": {
+                "fiber": "!root.current",
+                "update": "!update",
+                "lane": "~",
+                "sharedQueue": " !root.current.updateQueue.shared",
+                "enqueueConcurrentClassUpdate": {
+                    "comment  -->": "内容暂时忽略"
+                }
+            },
+            "scheduleUpdateOnFiber": {
+                "markRootUpdated": {
+                    "comment  --> 沿用属性": "{\"root\":\"!root\",\"updateLane(lane)\":\"updateLane(lane)\",\"eventTime\":4244287.5}",
+                    "root  ->": {
+                        "pendingLanes": "合并  2  ，updateState",
+                        "eventTimes": "index 为 2 的元素的值更新为 eventTime"
+                    },
+                    "被忽略的": "markStarvedLanesAsExpired、getNextLanes、getHighestPriorityLane 等"
+                },
+                "comment  --> 沿用属性": "{\"root\":\"!root\",\"current\":\"!current\",\"lane\":\"lane\",\"eventTime\":4244287.5}",
+                "ensureRootIsScheduled": {
+                    "root": "!root",
+                    "eventTime": "!eventTime",
+                    "scheduleLegacySyncCallback": {
+                        "callback @# performSyncWorkOnRoot": "@#",
+                        "includesLegacySyncCallbacks  ->": true,
+                        "scheduleSyncCallback": {
+                            "callback  @#  performSyncWorkOnRoot": "@#",
+                            "syncQueue": "push(!callback)"
+                        }
+                    }
+                }
+            }
+        },
+        "currentUpdatePriority  ->": 0,
+        "executionContext  ->": 0,
+        "isFlushingSyncQueue  @#": false,
+        "flushSyncCallbacks": {
+            "syncQueue  ->": null
+        },
+        "isFlushingSyncQueue     @#  ": true
+    }
+}
