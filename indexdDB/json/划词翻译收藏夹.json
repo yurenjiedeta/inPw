@@ -1,5 +1,1216 @@
 [
   {
+    "text": "gadget",
+    "results": {
+      "GoogleWeb": {
+        "text": "gadget",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=gadget&op=translate",
+        "result": [
+          "小工具"
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "机件"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "ˈɡajət",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=gadget"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "gadget",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/gadget",
+        "dict": [
+          {
+            "terms": [
+              "小工具"
+            ]
+          },
+          {
+            "terms": [
+              "小玩意儿"
+            ]
+          },
+          {
+            "terms": [
+              "小玩意"
+            ]
+          },
+          {
+            "terms": [
+              "小配件"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "gadget",
+        "link": "https://www.bing.com/dict/search?q=gadget&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˈɡædʒət",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/4b/66/4B66CC9526B86FC7F1C7CCAF18F75886.mp3"
+          },
+          {
+            "name": "英",
+            "value": "ˈɡædʒɪt",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/4b/66/4B66CC9526B86FC7F1C7CCAF18F75886.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "小器具",
+              "小装置"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "小工具",
+              "小玩意",
+              "小配件"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "haunted",
+    "results": {
+      "GoogleWeb": {
+        "text": "haunted",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=haunted&op=translate",
+        "result": [
+          "闹鬼的"
+        ],
+        "dict": [
+          {
+            "pos": "v.",
+            "terms": [
+              "出没",
+              "作祟"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "ˈhôn(t)əd",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=haunted"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "haunted",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/haunted",
+        "dict": [
+          {
+            "terms": [
+              "闹鬼"
+            ]
+          },
+          {
+            "terms": [
+              "闹鬼的"
+            ]
+          },
+          {
+            "terms": [
+              "作祟"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "haunted",
+        "link": "https://www.bing.com/dict/search?q=haunted&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˈhɔntəd",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/2e/1a/2E1AB6509C40A5C92846CD6D346C65FB.mp3"
+          },
+          {
+            "name": "英",
+            "value": "ˈhɔːntɪd",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/2e/1a/2E1AB6509C40A5C92846CD6D346C65FB.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "adj.",
+            "terms": [
+              "（被认为）闹鬼的",
+              "忧心忡忡的",
+              "满面愁容的"
+            ]
+          },
+          {
+            "pos": "v.",
+            "terms": [
+              "“haunt”的过去式和过去分词"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "穿梭阴阳恋",
+              "心神不宁",
+              "反复出现的"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "brick",
+    "results": {
+      "GoogleWeb": {
+        "text": "brick",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=brick&op=translate",
+        "result": [
+          "砖"
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "砖",
+              "砖头",
+              "塼"
+            ]
+          },
+          {
+            "pos": "v.",
+            "terms": [
+              "塼"
+            ]
+          },
+          {
+            "pos": "adj.",
+            "terms": [
+              "砖砌的"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "brik",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=brick"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "brick",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/brick",
+        "dict": [
+          {
+            "terms": [
+              "砖头"
+            ]
+          },
+          {
+            "terms": [
+              "砖石"
+            ]
+          },
+          {
+            "terms": [
+              "砖块"
+            ]
+          },
+          {
+            "terms": [
+              "砖"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "brick",
+        "link": "https://www.bing.com/dict/search?q=brick&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "brɪk",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/fc/b6/FCB60095AE03527BF77B972EB75904CF.mp3"
+          },
+          {
+            "name": "英",
+            "value": "brɪk",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/fc/b6/FCB60095AE03527BF77B972EB75904CF.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "砖",
+              "砖块",
+              "积木",
+              "可靠的朋友"
+            ]
+          },
+          {
+            "pos": "v.",
+            "terms": [
+              "用砖砌",
+              "用砖镶填",
+              "用砖围砌",
+              "用砖铺筑"
+            ]
+          },
+          {
+            "pos": "adj.",
+            "terms": [
+              "用砖砌的",
+              "砖似的"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "砖头",
+              "砖状物",
+              "追凶"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "paranormal",
+    "results": {
+      "GoogleWeb": {
+        "text": "paranormal",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=paranormal&op=translate",
+        "result": [
+          "超自然现象"
+        ],
+        "phonetic": [
+          {
+            "value": "ˌperəˈnôrm(ə)l",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=paranormal"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "paranormal",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/paranormal",
+        "dict": [
+          {
+            "terms": [
+              "超自然"
+            ]
+          },
+          {
+            "terms": [
+              "超自然现象"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "paranormal",
+        "link": "https://www.bing.com/dict/search?q=paranormal&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˌperəˈnɔrm(ə)l",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/da/d0/DAD0EED339DAA7494FAA9C636BC4B0CB.mp3"
+          },
+          {
+            "name": "英",
+            "value": "ˌpærəˈnɔː(r)m(ə)l",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/da/d0/DAD0EED339DAA7494FAA9C636BC4B0CB.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "adj.",
+            "terms": [
+              "超自然的",
+              "无法用科学解释的",
+              "超常的"
+            ]
+          },
+          {
+            "pos": "n.",
+            "terms": [
+              "超常事件（或话题）"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "超常现象",
+              "超过正常的",
+              "超自然现象"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "investigator",
+    "results": {
+      "GoogleWeb": {
+        "text": "investigator",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=investigator&op=translate",
+        "result": [
+          "研究者"
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "研究者",
+              "学家",
+              "调查人员"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "inˈvestiˌɡādər",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=investigator"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "investigator",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/investigator",
+        "dict": [
+          {
+            "terms": [
+              "调查人员"
+            ]
+          },
+          {
+            "terms": [
+              "调查员"
+            ]
+          },
+          {
+            "terms": [
+              "调查者"
+            ]
+          },
+          {
+            "terms": [
+              "研究人员"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "investigator",
+        "link": "https://www.bing.com/dict/search?q=investigator&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ɪnˈvestɪˌɡeɪtər",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/93/7c/937CE19A5259D72B9F300C0234D44B52.mp3"
+          },
+          {
+            "name": "英",
+            "value": "ɪnˈvestɪˌɡeɪtə(r)",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/93/7c/937CE19A5259D72B9F300C0234D44B52.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "调查者",
+              "侦查员"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "调查员",
+              "研究者",
+              "调查人"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "surgery",
+    "results": {
+      "GoogleWeb": {
+        "text": "surgery",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=surgery&op=translate",
+        "result": [
+          "外科手术"
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "手术",
+              "外科手术",
+              "外科学"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "ˈsərj(ə)rē",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=surgery"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "surgery",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/surgery",
+        "dict": [
+          {
+            "terms": [
+              "外科手术"
+            ]
+          },
+          {
+            "terms": [
+              "外科学"
+            ]
+          },
+          {
+            "terms": [
+              "诊所"
+            ]
+          },
+          {
+            "terms": [
+              "手术"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "surgery",
+        "link": "https://www.bing.com/dict/search?q=surgery&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˈsɜrdʒəri",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/35/71/3571462393D4436051639361317FE2F3.mp3"
+          },
+          {
+            "name": "英",
+            "value": "ˈsɜː(r)dʒəri",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/35/71/3571462393D4436051639361317FE2F3.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "外科手术",
+              "外科学",
+              "应诊时间",
+              "诊室"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "手术室",
+              "诊所"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "significant",
+    "results": {
+      "GoogleWeb": {
+        "text": "significant",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=significant&op=translate",
+        "result": [
+          "重要的"
+        ],
+        "dict": [
+          {
+            "pos": "adj.",
+            "terms": [
+              "重大",
+              "重要",
+              "意义",
+              "有意思"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "siɡˈnifikənt",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=significant"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "significant",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/significant",
+        "dict": [
+          {
+            "terms": [
+              "隽永"
+            ]
+          },
+          {
+            "terms": [
+              "可观"
+            ]
+          },
+          {
+            "terms": [
+              "意义重大"
+            ]
+          },
+          {
+            "terms": [
+              "重要"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "significant",
+        "link": "https://www.bing.com/dict/search?q=significant&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "sɪɡˈnɪfɪkənt",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/78/9f/789F5AA3FC5DC82BAD086A65034E23FB.mp3"
+          },
+          {
+            "name": "英",
+            "value": "sɪɡ'nɪfɪkənt",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/78/9f/789F5AA3FC5DC82BAD086A65034E23FB.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "adj.",
+            "terms": [
+              "有重大意义的",
+              "显著的",
+              "有某种意义的",
+              "别有含义的"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "重要的",
+              "有意义的",
+              "重大的"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "reputation",
+    "results": {
+      "GoogleWeb": {
+        "text": "reputation",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=reputation&op=translate",
+        "result": [
+          "名声"
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "声誉",
+              "名誉",
+              "名声",
+              "誉",
+              "名",
+              "声",
+              "面子",
+              "颜面",
+              "声光",
+              "声价"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "ˌrepyəˈtāSH(ə)n",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=reputation"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "reputation",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/reputation",
+        "dict": [
+          {
+            "terms": [
+              "美誉"
+            ]
+          },
+          {
+            "terms": [
+              "声誉"
+            ]
+          },
+          {
+            "terms": [
+              "声名"
+            ]
+          },
+          {
+            "terms": [
+              "口碑"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "reputation",
+        "link": "https://www.bing.com/dict/search?q=reputation&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˌrepjəˈteɪʃ(ə)n",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/0f/ae/0FAE7A3A02717762F5CBD2EA32C1F243.mp3"
+          },
+          {
+            "name": "英",
+            "value": "ˌrepjʊˈteɪʃ(ə)n",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/0f/ae/0FAE7A3A02717762F5CBD2EA32C1F243.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "名声",
+              "名誉"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "声誉",
+              "声望",
+              "信誉"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "pickup",
+    "results": {
+      "GoogleWeb": {
+        "text": "pickup",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=pickup&op=translate",
+        "result": [
+          "捡起"
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "拾音器",
+              "拾音",
+              "拾起",
+              "起色",
+              "唱头"
+            ]
+          },
+          {
+            "pos": "adj.",
+            "terms": [
+              "拾",
+              "随便"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "ˈpikˌəp",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=pickup"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "pickup",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/pickup",
+        "dict": [
+          {
+            "terms": [
+              "皮卡"
+            ]
+          },
+          {
+            "terms": [
+              "皮卡车"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "pickup",
+        "link": "https://www.bing.com/dict/search?q=pickup&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˈpɪkʌp",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/3b/31/3B31810A60116DC7AE9D35116AA8CA61.mp3"
+          },
+          {
+            "name": "英",
+            "value": "'pɪkʌp",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/3b/31/3B31810A60116DC7AE9D35116AA8CA61.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "提货",
+              "好转",
+              "轻型货车",
+              "敞篷小货车"
+            ]
+          },
+          {
+            "pos": "adj.",
+            "terms": [
+              "临时拼凑的",
+              "临时组织的"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "皮卡",
+              "拾音器",
+              "拾起"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "niche",
+    "results": {
+      "GoogleWeb": {
+        "text": "niche",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=niche&op=translate",
+        "result": [
+          "利基"
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "壁龛",
+              "龛"
+            ]
+          },
+          {
+            "pos": "v.",
+            "terms": [
+              "安置于适当地方"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "niCH",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=niche"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "niche",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/niche",
+        "dict": [
+          {
+            "terms": [
+              "龛位"
+            ]
+          },
+          {
+            "terms": [
+              "细分市场"
+            ]
+          },
+          {
+            "terms": [
+              "细分"
+            ]
+          },
+          {
+            "terms": [
+              "专营"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "niche",
+        "link": "https://www.bing.com/dict/search?q=niche&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "nɪtʃ",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/26/a7/26A78E719BAA6DFF6BF53F6646D3253B.mp3"
+          },
+          {
+            "name": "英",
+            "value": "niːʃ",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/26/a7/26A78E719BAA6DFF6BF53F6646D3253B.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "壁龛",
+              "舒适或称心的工作（或生活等）",
+              "（产品的）商机",
+              "市场定位"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "利基",
+              "生态位",
+              "小生境"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "anticipated",
+    "results": {
+      "GoogleWeb": {
+        "text": "anticipated",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=anticipated&op=translate",
+        "result": [
+          "预期的"
+        ],
+        "dict": [
+          {
+            "pos": "v.",
+            "terms": [
+              "预料",
+              "料",
+              "预知",
+              "意料",
+              "抢先",
+              "逆料",
+              "恇",
+              "意",
+              "意图",
+              "意想",
+              "虞",
+              "预卜",
+              "预段"
+            ]
+          }
+        ],
+        "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=anticipated"
+      },
+      "DeepLWeb": {
+        "text": "anticipated",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/anticipated",
+        "dict": [
+          {
+            "terms": [
+              "预期"
+            ]
+          },
+          {
+            "terms": [
+              "预期的"
+            ]
+          },
+          {
+            "terms": [
+              "预计"
+            ]
+          },
+          {
+            "terms": [
+              "预料之中"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "anticipated",
+        "link": "https://www.bing.com/dict/search?q=anticipated&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ænˈtɪsɪˌpeɪt",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/36/a3/36A364ED47EB89B8604EEBA9A545396A.mp3"
+          },
+          {
+            "name": "英",
+            "value": "ænˈtɪsɪpeɪt",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/36/a3/36A364ED47EB89B8604EEBA9A545396A.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "v.",
+            "terms": [
+              "预期",
+              "期待",
+              "预测",
+              "促进"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "期待的",
+              "预期的",
+              "预先的"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "estimate",
+    "results": {
+      "GoogleWeb": {
+        "text": "estimate",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=estimate&op=translate",
+        "result": [
+          "估计"
+        ],
+        "dict": [
+          {
+            "pos": "v.",
+            "terms": [
+              "估计",
+              "预计",
+              "估",
+              "估量",
+              "量",
+              "计量",
+              "测度",
+              "揣度",
+              "揆",
+              "揣",
+              "竑",
+              "臆测",
+              "臧否"
+            ]
+          },
+          {
+            "pos": "n.",
+            "terms": [
+              "预算",
+              "量",
+              "揆"
+            ]
+          }
+        ],
+        "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=estimate"
+      },
+      "DeepLWeb": {
+        "text": "estimate",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/estimate",
+        "dict": [
+          {
+            "terms": [
+              "估价"
+            ]
+          },
+          {
+            "terms": [
+              "估算"
+            ]
+          },
+          {
+            "terms": [
+              "估计"
+            ]
+          },
+          {
+            "terms": [
+              "预估"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "estimate",
+        "link": "https://www.bing.com/dict/search?q=estimate&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˈestɪmət",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/c7/86/C786350D5DC520F06612850EE8001F72.mp3"
+          },
+          {
+            "name": "英",
+            "value": "'estɪmeɪt",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/c7/86/C786350D5DC520F06612850EE8001F72.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "v.",
+            "terms": [
+              "估计",
+              "估算",
+              "估价"
+            ]
+          },
+          {
+            "pos": "n.",
+            "terms": [
+              "估价",
+              "（对大小、数量、成本等的）估计",
+              "估计的成本"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "估量",
+              "评估",
+              "评价"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
     "text": "enriching",
     "results": {
       "GoogleWeb": {
