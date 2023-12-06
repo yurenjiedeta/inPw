@@ -1,0 +1,4232 @@
+[
+  {
+    "text": "sustainable",
+    "results": {
+      "GoogleWeb": {
+        "text": "sustainable",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=sustainable&op=translate",
+        "result": [
+          "可持续的"
+        ],
+        "phonetic": [
+          {
+            "value": "səˈstānəb(ə)l",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=sustainable"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "sustainable",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/sustainable",
+        "dict": [
+          {
+            "terms": [
+              "可持续"
+            ]
+          },
+          {
+            "terms": [
+              "持续"
+            ]
+          },
+          {
+            "terms": [
+              "可持续发展"
+            ]
+          },
+          {
+            "terms": [
+              "可持续的"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "sustainable",
+        "link": "https://www.bing.com/dict/search?q=sustainable&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "səˈsteɪnəb(ə)l",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/04/60/0460FA001D90157FDBEE848A3F22F75A.mp3"
+          },
+          {
+            "name": "英",
+            "value": "sə'steɪnəb(ə)l",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/04/60/0460FA001D90157FDBEE848A3F22F75A.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "adj.",
+            "terms": [
+              "（对自然资源和能源的利用）不破坏生态平衡的",
+              "可持续的"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "永续",
+              "可持续性",
+              "养得起的"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "proceed",
+    "results": {
+      "GoogleWeb": {
+        "text": "proceed",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=proceed&op=translate",
+        "result": [
+          "继续"
+        ],
+        "dict": [
+          {
+            "pos": "v.",
+            "terms": [
+              "继续",
+              "前往",
+              "前",
+              "继续进行"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "prəˈsēd",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=proceed"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "proceed",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/proceed",
+        "dict": [
+          {
+            "terms": [
+              "开始"
+            ]
+          },
+          {
+            "terms": [
+              "接着"
+            ]
+          },
+          {
+            "terms": [
+              "进行"
+            ]
+          },
+          {
+            "terms": [
+              "继续进行"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "proceed",
+        "link": "https://www.bing.com/dict/search?q=proceed&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "prəˈsid",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/e9/ac/E9AC59AAA3EF95CD0494BF6A525D0B74.mp3"
+          },
+          {
+            "name": "英",
+            "value": "prəˈsiːd",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/e9/ac/E9AC59AAA3EF95CD0494BF6A525D0B74.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "v.",
+            "terms": [
+              "继续做（或从事、进行）",
+              "接着做",
+              "继而做",
+              "行进"
+            ]
+          },
+          {
+            "pos": "n.",
+            "terms": [
+              "(从事某种活动或变卖财物等的)收入",
+              "卖得金额",
+              "收益"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "继续进行",
+              "前进",
+              "发生"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "emissions",
+    "results": {
+      "GoogleWeb": {
+        "text": "emissions",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=emissions&op=translate",
+        "result": [
+          "排放量"
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "排放",
+              "发射",
+              "发出",
+              "发行"
+            ]
+          }
+        ],
+        "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=emissions"
+      },
+      "DeepLWeb": {
+        "text": "emissions",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/emissions",
+        "dict": [
+          {
+            "terms": [
+              "废气"
+            ]
+          },
+          {
+            "terms": [
+              "排放"
+            ]
+          },
+          {
+            "terms": [
+              "尾气"
+            ]
+          },
+          {
+            "terms": [
+              "尾气排放"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "emissions",
+        "link": "https://www.bing.com/dict/search?q=emissions&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ɪˈmɪʃ(ə)n",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/36/92/36925A25436D79D4704E8B601837362A.mp3"
+          },
+          {
+            "name": "英",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/36/92/36925A25436D79D4704E8B601837362A.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "发射",
+              "放射物",
+              "传播",
+              "【医】排出"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "辐射",
+              "排放",
+              "排放物"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "petroleum",
+    "results": {
+      "GoogleWeb": {
+        "text": "petroleum",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=petroleum&op=translate",
+        "result": [
+          "石油"
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "石油"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "pəˈtrōlēəm",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=petroleum"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "petroleum",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/petroleum",
+        "dict": [
+          {
+            "terms": [
+              "石油"
+            ]
+          },
+          {
+            "terms": [
+              "油"
+            ]
+          },
+          {
+            "terms": [
+              "天然气"
+            ]
+          },
+          {
+            "terms": [
+              "石化"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "petroleum",
+        "link": "https://www.bing.com/dict/search?q=petroleum&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "pəˈtroʊliəm",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/10/bf/10BF3F21C76688A2A289468F9DAE0173.mp3"
+          },
+          {
+            "name": "英",
+            "value": "pəˈtrəʊliəm",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/10/bf/10BF3F21C76688A2A289468F9DAE0173.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "石油",
+              "原油"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "汽油",
+              "石油化工",
+              "石化工业"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "aviation",
+    "results": {
+      "GoogleWeb": {
+        "text": "aviation",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=aviation&op=translate",
+        "result": [
+          "航空"
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "航空",
+              "飞行",
+              "航空学"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "ˌāvēˈāSH(ə)n",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=aviation"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "aviation",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/aviation",
+        "dict": [
+          {
+            "terms": [
+              "航空"
+            ]
+          },
+          {
+            "terms": [
+              "飞行"
+            ]
+          },
+          {
+            "terms": [
+              "航空业"
+            ]
+          },
+          {
+            "terms": [
+              "空运"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "aviation",
+        "link": "https://www.bing.com/dict/search?q=aviation&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˌeɪviˈeɪʃ(ə)n",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/18/82/18828D164662CE74924917044BA0C12E.mp3"
+          },
+          {
+            "name": "英",
+            "value": ".eɪvi'eɪʃ(ə)n",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/18/82/18828D164662CE74924917044BA0C12E.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "航空",
+              "航空制造业",
+              "飞行"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "航空学",
+              "飞机制造业",
+              "飞行术"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "fuel",
+    "results": {
+      "GoogleWeb": {
+        "text": "fuel",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=fuel&op=translate",
+        "result": [
+          "燃料"
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "燃料",
+              "薪",
+              "荛",
+              "稣"
+            ]
+          },
+          {
+            "pos": "v.",
+            "terms": [
+              "加燃料"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "ˈfyo͞o(ə)l",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=fuel"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "fuel",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/fuel",
+        "dict": [
+          {
+            "terms": [
+              "燃料"
+            ]
+          },
+          {
+            "terms": [
+              "燃油"
+            ]
+          },
+          {
+            "terms": [
+              "加油"
+            ]
+          },
+          {
+            "terms": [
+              "油料"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "fuel",
+        "link": "https://www.bing.com/dict/search?q=fuel&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˈfjuːəl",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/21/d8/21D8FDABB8FF0F9DA303ADD73F65A90A.mp3"
+          },
+          {
+            "name": "英",
+            "value": "ˈfjuːəl",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/21/d8/21D8FDABB8FF0F9DA303ADD73F65A90A.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "燃料",
+              "燃油",
+              "【新闻传媒】推动力"
+            ]
+          },
+          {
+            "pos": "v.",
+            "terms": [
+              "(给…)加油",
+              "【新闻传媒】加速"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "加燃料",
+              "汽油",
+              "油料"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "shore",
+    "results": {
+      "GoogleWeb": {
+        "text": "shore",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=shore&op=translate",
+        "result": [
+          "支撑"
+        ],
+        "dict": [
+          {
+            "pos": "v.",
+            "terms": [
+              "支撑",
+              "撑持",
+              "陆",
+              "拥护",
+              "支起",
+              "支住"
+            ]
+          },
+          {
+            "pos": "n.",
+            "terms": [
+              "岸",
+              "岸边",
+              "滨",
+              "陆",
+              "涯",
+              "漘",
+              "澨",
+              "浦"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "SHôr",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=shore"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "shore",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/shore",
+        "dict": [
+          {
+            "terms": [
+              "岸"
+            ]
+          },
+          {
+            "terms": [
+              "滨"
+            ]
+          },
+          {
+            "terms": [
+              "海滨"
+            ]
+          },
+          {
+            "terms": [
+              "畔"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "shore",
+        "link": "https://www.bing.com/dict/search?q=shore&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ʃɔr",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/8a/e2/8AE2327A0E65D0521121E7662B1D5222.mp3"
+          },
+          {
+            "name": "英",
+            "value": "ʃɔː(r)",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/8a/e2/8AE2327A0E65D0521121E7662B1D5222.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "滨",
+              "国家（尤指濒海国家）"
+            ]
+          },
+          {
+            "pos": "v.",
+            "terms": [
+              "用支柱[斜撑]撑住",
+              "〈古〉“shear”的过去式"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "岸",
+              "海滨",
+              "海岸"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "marine",
+    "results": {
+      "GoogleWeb": {
+        "text": "marine",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=marine&op=translate",
+        "result": [
+          "海洋"
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "陆战队",
+              "舰队",
+              "水兵"
+            ]
+          },
+          {
+            "pos": "adj.",
+            "terms": [
+              "海产的",
+              "海的"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "məˈrēn",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=marine"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "marine",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/marine",
+        "dict": [
+          {
+            "terms": [
+              "海洋"
+            ]
+          },
+          {
+            "terms": [
+              "海产"
+            ]
+          },
+          {
+            "terms": [
+              "船舶"
+            ]
+          },
+          {
+            "terms": [
+              "海事"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "marine",
+        "link": "https://www.bing.com/dict/search?q=marine&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "məˈrin",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/42/2c/422C9106FAECB05E7A48B69B5628E226.mp3"
+          },
+          {
+            "name": "英",
+            "value": "məˈriːn",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/42/2c/422C9106FAECB05E7A48B69B5628E226.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "adj.",
+            "terms": [
+              "海的",
+              "海产的",
+              "海生的",
+              "海船的"
+            ]
+          },
+          {
+            "pos": "n.",
+            "terms": [
+              "（尤指美国或英国皇家）海军陆战队士兵"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "海洋",
+              "海洋的",
+              "海上的"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "reptiles",
+    "results": {
+      "GoogleWeb": {
+        "text": "reptiles",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=reptiles&op=translate",
+        "result": [
+          "爬行动物"
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "爬虫",
+              "爬虫动物",
+              "爬虫类",
+              "爬行动物"
+            ]
+          }
+        ],
+        "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=reptiles"
+      },
+      "DeepLWeb": {
+        "text": "reptiles",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/reptiles",
+        "dict": [
+          {
+            "terms": [
+              "爬行类"
+            ]
+          },
+          {
+            "terms": [
+              "爬行动物"
+            ]
+          },
+          {
+            "terms": [
+              "爬虫类"
+            ]
+          },
+          {
+            "terms": [
+              "爬行类动物"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "reptiles",
+        "link": "https://www.bing.com/dict/search?q=reptiles&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˈreptɪl",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/a3/7b/A37BED302102819DCB3A918817887786.mp3"
+          },
+          {
+            "name": "英",
+            "value": "ˈreptaɪl",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/a3/7b/A37BED302102819DCB3A918817887786.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "爬行动物",
+              "卑劣的人"
+            ]
+          },
+          {
+            "pos": "adj.",
+            "terms": [
+              "匍匐的",
+              "爬虫类的",
+              "卑劣的"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "爬行类",
+              "爬行类动物",
+              "两栖爬行类"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "venom",
+    "results": {
+      "GoogleWeb": {
+        "text": "venom",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=venom&op=translate",
+        "result": [
+          "毒液"
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "毒液",
+              "毒汁",
+              "毒物",
+              "恶意",
+              "鸩",
+              "鸩毒"
+            ]
+          },
+          {
+            "pos": "v.",
+            "terms": [
+              "鸩"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "ˈvenəm",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=venom"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "venom",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/venom",
+        "dict": [
+          {
+            "terms": [
+              "毒液"
+            ]
+          },
+          {
+            "terms": [
+              "毒物"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "venom",
+        "link": "https://www.bing.com/dict/search?q=venom&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˈvenəm",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/45/76/4576C333A29396EC282D0F05101698AF.mp3"
+          },
+          {
+            "name": "英",
+            "value": "'venəm",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/45/76/4576C333A29396EC282D0F05101698AF.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "恶毒",
+              "怨恨",
+              "恶意",
+              "（毒蛇、蜘蛛等分泌的）毒液"
+            ]
+          },
+          {
+            "pos": "v.",
+            "terms": [
+              "放毒"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "毒牙",
+              "毒汁",
+              "毒物"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "aroused",
+    "results": {
+      "GoogleWeb": {
+        "text": "aroused",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=aroused&op=translate",
+        "result": [
+          "激起"
+        ],
+        "dict": [
+          {
+            "pos": "adj.",
+            "terms": [
+              "激昂"
+            ]
+          }
+        ],
+        "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=aroused"
+      },
+      "DeepLWeb": {
+        "text": "aroused",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/aroused",
+        "result": [
+          "亢奋"
+        ]
+      },
+      "BingDictWeb": {
+        "text": "aroused",
+        "link": "https://www.bing.com/dict/search?q=aroused&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "əˈraʊz",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/51/b2/51B2D99196DA711DFB0164FE5C0BD2EB.mp3"
+          },
+          {
+            "name": "英",
+            "value": "ə'raʊz",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/51/b2/51B2D99196DA711DFB0164FE5C0BD2EB.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "v.",
+            "terms": [
+              "引起",
+              "唤醒",
+              "鼓励",
+              "睡醒"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "唤起",
+              "激起",
+              "激昂"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "coiled",
+    "results": {
+      "GoogleWeb": {
+        "text": "coiled",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=coiled&op=translate",
+        "result": [
+          "盘绕的"
+        ],
+        "dict": [
+          {
+            "pos": "adj.",
+            "terms": [
+              "盘曲"
+            ]
+          }
+        ],
+        "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=coiled"
+      },
+      "DeepLWeb": {
+        "text": "coiled",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/coiled",
+        "dict": [
+          {
+            "terms": [
+              "盘曲"
+            ]
+          },
+          {
+            "terms": [
+              "蜷曲"
+            ]
+          },
+          {
+            "terms": [
+              "盘绕"
+            ]
+          },
+          {
+            "terms": [
+              "盘曲的"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "coiled",
+        "link": "https://www.bing.com/dict/search?q=coiled&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "kɔɪl",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/e2/35/E2355ACF777B2737A7CF42D18D5E3D4B.mp3"
+          },
+          {
+            "name": "英",
+            "value": "kɔild",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/e2/35/E2355ACF777B2737A7CF42D18D5E3D4B.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "v.",
+            "terms": [
+              "卷",
+              "卷曲",
+              "蜿蜒流进"
+            ]
+          },
+          {
+            "pos": "n.",
+            "terms": [
+              "(一)盘",
+              "〔古语〕混乱",
+              "纠纷",
+              "蛇管"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "盘绕",
+              "盘绕的",
+              "卷成圈的"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "approached",
+    "results": {
+      "GoogleWeb": {
+        "text": "approached",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=approached&op=translate",
+        "result": [
+          "接近"
+        ],
+        "dict": [
+          {
+            "pos": "v.",
+            "terms": [
+              "逼近",
+              "来临",
+              "助跑",
+              "迫近",
+              "靠拢",
+              "就",
+              "即",
+              "拢",
+              "迫",
+              "找",
+              "凌",
+              "匿",
+              "薄",
+              "垂",
+              "昵"
+            ]
+          }
+        ],
+        "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=approached"
+      },
+      "DeepLWeb": {
+        "text": "approached",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/approached",
+        "dict": [
+          {
+            "terms": [
+              "接近"
+            ]
+          },
+          {
+            "terms": [
+              "走近"
+            ]
+          },
+          {
+            "terms": [
+              "接触"
+            ]
+          },
+          {
+            "terms": [
+              "濒临"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "approached",
+        "link": "https://www.bing.com/dict/search?q=approached&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "əˈproʊtʃ",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/bc/ad/BCAD1937AB93B3A24D04BA0671EC8BC5.mp3"
+          },
+          {
+            "name": "英",
+            "value": "əˈprəʊtʃ",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/bc/ad/BCAD1937AB93B3A24D04BA0671EC8BC5.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "v.",
+            "terms": [
+              "走近",
+              "临近",
+              "探讨",
+              "对待"
+            ]
+          },
+          {
+            "pos": "n.",
+            "terms": [
+              "接近",
+              "探讨",
+              "提议",
+              "进路"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "上前",
+              "靠近",
+              "进场"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "fins",
+    "results": {
+      "GoogleWeb": {
+        "text": "fins",
+        "from": "加泰罗尼亚语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=ca&tl=zh-CN&text=fins&op=translate",
+        "result": [
+          "到"
+        ],
+        "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=ca&ie=UTF-8&q=fins"
+      },
+      "DeepLWeb": {
+        "text": "fins",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/fins",
+        "dict": [
+          {
+            "terms": [
+              "脚蹼"
+            ]
+          },
+          {
+            "terms": [
+              "翅片"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "fins",
+        "link": "https://www.bing.com/dict/search?q=fins&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "fɪn",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/b4/89/B4894EB1AB10435D8F07D6AC68A802DF.mp3"
+          },
+          {
+            "name": "英",
+            "value": "finz",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/b4/89/B4894EB1AB10435D8F07D6AC68A802DF.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "鳍",
+              "肋片",
+              "散热片",
+              "【航海】(潜水艇的)鳍板"
+            ]
+          },
+          {
+            "pos": "v.",
+            "terms": [
+              "把(鳍)切下",
+              "(猛烈地)拍动(鳍)",
+              "给…装上翅片[鳍板]"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "空腹胰岛素",
+              "脚蹼",
+              "空腹血清胰岛素"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "breeding season",
+    "results": {
+      "GoogleWeb": {
+        "text": "breeding season",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=breeding%20season&op=translate",
+        "result": [
+          "繁殖季节"
+        ],
+        "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=breeding%20season"
+      },
+      "DeepLWeb": {
+        "text": "breeding season",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/breeding%20season",
+        "dict": [
+          {
+            "terms": [
+              "配种季节"
+            ]
+          },
+          {
+            "terms": [
+              "繁殖季节"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "breeding season",
+        "link": "https://www.bing.com/dict/search?q=breeding%20season&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/64/7a/647A1836EF87A7D97B581BF2E67D4FC0.mp3"
+          },
+          {
+            "name": "英",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/64/7a/647A1836EF87A7D97B581BF2E67D4FC0.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "na.",
+            "terms": [
+              "繁殖期"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "繁殖季节",
+              "生育季节",
+              "生殖季节"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "lizard",
+    "results": {
+      "GoogleWeb": {
+        "text": "lizard",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=lizard&op=translate",
+        "result": [
+          "蜥蜴"
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "蜥蜴"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "ˈlizərd",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=lizard"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "lizard",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/lizard",
+        "dict": [
+          {
+            "terms": [
+              "四脚蛇"
+            ]
+          },
+          {
+            "terms": [
+              "石龙子"
+            ]
+          },
+          {
+            "terms": [
+              "蜥易"
+            ]
+          },
+          {
+            "terms": [
+              "蜥蜴"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "lizard",
+        "link": "https://www.bing.com/dict/search?q=lizard&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˈlɪzə(r)d",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/49/c8/49C8AE11318B5E91360D23B32CA9A5C4.mp3"
+          },
+          {
+            "name": "英",
+            "value": "ˈlɪzə(r)d",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/49/c8/49C8AE11318B5E91360D23B32CA9A5C4.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "【动】蜥蜴"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "蜥蜴皮",
+              "蜥蜴人",
+              "蜥蝪"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "reptile",
+    "results": {
+      "GoogleWeb": {
+        "text": "reptile",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=reptile&op=translate",
+        "result": [
+          "爬虫"
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "爬虫",
+              "爬虫动物",
+              "爬虫类",
+              "爬行动物"
+            ]
+          },
+          {
+            "pos": "adj.",
+            "terms": [
+              "爬行",
+              "爬虫类的"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "ˈreptəl",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=reptile"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "reptile",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/reptile",
+        "dict": [
+          {
+            "terms": [
+              "爬行动物"
+            ]
+          },
+          {
+            "terms": [
+              "爬虫类"
+            ]
+          },
+          {
+            "terms": [
+              "爬虫"
+            ]
+          },
+          {
+            "terms": [
+              "爬虫动物"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "reptile",
+        "link": "https://www.bing.com/dict/search?q=reptile&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˈreptɪl",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/a3/7b/A37BED302102819DCB3A918817887786.mp3"
+          },
+          {
+            "name": "英",
+            "value": "ˈreptaɪl",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/a3/7b/A37BED302102819DCB3A918817887786.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "爬行动物"
+            ]
+          },
+          {
+            "pos": "adj.",
+            "terms": [
+              "匍匐的",
+              "爬虫类的",
+              "卑劣的"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "爬行类动物",
+              "爬虫动物",
+              "蜥蜴"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "venomous",
+    "results": {
+      "GoogleWeb": {
+        "text": "venomous",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=venomous&op=translate",
+        "result": [
+          "有毒"
+        ],
+        "dict": [
+          {
+            "pos": "adj.",
+            "terms": [
+              "有毒",
+              "狠毒",
+              "刻毒"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "ˈvenəməs",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=venomous"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "venomous",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/venomous",
+        "dict": [
+          {
+            "terms": [
+              "括毒"
+            ]
+          },
+          {
+            "terms": [
+              "刻毒"
+            ]
+          },
+          {
+            "terms": [
+              "毒"
+            ]
+          },
+          {
+            "terms": [
+              "括毒性"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "venomous",
+        "link": "https://www.bing.com/dict/search?q=venomous&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˈvenəməs",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/95/40/95408292F7A183BD43B1F4DB850C8FDE.mp3"
+          },
+          {
+            "name": "英",
+            "value": "'venəməs",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/95/40/95408292F7A183BD43B1F4DB850C8FDE.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "adj.",
+            "terms": [
+              "分泌毒液的",
+              "有毒的",
+              "恶毒的",
+              "恶意的"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "刻毒",
+              "狠毒",
+              "毒液魔"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "olive",
+    "results": {
+      "GoogleWeb": {
+        "text": "olive",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=olive&op=translate",
+        "result": [
+          "橄榄"
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "榄",
+              "橄"
+            ]
+          },
+          {
+            "pos": "adj.",
+            "terms": [
+              "黄褐色的",
+              "黄绿色的"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "ˈäləv",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=olive"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "olive",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/olive",
+        "dict": [
+          {
+            "terms": [
+              "橄榄树"
+            ]
+          },
+          {
+            "terms": [
+              "橄榄"
+            ]
+          },
+          {
+            "terms": [
+              "榄"
+            ]
+          },
+          {
+            "terms": [
+              "榄角"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "olive",
+        "link": "https://www.bing.com/dict/search?q=olive&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˈɑlɪv",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/ac/9a/AC9A86B6099785781696F55E63A581F6.mp3"
+          },
+          {
+            "name": "英",
+            "value": "ˈɒlɪv",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/ac/9a/AC9A86B6099785781696F55E63A581F6.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "橄榄",
+              "油橄榄",
+              "橄榄绿",
+              "齐墩果"
+            ]
+          },
+          {
+            "pos": "adj.",
+            "terms": [
+              "橄榄绿的",
+              "黄褐色的",
+              "淡褐色的"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "橄榄色",
+              "橄榄树",
+              "奥丽芙"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "welfare",
+    "results": {
+      "GoogleWeb": {
+        "text": "welfare",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=welfare&op=translate",
+        "result": [
+          "福利"
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "福利",
+              "禔",
+              "生活福利"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "ˈwelˌfer",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=welfare"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "welfare",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/welfare",
+        "dict": [
+          {
+            "terms": [
+              "福利"
+            ]
+          },
+          {
+            "terms": [
+              "福祉"
+            ]
+          },
+          {
+            "terms": [
+              "福利事业"
+            ]
+          },
+          {
+            "terms": [
+              "社福"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "welfare",
+        "link": "https://www.bing.com/dict/search?q=welfare&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˈwelˌfer",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/94/b8/94B8EFFBF44CB1DC5D4C694F1D24FDD5.mp3"
+          },
+          {
+            "name": "英",
+            "value": "ˈwelfeə(r)",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/94/b8/94B8EFFBF44CB1DC5D4C694F1D24FDD5.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "福祉",
+              "（政府给予的）福利"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "福利事业",
+              "社会福利",
+              "福利金"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "surveys",
+    "results": {
+      "GoogleWeb": {
+        "text": "surveys",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=surveys&op=translate",
+        "result": [
+          "调查"
+        ],
+        "dict": [
+          {
+            "pos": "v.",
+            "terms": [
+              "调查",
+              "测量",
+              "探测",
+              "勘测",
+              "测",
+              "勘",
+              "查勘",
+              "抽查",
+              "检察"
+            ]
+          },
+          {
+            "pos": "n.",
+            "terms": [
+              "察勘",
+              "概观"
+            ]
+          }
+        ],
+        "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=surveys"
+      },
+      "DeepLWeb": {
+        "text": "surveys",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/surveys",
+        "dict": [
+          {
+            "terms": [
+              "调查"
+            ]
+          },
+          {
+            "terms": [
+              "勘测"
+            ]
+          },
+          {
+            "terms": [
+              "普查"
+            ]
+          },
+          {
+            "terms": [
+              "测量"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "surveys",
+        "link": "https://www.bing.com/dict/search?q=surveys&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˈsɜrˌveɪ",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/09/d4/09D49F66DF0DABA0B060F56919C2670A.mp3"
+          },
+          {
+            "name": "英",
+            "value": "ˈsɜː(r)veɪ",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/09/d4/09D49F66DF0DABA0B060F56919C2670A.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "v.",
+            "terms": [
+              "调查",
+              "勘查",
+              "审视",
+              "观察(形势)"
+            ]
+          },
+          {
+            "pos": "n.",
+            "terms": [
+              "测量",
+              "调查(表)",
+              "调查所",
+              "测量部"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "问卷调查",
+              "调查法",
+              "考察"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "evolution",
+    "results": {
+      "GoogleWeb": {
+        "text": "evolution",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=evolution&op=translate",
+        "result": [
+          "进化"
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "演化",
+              "进化",
+              "发展",
+              "进程",
+              "开方",
+              "发达"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "ˌevəˈlo͞oSH(ə)n",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=evolution"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "evolution",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/evolution",
+        "dict": [
+          {
+            "terms": [
+              "演变"
+            ]
+          },
+          {
+            "terms": [
+              "演化"
+            ]
+          },
+          {
+            "terms": [
+              "演进"
+            ]
+          },
+          {
+            "terms": [
+              "演化过程"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "evolution",
+        "link": "https://www.bing.com/dict/search?q=evolution&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˌevəˈluʃ(ə)n",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/b7/52/B752825C6B616B3D040F15FF155C5B39.mp3"
+          },
+          {
+            "name": "英",
+            "value": "ˌiːvəˈluːʃ(ə)n",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/b7/52/B752825C6B616B3D040F15FF155C5B39.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "演变",
+              "进化",
+              "发展",
+              "渐进"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "演化",
+              "进化论",
+              "演进"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "pertains",
+    "results": {
+      "GoogleWeb": {
+        "text": "pertains",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=pertains&op=translate",
+        "result": [
+          "属于"
+        ],
+        "dict": [
+          {
+            "pos": "v.",
+            "terms": [
+              "属于",
+              "关于"
+            ]
+          }
+        ],
+        "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=pertains"
+      },
+      "DeepLWeb": {
+        "text": "pertains",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/pertains",
+        "dict": [
+          {
+            "terms": [
+              "适用于"
+            ]
+          },
+          {
+            "terms": [
+              "相关"
+            ]
+          },
+          {
+            "terms": [
+              "有关"
+            ]
+          },
+          {
+            "terms": [
+              "与"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "pertains",
+        "link": "https://www.bing.com/dict/search?q=pertains&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "pərˈteɪn",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/2f/3b/2F3B9502EBB04EBAB0381B27ACA6DAE9.mp3"
+          },
+          {
+            "name": "英",
+            "value": "pə(r)ˈteɪn",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/2f/3b/2F3B9502EBB04EBAB0381B27ACA6DAE9.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "v.",
+            "terms": [
+              "有关",
+              "适合",
+              "附属"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "属于",
+              "关于",
+              "相关"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "aforementioned",
+    "results": {
+      "GoogleWeb": {
+        "text": "aforementioned",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=aforementioned&op=translate",
+        "result": [
+          "前述"
+        ],
+        "dict": [
+          {
+            "pos": "adj.",
+            "terms": [
+              "前述的"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "əˈfôrˌmen(t)SHənd",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=aforementioned"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "aforementioned",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/aforementioned",
+        "dict": [
+          {
+            "terms": [
+              "上述"
+            ]
+          },
+          {
+            "terms": [
+              "前述"
+            ]
+          },
+          {
+            "terms": [
+              "前面提到的"
+            ]
+          },
+          {
+            "terms": [
+              "上述的"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "aforementioned",
+        "link": "https://www.bing.com/dict/search?q=aforementioned&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "əˈfɔrˌmenʃənd",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/ad/56/AD564BC214422939EA5BB313FE0778DE.mp3"
+          },
+          {
+            "name": "英",
+            "value": "əˈfɔː(r)ˌmenʃ(ə)nd",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/ad/56/AD564BC214422939EA5BB313FE0778DE.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "adj.",
+            "terms": [
+              "前面提到的",
+              "上述的"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "前述的",
+              "前面提及的",
+              "前述提及的"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "instructions",
+    "results": {
+      "GoogleWeb": {
+        "text": "instructions",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=instructions&op=translate",
+        "result": [
+          "指示"
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "训词"
+            ]
+          }
+        ],
+        "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=instructions"
+      },
+      "DeepLWeb": {
+        "text": "instructions",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/instructions",
+        "dict": [
+          {
+            "terms": [
+              "说明"
+            ]
+          },
+          {
+            "terms": [
+              "指示"
+            ]
+          },
+          {
+            "terms": [
+              "指令"
+            ]
+          },
+          {
+            "terms": [
+              "说明书"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "instructions",
+        "link": "https://www.bing.com/dict/search?q=instructions&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ɪnˈstrʌkʃ(ə)n",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/0c/4f/0C4F3CF491DFA26C97E58444BC12A7F3.mp3"
+          },
+          {
+            "name": "英",
+            "value": "ɪn'strʌkʃ(ə)n",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/0c/4f/0C4F3CF491DFA26C97E58444BC12A7F3.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "指令",
+              "教导",
+              "教训"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "使用说明",
+              "指示",
+              "指导"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "disrupting",
+    "results": {
+      "GoogleWeb": {
+        "text": "disrupting",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=disrupting&op=translate",
+        "result": [
+          "扰乱"
+        ],
+        "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=disrupting"
+      },
+      "DeepLWeb": {
+        "text": "disrupting",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/disrupting",
+        "dict": [
+          {
+            "terms": [
+              "扰乱"
+            ]
+          },
+          {
+            "terms": [
+              "破坏性"
+            ]
+          },
+          {
+            "terms": [
+              "破坏"
+            ]
+          },
+          {
+            "terms": [
+              "干扰"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "disrupting",
+        "link": "https://www.bing.com/dict/search?q=disrupting&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "dɪsˈrʌpt",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/e1/d4/E1D45546741F69DE60233CCFA3AE89BC.mp3"
+          },
+          {
+            "name": "英",
+            "value": "dɪs'rʌpt",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/e1/d4/E1D45546741F69DE60233CCFA3AE89BC.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "v.",
+            "terms": [
+              "破坏",
+              "使分裂",
+              "使中断"
+            ]
+          },
+          {
+            "pos": "adj.",
+            "terms": [
+              "混乱的",
+              "瓦解的",
+              "中断的"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "干扰",
+              "损害",
+              "破坏性"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "sufficient",
+    "results": {
+      "GoogleWeb": {
+        "text": "sufficient",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=sufficient&op=translate",
+        "result": [
+          "充足的"
+        ],
+        "dict": [
+          {
+            "pos": "adj.",
+            "terms": [
+              "足够",
+              "充",
+              "足以",
+              "充足",
+              "足",
+              "够",
+              "充份",
+              "丰足",
+              "赡"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "səˈfiSHənt",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=sufficient"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "sufficient",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/sufficient",
+        "dict": [
+          {
+            "terms": [
+              "充足"
+            ]
+          },
+          {
+            "terms": [
+              "无虞匮乏"
+            ]
+          },
+          {
+            "terms": [
+              "充分"
+            ]
+          },
+          {
+            "terms": [
+              "足以"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "sufficient",
+        "link": "https://www.bing.com/dict/search?q=sufficient&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "səˈfɪʃ(ə)nt",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/f7/75/F7755D80AF1E0A8B614B794E05C09C82.mp3"
+          },
+          {
+            "name": "英",
+            "value": "sə'fɪʃ(ə)nt",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/f7/75/F7755D80AF1E0A8B614B794E05C09C82.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "adj.",
+            "terms": [
+              "足够的",
+              "充足的"
+            ]
+          },
+          {
+            "pos": "n.",
+            "terms": [
+              "足够(的量)"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "充分的",
+              "足以"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "visualize",
+    "results": {
+      "GoogleWeb": {
+        "text": "visualize",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=visualize&op=translate",
+        "result": [
+          "可视化"
+        ],
+        "dict": [
+          {
+            "pos": "v.",
+            "terms": [
+              "想象",
+              "想像",
+              "想得到",
+              "想起",
+              "意想"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "ˈviZH(o͞o)əˌlīz",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=visualize"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "visualize",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/visualize",
+        "dict": [
+          {
+            "terms": [
+              "显像"
+            ]
+          },
+          {
+            "terms": [
+              "视化"
+            ]
+          },
+          {
+            "terms": [
+              "想象"
+            ]
+          },
+          {
+            "terms": [
+              "想像"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "visualize",
+        "link": "https://www.bing.com/dict/search?q=visualize&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˈvɪʒuəˌlaɪz",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/89/39/8939886D2DDA95D791035BBEA02E412C.mp3"
+          },
+          {
+            "name": "英",
+            "value": "ˈvɪʒʊəlaɪz",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/89/39/8939886D2DDA95D791035BBEA02E412C.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "v.",
+            "terms": [
+              "想象",
+              "设想",
+              "使形象化",
+              "构思"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "想像",
+              "视觉化",
+              "观想"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "Conversely",
+    "results": {
+      "GoogleWeb": {
+        "text": "Conversely",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=Conversely&op=translate",
+        "result": [
+          "反过来"
+        ],
+        "dict": [
+          {
+            "pos": "adv.",
+            "terms": [
+              "反过来"
+            ]
+          }
+        ],
+        "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=Conversely"
+      },
+      "DeepLWeb": {
+        "text": "Conversely",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/Conversely",
+        "dict": [
+          {
+            "terms": [
+              "相反"
+            ]
+          },
+          {
+            "terms": [
+              "反之"
+            ]
+          },
+          {
+            "terms": [
+              "相反地"
+            ]
+          },
+          {
+            "terms": [
+              "反之亦然"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "Conversely",
+        "link": "https://www.bing.com/dict/search?q=Conversely&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˈkɑnˌvɜrsli",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/48/3a/483A4C15AAE522677740D7D3060C8A50.mp3"
+          },
+          {
+            "name": "英",
+            "value": "ˈkɒnvɜː(r)sli",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/48/3a/483A4C15AAE522677740D7D3060C8A50.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "adv.",
+            "terms": [
+              "相反地",
+              "反过来"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "相反的",
+              "反之",
+              "逆地"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "thus be",
+    "results": {
+      "GoogleWeb": {
+        "text": "thus be",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=thus%20be&op=translate",
+        "result": [
+          "因此是"
+        ],
+        "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=thus%20be"
+      },
+      "DeepLWeb": {
+        "text": "thus be",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/thus%20be",
+        "dict": [
+          {
+            "terms": [
+              "因此"
+            ]
+          },
+          {
+            "terms": [
+              "因而"
+            ]
+          },
+          {
+            "terms": [
+              "于是"
+            ]
+          },
+          {
+            "terms": [
+              "乃"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "thus be",
+        "link": "https://www.bing.com/dict/search?q=thus%20be&cc=cn",
+        "error": {
+          "type": "API_SERVER_ERROR",
+          "message": "无翻译结果。",
+          "link": {
+            "name": "查看解决方案",
+            "url": "https://hcfy.app/docs/services/free#bingdict"
+          }
+        }
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "中文(简体)"
+    }
+  },
+  {
+    "text": "descendants",
+    "results": {
+      "GoogleWeb": {
+        "text": "descendants",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=descendants&op=translate",
+        "result": [
+          "后人"
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "后裔",
+              "裔",
+              "后人",
+              "后嗣",
+              "儿孙",
+              "后辈",
+              "晜",
+              "后世子孙"
+            ]
+          }
+        ],
+        "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=descendants"
+      },
+      "DeepLWeb": {
+        "text": "descendants",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/descendants",
+        "dict": [
+          {
+            "terms": [
+              "后裔"
+            ]
+          },
+          {
+            "terms": [
+              "后人"
+            ]
+          },
+          {
+            "terms": [
+              "后代"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "descendants",
+        "link": "https://www.bing.com/dict/search?q=descendants&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "dɪˈsendənt",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/32/24/322481FA074FF33024FEFA1227365BBC.mp3"
+          },
+          {
+            "name": "英",
+            "value": "dɪ'sendənt",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/32/24/322481FA074FF33024FEFA1227365BBC.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "后代",
+              "弟子",
+              "从某一来源派生的东西",
+              "派生物"
+            ]
+          },
+          {
+            "pos": "adj.",
+            "terms": [
+              "同“descendent”"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "后裔",
+              "子孙",
+              "子孙的通称"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "commercial",
+    "results": {
+      "GoogleWeb": {
+        "text": "commercial",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=commercial&op=translate",
+        "result": [
+          "商业的"
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "广告"
+            ]
+          },
+          {
+            "pos": "adj.",
+            "terms": [
+              "经济有效",
+              "贸易的",
+              "商业的",
+              "有利的",
+              "有盈利的"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "kəˈmərSHəl",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=commercial"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "commercial",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/commercial",
+        "dict": [
+          {
+            "terms": [
+              "商务"
+            ]
+          },
+          {
+            "terms": [
+              "商业"
+            ]
+          },
+          {
+            "terms": [
+              "商用"
+            ]
+          },
+          {
+            "terms": [
+              "商办"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "commercial",
+        "link": "https://www.bing.com/dict/search?q=commercial&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "kəˈmɜrʃ(ə)l",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/57/9a/579A3AB8C9D32DB697BFD335167F6BAD.mp3"
+          },
+          {
+            "name": "英",
+            "value": "kəˈmɜː(r)ʃ(ə)l",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/57/9a/579A3AB8C9D32DB697BFD335167F6BAD.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "adj.",
+            "terms": [
+              "贸易的",
+              "商业的",
+              "赢利的",
+              "以获利为目的的"
+            ]
+          },
+          {
+            "pos": "n.",
+            "terms": [
+              "（电台或电视播放的）广告"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "商业广告",
+              "商务的",
+              "商品化的"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "incremented",
+    "results": {
+      "GoogleWeb": {
+        "text": "incremented",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=incremented&op=translate",
+        "result": [
+          "增加的"
+        ],
+        "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=incremented"
+      },
+      "DeepLWeb": {
+        "text": "incremented",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/incremented",
+        "dict": [
+          {
+            "terms": [
+              "增量"
+            ]
+          },
+          {
+            "terms": [
+              "递增的"
+            ]
+          },
+          {
+            "terms": [
+              "递增"
+            ]
+          },
+          {
+            "terms": [
+              "增加的"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "incremented",
+        "link": "https://www.bing.com/dict/search?q=incremented&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˈɪŋkrəmənt",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/38/86/3886E6AA63F45F3DA5FD23A3E8435CDA.mp3"
+          },
+          {
+            "name": "英",
+            "value": "ˈɪŋkrɪmənt",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/38/86/3886E6AA63F45F3DA5FD23A3E8435CDA.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "增额",
+              "【数】增量",
+              "利润"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "递增",
+              "增加",
+              "增值"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "scenario",
+    "results": {
+      "GoogleWeb": {
+        "text": "scenario",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=scenario&op=translate",
+        "result": [
+          "设想"
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "脚本"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "səˈnerēˌō",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=scenario"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "scenario",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/scenario",
+        "dict": [
+          {
+            "terms": [
+              "场景"
+            ]
+          },
+          {
+            "terms": [
+              "设想"
+            ]
+          },
+          {
+            "terms": [
+              "剧本"
+            ]
+          },
+          {
+            "terms": [
+              "可能发生的情况"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "scenario",
+        "link": "https://www.bing.com/dict/search?q=scenario&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "səˈnɛrioʊ",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/cd/a5/CDA5C5D22D505229BBF025ACF6BF0773.mp3"
+          },
+          {
+            "name": "英",
+            "value": "səˈnɑːrioʊ",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/cd/a5/CDA5C5D22D505229BBF025ACF6BF0773.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "方案",
+              "前景",
+              "(可能发生的)情况",
+              "【戏,影视】脚本"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "场景",
+              "剧本",
+              "情节"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "Infinite",
+    "results": {
+      "GoogleWeb": {
+        "text": "Infinite",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=Infinite&op=translate",
+        "result": [
+          "无穷"
+        ],
+        "dict": [
+          {
+            "pos": "adj.",
+            "terms": [
+              "项",
+              "广大无边的"
+            ]
+          }
+        ],
+        "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=Infinite"
+      },
+      "DeepLWeb": {
+        "text": "Infinite",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/Infinite",
+        "dict": [
+          {
+            "terms": [
+              "无限"
+            ]
+          },
+          {
+            "terms": [
+              "无限期"
+            ]
+          },
+          {
+            "terms": [
+              "无穷"
+            ]
+          },
+          {
+            "terms": [
+              "无穷大"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "Infinite",
+        "link": "https://www.bing.com/dict/search?q=Infinite&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˈɪnfɪnɪt",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/d5/15/D515953E1B6506A970312CFDE9DC75AF.mp3"
+          },
+          {
+            "name": "英",
+            "value": "ˈɪnfɪnət",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/d5/15/D515953E1B6506A970312CFDE9DC75AF.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "adj.",
+            "terms": [
+              "极大的",
+              "无法衡量的",
+              "无限的",
+              "无穷尽的"
+            ]
+          },
+          {
+            "pos": "n.",
+            "terms": [
+              "无限的事物",
+              "无穷尽的事物",
+              "上帝"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "无穷的",
+              "金圣圭",
+              "无穷大"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "instantaneous",
+    "results": {
+      "GoogleWeb": {
+        "text": "instantaneous",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=instantaneous&op=translate",
+        "result": [
+          "瞬间"
+        ],
+        "dict": [
+          {
+            "pos": "adj.",
+            "terms": [
+              "瞬间",
+              "立"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "ˌinstənˈtānēəs",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=instantaneous"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "instantaneous",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/instantaneous",
+        "dict": [
+          {
+            "terms": [
+              "即时"
+            ]
+          },
+          {
+            "terms": [
+              "实时"
+            ]
+          },
+          {
+            "terms": [
+              "瞬间"
+            ]
+          },
+          {
+            "terms": [
+              "即刻"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "instantaneous",
+        "link": "https://www.bing.com/dict/search?q=instantaneous&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˌɪnstənˈteɪniəs",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/bb/9c/BB9CAE40AE357A12101C2F99F2FD127C.mp3"
+          },
+          {
+            "name": "英",
+            "value": ".ɪnstən'teɪniəs",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/bb/9c/BB9CAE40AE357A12101C2F99F2FD127C.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "adj.",
+            "terms": [
+              "立即的",
+              "立刻的",
+              "瞬间的"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "即刻的",
+              "瞬时的",
+              "即时的"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "Reconciliation",
+    "results": {
+      "GoogleWeb": {
+        "text": "Reconciliation",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=Reconciliation&op=translate",
+        "result": [
+          "和解"
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "和解"
+            ]
+          }
+        ],
+        "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=Reconciliation"
+      },
+      "DeepLWeb": {
+        "text": "Reconciliation",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/Reconciliation",
+        "dict": [
+          {
+            "terms": [
+              "对账"
+            ]
+          },
+          {
+            "terms": [
+              "和解"
+            ]
+          },
+          {
+            "terms": [
+              "调节"
+            ]
+          },
+          {
+            "terms": [
+              "调和"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "Reconciliation",
+        "link": "https://www.bing.com/dict/search?q=Reconciliation&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˌrekənsɪliˈeɪʃ(ə)n",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/55/6a/556A590B44E522FDE769DB46FA3A81AA.mp3"
+          },
+          {
+            "name": "英",
+            "value": ".rekənsɪli'eɪʃ(ə)n",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/55/6a/556A590B44E522FDE769DB46FA3A81AA.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "和解",
+              "协调",
+              "调解",
+              "和谐一致"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "调和",
+              "和好",
+              "对帐"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "retrieve",
+    "results": {
+      "GoogleWeb": {
+        "text": "retrieve",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=retrieve&op=translate",
+        "result": [
+          "取回"
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "取回",
+              "恢复"
+            ]
+          },
+          {
+            "pos": "v.",
+            "terms": [
+              "回收",
+              "挽回",
+              "纠正",
+              "复取"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "rəˈtrēv",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=retrieve"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "retrieve",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/retrieve",
+        "dict": [
+          {
+            "terms": [
+              "检索"
+            ]
+          },
+          {
+            "terms": [
+              "读取"
+            ]
+          },
+          {
+            "terms": [
+              "找回"
+            ]
+          },
+          {
+            "terms": [
+              "取回"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "retrieve",
+        "link": "https://www.bing.com/dict/search?q=retrieve&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "rɪˈtriv",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/4a/e6/4AE66DE518A3E59F4A79160688755964.mp3"
+          },
+          {
+            "name": "英",
+            "value": "rɪˈtriːv",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/4a/e6/4AE66DE518A3E59F4A79160688755964.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "v.",
+            "terms": [
+              "找回",
+              "取回",
+              "挽回",
+              "索回"
+            ]
+          },
+          {
+            "pos": "n.",
+            "terms": [
+              "恢复"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "检索",
+              "收回",
+              "重新得到"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "centralize",
+    "results": {
+      "GoogleWeb": {
+        "text": "centralize",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=centralize&op=translate",
+        "result": [
+          "集中"
+        ],
+        "dict": [
+          {
+            "pos": "v.",
+            "terms": [
+              "集中",
+              "施行中央集权"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "ˈsentrəˌlīz",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=centralize"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "centralize",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/centralize",
+        "dict": [
+          {
+            "terms": [
+              "集中"
+            ]
+          },
+          {
+            "terms": [
+              "中央"
+            ]
+          },
+          {
+            "terms": [
+              "中央集权"
+            ]
+          },
+          {
+            "terms": [
+              "集中起来"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "centralize",
+        "link": "https://www.bing.com/dict/search?q=centralize&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˈsentrəˌlaɪz",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/e6/3c/E63CD3894ED7E35422FDB1F13FE43576.mp3"
+          },
+          {
+            "name": "英",
+            "value": "ˈsentrəlaɪz",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/e6/3c/E63CD3894ED7E35422FDB1F13FE43576.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "v.",
+            "terms": [
+              "集权控制",
+              "实行集中"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "中央集权",
+              "集中式",
+              "中央集权化"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "sequentially",
+    "results": {
+      "GoogleWeb": {
+        "text": "sequentially",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=sequentially&op=translate",
+        "result": [
+          "依次地"
+        ],
+        "phonetic": [
+          {
+            "value": "səˈkwen(t)SHəlē",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=sequentially"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "sequentially",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/sequentially",
+        "dict": [
+          {
+            "terms": [
+              "先后"
+            ]
+          },
+          {
+            "terms": [
+              "依次"
+            ]
+          },
+          {
+            "terms": [
+              "顺序"
+            ]
+          },
+          {
+            "terms": [
+              "顺序地"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "sequentially",
+        "link": "https://www.bing.com/dict/search?q=sequentially&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/d7/1c/D71CFD601359AD5F4E625AA5D2E269CF.mp3"
+          },
+          {
+            "name": "英",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/d7/1c/D71CFD601359AD5F4E625AA5D2E269CF.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "adv.",
+            "terms": [
+              "连续地",
+              "相继地"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "顺序地",
+              "按顺序地",
+              "继续地"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "notably",
+    "results": {
+      "GoogleWeb": {
+        "text": "notably",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=notably&op=translate",
+        "result": [
+          "尤其"
+        ],
+        "phonetic": [
+          {
+            "value": "ˈnōdəblē",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=notably"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "notably",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/notably",
+        "dict": [
+          {
+            "terms": [
+              "尤其是"
+            ]
+          },
+          {
+            "terms": [
+              "尤其"
+            ]
+          },
+          {
+            "terms": [
+              "特别是"
+            ]
+          },
+          {
+            "terms": [
+              "尤其是在"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "notably",
+        "link": "https://www.bing.com/dict/search?q=notably&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˈnoʊtəbli",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/71/f5/71F54C33D12D3E0E230F4C5A6A20BF43.mp3"
+          },
+          {
+            "name": "英",
+            "value": "ˈnəʊtəbli",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/71/f5/71F54C33D12D3E0E230F4C5A6A20BF43.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "adv.",
+            "terms": [
+              "特别",
+              "非常",
+              "尤其",
+              "极大程度上"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "显著地",
+              "特别地",
+              "值得注意地"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "expressive",
+    "results": {
+      "GoogleWeb": {
+        "text": "expressive",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=expressive&op=translate",
+        "result": [
+          "富有表现力的"
+        ],
+        "dict": [
+          {
+            "pos": "adj.",
+            "terms": [
+              "雄辩",
+              "表达的",
+              "表现的"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "ikˈspresiv",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=expressive"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "expressive",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/expressive",
+        "dict": [
+          {
+            "terms": [
+              "表现力"
+            ]
+          },
+          {
+            "terms": [
+              "神"
+            ]
+          },
+          {
+            "terms": [
+              "神气"
+            ]
+          },
+          {
+            "terms": [
+              "表现"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "expressive",
+        "link": "https://www.bing.com/dict/search?q=expressive&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ɪkˈspresɪv",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/f6/e1/F6E146E8902224F32261DFA2B81331AE.mp3"
+          },
+          {
+            "name": "英",
+            "value": "ɪk'spresɪv",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/f6/e1/F6E146E8902224F32261DFA2B81331AE.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "adj.",
+            "terms": [
+              "表达",
+              "表现",
+              "表示",
+              "富于表情的"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "善于表达",
+              "表现的",
+              "有表现力的"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "dive",
+    "results": {
+      "GoogleWeb": {
+        "text": "dive",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=dive&op=translate",
+        "result": [
+          "潜水"
+        ],
+        "dict": [
+          {
+            "pos": "v.",
+            "terms": [
+              "潜水",
+              "跳水",
+              "潜入",
+              "踊跃"
+            ]
+          },
+          {
+            "pos": "n.",
+            "terms": [
+              "潜水",
+              "跳水"
+            ]
+          }
+        ],
+        "phonetic": [
+          {
+            "value": "dīv",
+            "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=dive"
+          }
+        ]
+      },
+      "DeepLWeb": {
+        "text": "dive",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/dive",
+        "dict": [
+          {
+            "terms": [
+              "跳水"
+            ]
+          },
+          {
+            "terms": [
+              "潜"
+            ]
+          },
+          {
+            "terms": [
+              "潜水"
+            ]
+          },
+          {
+            "terms": [
+              "潜泳"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "dive",
+        "link": "https://www.bing.com/dict/search?q=dive&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "daɪv",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/9f/42/9F429837EB363FEB564DEF0C49522F82.mp3"
+          },
+          {
+            "name": "英",
+            "value": "daɪv",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/9f/42/9F429837EB363FEB564DEF0C49522F82.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "潜水",
+              "跳水",
+              "俯冲",
+              "猛冲"
+            ]
+          },
+          {
+            "pos": "v.",
+            "terms": [
+              "猛冲",
+              "(头朝下)跳入水中",
+              "【体】跳水(运动)"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "潜入",
+              "潜入水中",
+              "下潜"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  },
+  {
+    "text": "recap",
+    "results": {
+      "GoogleWeb": {
+        "text": "recap",
+        "from": "英语",
+        "to": "中文(简体)",
+        "link": "https://translate.google.com/?sl=en&tl=zh-CN&text=recap&op=translate",
+        "result": [
+          "回顾"
+        ],
+        "dict": [
+          {
+            "pos": "v.",
+            "terms": [
+              "概括",
+              "翻新"
+            ]
+          },
+          {
+            "pos": "n.",
+            "terms": [
+              "概括",
+              "翻新",
+              "翻新的轮胎",
+              "翻新的胎面"
+            ]
+          }
+        ],
+        "ttsURI": "https://translate.googleapis.com/translate_tts?client=gtx&tl=en&ie=UTF-8&q=recap"
+      },
+      "DeepLWeb": {
+        "text": "recap",
+        "from": "英语",
+        "link": "https://www.deepl.com/translator#en/zh/recap",
+        "dict": [
+          {
+            "terms": [
+              "回顾"
+            ]
+          },
+          {
+            "terms": [
+              "简要回顾"
+            ]
+          },
+          {
+            "terms": [
+              "扼要说明"
+            ]
+          },
+          {
+            "terms": [
+              "扼述"
+            ]
+          }
+        ]
+      },
+      "BingDictWeb": {
+        "text": "recap",
+        "link": "https://www.bing.com/dict/search?q=recap&cc=cn",
+        "from": "英语",
+        "phonetic": [
+          {
+            "name": "美",
+            "value": "ˌriˈkæp",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/tom/c2/76/C2763416EEE81A6C67326E83EF4F8D55.mp3"
+          },
+          {
+            "name": "英",
+            "value": "ˌriːˈkæp",
+            "ttsURI": "https://dictionary.blob.core.chinacloudapi.cn/media/audio/george/c2/76/C2763416EEE81A6C67326E83EF4F8D55.mp3"
+          }
+        ],
+        "dict": [
+          {
+            "pos": "n.",
+            "terms": [
+              "同“recapitulation”",
+              "再生轮胎"
+            ]
+          },
+          {
+            "pos": "v.",
+            "terms": [
+              "=recapitulate",
+              "翻造(轮胎)"
+            ]
+          },
+          {
+            "pos": "网络: ",
+            "terms": [
+              "扼要重述",
+              "概括",
+              "回顾"
+            ]
+          }
+        ]
+      }
+    },
+    "dir": {
+      "from": "英语",
+      "to": "undefined"
+    }
+  }
+]
