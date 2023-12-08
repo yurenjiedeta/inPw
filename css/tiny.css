@@ -1,0 +1,63 @@
+/* 使用子元素来选择父级元素选择 */
+article:has(p) {}
+
+/* 比邻选择器 */
+header+p {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* 相邻 */
+header~img {
+    border: 4px solid crimson;
+}
+
+/* 伪类，不存在的type */
+a:link {
+    color: #1D70B8;
+}
+
+a:visited {
+    color: #4C2C92;
+}
+
+a:hover {
+    color: #003078;
+}
+
+a:focus {
+    outline: solid 1px crimson;
+}
+
+/* 伪元素 */
+header+p::first-letter {
+    color: crimson;
+    font-style: italic;
+}
+
+/* 属性选择器 */
+[lang="it"]::before {
+    content: " "
+}
+
+/* universal 选择器 */
+* {
+    font-family: sans-serif;
+}
+
+.foo * {
+    background: yellow;
+}
+
+/* shorthand 简写*/
+* {
+    padding: 10px;
+}
+
+* {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
