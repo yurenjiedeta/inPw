@@ -109,3 +109,24 @@ npx nrm use taobao
 npx nrm use npm
 ```
 
+- 总结
+
+```bash
+$ npm config get registry #当前
+$ npm config set registry https://registry.npmmirror.com/ # 设置淘宝
+$ npm config set registry https://registry.npmjs.org/ #还原
+
+
+$ yarn config get registry
+$ yarn config set registry https://registry.npmmirror.com/
+$ yarn config set registry https://registry.yarnpkg.com
+
+
+$ yarn config set electron_mirror https://npmmirror.com/mirrors/electron/
+
+
+$ nvm node_mirror https://npmmirror.com/mirrors/node/
+$ nvm npm_mirror  https://npmmirror.com/mirrors/npm/
+
+```
+
