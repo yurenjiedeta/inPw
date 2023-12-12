@@ -61,3 +61,21 @@ header+p::first-letter {
     padding-left: 10px;
 }
 
+/* 
+em：基于父级元素，如果父级是 12px ，当前为 .5em，那就是 12 * 0.5 = 6px 
+rem：是基于根元素 html 来进行计算
+*/
+
+/* 导入字体，Oswald ，并且同时导入  400粗体、700粗体 ，并且导入字体 PT Serif*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=PT+Serif&display=swap');
+
+/* font的简写
+font: font-style font-variant font-weight font-stretch font-size/line-height
+font-family
+*/
+
+
+/* 转字体为大写 */
+* {
+    text-transform: uppercase;
+}
