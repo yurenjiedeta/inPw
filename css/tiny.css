@@ -79,3 +79,10 @@ font-family
 * {
     text-transform: uppercase;
 }
+
+/* 一条命令引入多个字体 */
+* {
+    @import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
+}
+
+/* vh 单位：按照百分比来进行处理，100vh 就是 100% 的高度 */
