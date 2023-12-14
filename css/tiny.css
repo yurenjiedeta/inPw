@@ -86,3 +86,10 @@ font-family
 }
 
 /* vh 单位：按照百分比来进行处理，100vh 就是 100% 的高度 */
+
+/* object-fit  使图片不变形，另外属性  object-position */
+img.portrait {
+    object-fit: cover;
+}
+
+/* 1ch 相当于字形 0 占用的空间 */
