@@ -93,3 +93,5 @@ img.portrait {
 }
 
 /* 1ch 相当于字形 0 占用的空间 */
+
+/* inline的问题：当 inline 元素添加了 padding 后，高度的计算会出现问题 */
