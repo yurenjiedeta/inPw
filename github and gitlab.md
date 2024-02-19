@@ -98,3 +98,31 @@ https://user:xxxxxxxxx@github.com/duanwujiedeta/bf.git
 git init
 ```
 
+- 清除提交记录
+
+```bash
+# 创建新分支
+$ git checkout --orphan <new_branch>
+
+# 添加所有文件
+$ git add .
+# 或 git add -A
+
+# commit代码
+$ git commit -m "自定义提交说明"
+
+# 删除原来的主分支(master)
+$ git branch -D master
+
+# 把当前分支重命名为master
+$ git branch -m master
+
+# 最后把代码推送到远程仓库
+$ git push -f origin master
+
+# 从远程库拉取更新代码(测试)
+$ git pull
+# 如果别人pull不下来可以敲
+$ git pull -r
+```
+
