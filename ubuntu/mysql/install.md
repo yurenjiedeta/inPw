@@ -3,7 +3,7 @@
 ```bash
 $ sudo apt pruge mysql-*
 $ sudo rm -rf /etc/mysql/  /var/lib/mysql
-$ sudo auto apt autoremove
+$ sudo apt autoremove
 $ sudo apt autoclean
 # purge 完全删除
 # remove 仅删除包，不会删除配置文件
