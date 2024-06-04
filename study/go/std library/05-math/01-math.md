@@ -45,7 +45,7 @@ import (
 func main() {
     x := -5.0
     y := 10.0
-    fmt.Println(math.Copysign(x, y)) // 输出：-5
+    fmt.Println(math.Copysign(y, x)) // 输出：-10
 }
 ```
 
