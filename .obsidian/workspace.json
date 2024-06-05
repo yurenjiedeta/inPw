@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/go/std library/09-sort/02-Float64sAreSorted.md",
+                "file": "study/go/std library/11-os/01-ReadFile.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/go/std library/09-sort/02-Float64sAreSorted.md",
+                "file": "study/go/std library/11-os/01-ReadFile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/go/std library/09-sort/02-Float64sAreSorted.md",
+                "file": "study/go/std library/11-os/01-ReadFile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/go/std library/09-sort/02-Float64sAreSorted.md"
+                "file": "study/go/std library/11-os/01-ReadFile.md"
               }
             }
           }
@@ -148,31 +148,34 @@
   },
   "active": "da46f9a1535f8de8",
   "lastOpenFiles": [
-    "study/go/std library/09-sort/01-Float64s.md",
-    "study/go/std library/08-bufio/02-NewReaderSize.md",
-    "study/go/std library/08-bufio/01-NewReader.md",
-    "study/go/std library/07-io/13-LimitReader.md",
-    "study/go/std library/07-io/12-MultiWriter.md",
-    "study/go/std library/07-io/11-MultiReader.md",
-    "study/go/std library/07-io/10-Pipe.md",
-    "study/go/std library/07-io/09-WriteString.md",
-    "study/go/std library/07-io/08-ReadFull.md",
-    "study/go/std library/07-io/07-ReadAtLeast.md",
-    "study/go/std library/07-io/06-ReadAll.md",
-    "study/go/std library/07-io/05-CopyN.md",
-    "study/go/std library/07-io/04-CopyBuffer.md",
-    "study/go/std library/07-io/03-Copy.md",
-    "study/go/std library/07-io/02-Write.md",
-    "study/go/std library/07-io/01-Read.md",
-    "study/go/std library/06-time/21-Reset.md",
-    "study/go/std library/06-time/20-Stop.md",
-    "study/go/std library/06-time/19-C.md",
-    "study/go/std library/06-time/18-NewTimer.md",
-    "study/go/std library/06-time/17-Tick.md",
-    "study/go/std library/06-time/16-After.md",
-    "study/go/std library/06-time/15-AfterFunc.md",
-    "study/go/std library/06-time/14-Sleep.md",
-    "study/go/std library/06-time/13-ParseDuration.md",
-    "study/go/std library/06-time/12-Until.md"
+    "study/go/std library/10-json/12-Float64.md",
+    "study/go/std library/10-json/11-Int64.md",
+    "study/go/std library/10-json/10-UseNumber.md",
+    "study/go/std library/10-json/09-DisallowUnknownFields.md",
+    "study/go/std library/10-json/08-Customizing.md",
+    "study/go/std library/10-json/07-MarshalIndent.md",
+    "study/go/std library/10-json/06-SetEscapeHTML.md",
+    "study/go/std library/10-json/05-SetIndent.md",
+    "study/go/std library/10-json/04-Unmarshal.md",
+    "study/go/std library/10-json/03-Marshal.md",
+    "study/go/std library/10-json/02-Decode.md",
+    "study/go/std library/10-json/01-NewEncoder.md",
+    "study/go/std library/12-filepath/01-common.md",
+    "study/go/std library/11-os/02-Open.md",
+    "study/go/std library/11-os/01-ReadFile.md",
+    "study/go/std library/09-sort/02-Float64sAreSorted.md",
+    "study/go/std library/12-filepath/04-WalkDir.md",
+    "study/go/std library/12-filepath/03-Glob.md",
+    "study/go/std library/12-filepath/02-Match.md",
+    "study/go/std library/12-filepath",
+    "study/go/std library/11-os/15-Stat.md",
+    "study/go/std library/11-os/14-info.md",
+    "study/go/std library/11-os/13-dir-cal.md",
+    "study/go/std library/11-os/12-Getwd.md",
+    "study/go/std library/11-os/11-Remove.md",
+    "study/go/std library/11-os/10-Create.md",
+    "study/go/std library/11-os/09-WriteAt.md",
+    "study/go/std library/11-os",
+    "study/go/std library/10-json"
   ]
 }

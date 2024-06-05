@@ -1,3 +1,9 @@
+```txt
+1、新建一个流（可以是文件流、输出流、http流等）；
+2、用流做参数，生成encode；
+3、最后encode结构体。
+```
+
 `encoding/json`包中的`NewEncoder`方法用于创建一个新的JSON编码器。该方法返回一个`*json.Encoder`，它可以将Go数据结构编码为JSON，并写入到指定的`io.Writer`中。以下是一些常见的使用场景及其输出示例和注释：
 
 ### 场景1：将结构体编码为JSON并写入文件

@@ -1,3 +1,9 @@
+```
+1、提供一个json字符串reader流；
+2、利用流来创建一个Decoder；
+3、把流Decode到结构体中。
+```
+
 `encoding/json`包中的`NewDecoder`方法用于创建一个新的`json.Decoder`，该解码器从指定的`io.Reader`读取JSON数据并解码。下面是一些常见的使用场景，以及相应的输出和注释。
 
 ### 场景 1：从字符串解码
