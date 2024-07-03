@@ -1,7 +1,7 @@
 - 卸载
 
 ```bash
-$ sudo apt pruge mysql-*
+$ sudo apt purge mysql-*
 $ sudo rm -rf /etc/mysql/  /var/lib/mysql
 $ sudo apt autoremove
 $ sudo apt autoclean
