@@ -6,9 +6,6 @@ disabled_plugins = []
 
 $ systemctl restart containerd
 $ kubeadm init
-
-
-sudo kubeadm init --pod-network-cidr=192.168.0.0/16 --apiserver-advertise-address=10.10.10.2 --ignore-preflight-errors=all 
 ```
 
 ```bash
