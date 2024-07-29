@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+      - ./nginx/snippets:/etc/nginx/snippets
+      - ./public:/var/www/html
+    depends_on:
+      - php
+    networks:
+      - my_network
+
+  php:
+    image: php:8.0-fpm
+    container_name: php
+    volumes:
+      - ./public:/var/www/html
+    networks:
+      - my_network
+
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: my_database
+      MYSQL_USER: user
+      MYSQL_PASSWORD: user_password
+      MYSQL_ROOT_HOST: '%'
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+    networks:
+      - my_network
+
+networks:
+  my_network:
+
+volumes:
+  db_data:
+
