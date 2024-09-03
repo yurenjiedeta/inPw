@@ -60,3 +60,52 @@ body {
 ```
 
 这个方法假设 `10vw` 和 `16px` 是直接对应的，如果有更复杂的情况，比如包含媒体查询等复杂CSS规则，可能需要进一步调整正则表达式和处理逻辑。
+
+
+
+
+
+----
+
+要将 CSS 文本中基于 `font-size: 10vw` 的 `rem` 单位转换为基于 `font-size: 16px` 的 `rem` 单位，可以编写一个 JavaScript 函数。这需要解析 CSS 文本并进行适当的转换。以下是该功能的实现：
+
+```javascript
+function convertRem(cssText) {
+    // 计算10vw和16px情况下的rem基准值
+    const vwToPxRatio = window.innerWidth * 0.10;  // 10vw转为px
+    const remBaseFromVW = vwToPxRatio / 16;  // 将10vw为基准的rem值转换为16px基准的rem值
+
+    // 使用正则表达式匹配并转换rem值
+    return cssText.replace(/(\d*\.?\d+)rem/g, function(match, remValue) {
+        const valueInRem = parseFloat(remValue);
+        const newValue = valueInRem * remBaseFromVW;
+        return `${newValue}rem`;
+    });
+}
+
+// 示例CSS文本
+const cssText = `
+  .example {
+    font-size: 1.5rem;
+    padding: 2rem;
+    margin-top: 0.5rem;
+  }
+`;
+
+// 转换后的CSS文本
+const convertedCssText = convertRem(cssText);
+console.log(convertedCssText);
+```
+
+### 解释：
+1. **计算转换系数**：
+   - `vwToPxRatio`：计算`10vw`对应的像素值。
+   - `remBaseFromVW`：计算以`10vw`为基准的`rem`值与基于`16px`的`rem`值的比率。
+
+2. **替换CSS中的rem值**：
+   - 使用正则表达式`/(\d*\.?\d+)rem/g`匹配`rem`值，并将其转换为基于`16px`的`rem`值。
+
+3. **示例使用**：
+   - 给定一段CSS文本，函数会输出替换后的CSS文本。
+
+你可以通过这个函数转换任何CSS字符串中使用`rem`单位的部分，使其基于`16px`的`rem`单位来计算。
