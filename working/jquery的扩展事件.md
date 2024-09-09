@@ -1,11 +1,8 @@
-你可以通过扩展 jQuery 来实现检测重复绑定事件的功能。具体思路是对 `on`、`click` 等事件方法进行封装，记录每个元素上已绑定的事件，判断相同事件是否已经存在，如果存在则不再重复绑定。下面是一个示例代码，展示如何扩展 jQuery 来实现这个功能。
+在上面的代码基础上，我们可以添加一个方法来重置 `eventsStore`，从而清除已绑定的事件记录。通过这个方法，用户可以在需要的时候重置元素上已经记录的事件信息，允许重复绑定相同的事件。
 
-### 主要步骤：
-1. 重写 `$.fn.on`、`$.fn.click` 等方法。
-2. 利用数据存储（如 `$.data()` 或 `element.data()`）在元素上保存已绑定事件的记录。
-3. 每次绑定事件时检查是否已经存在相同事件。
+可以添加一个 `clearEventsStore` 方法，用于清除特定元素上保存的已绑定事件的记录。
 
-以下是一个示例代码，重写了 `on` 和 `click` 事件方法：
+### 修改后的代码：
 
 ```javascript
 (function($) {
@@ -50,15 +47,21 @@
         return this.bindOnce('click', null, null, handler); // 使用 bindOnce 方法绑定 click 事件
     };
 
+    // 添加清除已绑定事件的记录的方法
+    $.fn.clearEventsStore = function() {
+        this.removeData('__bound_events'); // 删除事件记录
+        console.log('Event store cleared for element.');
+        return this;
+    };
+
 })(jQuery);
 ```
 
-### 解释：
-- `$.fn.bindOnce`：这是一个通用的事件绑定方法。它将事件的相关信息（事件名、事件处理器、选择器等）作为键值对存储在元素的 `__bound_events` 数据对象中。每次尝试绑定事件时，会先检查是否已经存在相同的键，如果存在则跳过绑定。
-- `$.fn.on`：重写了 jQuery 的 `on` 方法，使用 `bindOnce` 来检查和绑定事件。
-- `$.fn.click`：重写了 jQuery 的 `click` 方法，保证点击事件不会重复绑定。
+### 新增功能：
+- `$.fn.clearEventsStore`：这个方法用于清除元素上保存的 `__bound_events` 数据对象。调用此方法后，之前记录的已绑定事件信息会被清除，允许重新绑定相同的事件。
 
 ### 使用示例：
+
 ```javascript
 // 初次绑定
 $('#myElement').on('click', function() {
@@ -67,13 +70,22 @@ $('#myElement').on('click', function() {
 
 // 再次绑定相同的事件不会重复绑定
 $('#myElement').on('click', function() {
-    console.log('Clicked!');
+    console.log('Clicked again!');
 });
 
 // 绑定不同的事件处理器还是有效的
 $('#myElement').on('click', function() {
     console.log('Another handler!');
 });
+
+// 清除事件绑定记录，允许重新绑定相同事件
+$('#myElement').clearEventsStore();
+
+// 现在可以重新绑定相同的事件处理器
+$('#myElement').on('click', function() {
+    console.log('Clicked after reset!');
+});
 ```
 
-这样，你可以确保相同的事件不会在同一个元素上重复绑定，而不同的事件处理器仍然可以正常绑定。
+### 解释：
+- `clearEventsStore` 方法清除了元素的事件记录，之后相同的事件处理器可以再次绑定。
