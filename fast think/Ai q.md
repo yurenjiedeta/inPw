@@ -24,3 +24,22 @@ currentParent.children在什么时候会改变，改变的规则逻辑是什么�
 }给出对应的源码段，说明函数initEvents中，vm.$options._parentListeners是在哪里进行初始化的？然后怎么一步步进入到initEvents的调用的？
 ```
 
+```tex
+function createWatcher (
+  vm,
+  expOrFn,
+  handler,
+  options
+) {
+  if (isPlainObject(handler)) {
+    options = handler;
+    handler = handler.handler;
+  }
+  if (typeof handler === 'string') {
+    handler = vm[handler];
+  }
+  return vm.$watch(expOrFn, handler, options)
+}
+在vue2.6.14版本的源码中，结合源代码和例子，帮我解析上面函数createWatcher在被调用的时候实参的来龙去脉
+```
+
