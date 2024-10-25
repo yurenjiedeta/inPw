@@ -12,3 +12,15 @@ currentParent.children在什么时候会改变，改变的规则逻辑是什么�
 为上面的函数提供不同场景的参数，输出生成后的字符串的例子
 ```
 
+```tex
+在vue2.6.14版本的源码中：针对函数function initEvents (vm) { 
+  vm._events = Object.create(null);
+  vm._hasHookEvent = false;
+  // init parent attached events
+  var listeners = vm.$options._parentListeners;
+  if (listeners) {
+    updateComponentListeners(vm, listeners);
+  }
+}给出对应的源码段，说明函数initEvents中，vm.$options._parentListeners是在哪里进行初始化的？然后怎么一步步进入到initEvents的调用的？
+```
+
