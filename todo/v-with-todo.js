@@ -62,7 +62,7 @@ function toRawType (value) {
  * Strict object type check. Only returns true
  * for plain JavaScript objects.
  */
-function isPlainObject (obj) {
+function isPlainObject (obj) {// TODO: mergeOptions 2-3
   return _toString.call(obj) === '[object Object]'
 }
 
@@ -127,7 +127,7 @@ function makeMap (
 /**
  * Check if a tag is a built-in tag.
  */
-var isBuiltInTag = makeMap('slot,component', true);
+var isBuiltInTag = makeMap('slot,component', true);// TODO: mergeOptions 1-1-1 1
 
 /**
  * Check if an attribute is a reserved attribute.
@@ -169,7 +169,7 @@ function cached (fn) {
  * Camelize a hyphen-delimited string.
  */
 var camelizeRE = /-(\w)/g;
-var camelize = cached(function (str) {
+var camelize = cached(function (str) {// TODO: mergeOptions 2-1
   return str.replace(camelizeRE, function (_, c) { return c ? c.toUpperCase() : ''; })
 });
 
@@ -621,7 +621,7 @@ var formatComponentName = (noop);
     .replace(classifyRE, function (c) { return c.toUpperCase(); })
     .replace(/[-_]/g, ''); };
 
-  warn = function (msg, vm) {
+  warn = function (msg, vm) {// TODO: mergeOptions 2-2
     var trace = vm ? generateComponentTrace(vm) : '';
 
     if (config.warnHandler) {
@@ -639,7 +639,7 @@ var formatComponentName = (noop);
     }
   };
 
-  formatComponentName = function (vm, includeFile) {
+  formatComponentName = function (vm, includeFile) {// TODO: 2-13
     if (vm.$root === vm) {
       return '<Root>'
     }
@@ -1399,13 +1399,13 @@ var defaultStrat = function (parentVal, childVal) {
 /**
  * Validate component names
  */
-function checkComponents (options) {
+function checkComponents (options) {// TODO: mergeOptions 1-1
   for (var key in options.components) {
     validateComponentName(key);
   }
 }
 
-function validateComponentName (name) {
+function validateComponentName (name) {// TODO: mergeOptions 1-1-1
   if (!new RegExp(("^[a-zA-Z][\\-\\.0-9_" + (unicodeRegExp.source) + "]*$")).test(name)) {
     warn(
       'Invalid component name: "' + name + '". Component names ' +
@@ -1424,7 +1424,7 @@ function validateComponentName (name) {
  * Ensure all props option syntax are normalized into the
  * Object-based format.
  */
-function normalizeProps (options, vm) {
+function normalizeProps (options, vm) {// TODO: mergeOptions 2
   var props = options.props;
   if (!props) { return }
   var res = {};
@@ -1461,7 +1461,7 @@ function normalizeProps (options, vm) {
 /**
  * Normalize all injections into Object-based format
  */
-function normalizeInject (options, vm) {
+function normalizeInject (options, vm) {// TODO: mergeOptions 3
   var inject = options.inject;
   if (!inject) { return }
   var normalized = options.inject = {};
@@ -1514,11 +1514,11 @@ function assertObjectType (name, value, vm) {
  * Merge two option objects into a new one.
  * Core utility used in both instantiation and inheritance.
  */
-function mergeOptions (
+function mergeOptions (// TODO: mergeOptions
   parent,
   child,
   vm
-) {
+) {// TODO: 2-03
   {
     checkComponents(child);
   }
@@ -2110,7 +2110,7 @@ var initProxy;
     }
   };
 
-  initProxy = function initProxy (vm) {/* TODO:4 */
+  initProxy = function initProxy (vm) {// TODO: 2-04
     if (hasProxy) {
       // determine which proxy handler to use
       var options = vm.$options;
@@ -2163,7 +2163,7 @@ function _traverse (val, seen) {
 
 /*  */
 
-var normalizeEvent = cached(function (name) {/* TODO:9 */
+var normalizeEvent = cached(function (name) {
   var passive = name.charAt(0) === '&';
   name = passive ? name.slice(1) : name;
   var once$$1 = name.charAt(0) === '~'; // Prefixed last, checked first
@@ -2178,7 +2178,7 @@ var normalizeEvent = cached(function (name) {/* TODO:9 */
   }
 });
 
-function createFnInvoker (fns, vm) {/* TODO:10 */
+function createFnInvoker (fns, vm) {
   function invoker () {
     var arguments$1 = arguments;
 
@@ -2204,7 +2204,7 @@ function updateListeners (
   remove$$1,
   createOnceHandler,
   vm
-) {/* TODO:8 */
+) {
   var name, def$$1, cur, old, event;
   for (name in on) {
     def$$1 = cur = on[name];
@@ -2428,7 +2428,7 @@ function normalizeArrayChildren (children, nestedIndex) {
 
 /*  */
 
-function initProvide (vm) {
+function initProvide (vm) {// TODO: 2-11
   var provide = vm.$options.provide;
   if (provide) {
     vm._provided = typeof provide === 'function'
@@ -2437,7 +2437,7 @@ function initProvide (vm) {
   }
 }
 
-function initInjections (vm) {
+function initInjections (vm) {// TODO: 2-09
   var result = resolveInject(vm.$options.inject, vm);
   if (result) {
     toggleObserving(false);
@@ -3499,7 +3499,7 @@ function registerDeepBindings (data) {
 
 /*  */
 
-function initRender (vm) {
+function initRender (vm) {// TODO: 2-07
   vm._vnode = null; // the root of the child tree
   vm._staticTrees = null; // v-once cached trees
   var options = vm.$options;
@@ -3771,7 +3771,7 @@ function getFirstComponentChild (children) {
 
 /*  */
 
-function initEvents (vm) {/* TODO:6 */
+function initEvents (vm) {// TODO: 2-06
   vm._events = Object.create(null);
   vm._hasHookEvent = false;
   // init parent attached events
@@ -3805,7 +3805,7 @@ function updateComponentListeners (
   vm,
   listeners,
   oldListeners
-) {/* TODO:7 */
+) {
   target = vm;
   updateListeners(listeners, oldListeners || {}, add, remove$1, createOnceHandler, vm);
   target = undefined;
@@ -3917,7 +3917,7 @@ function setActiveInstance(vm) {
   }
 }
 
-function initLifecycle (vm) {/* TODO:5 */
+function initLifecycle (vm) {// TODO: 2-05
   var options = vm.$options;
 
   // locate first non-abstract parent
@@ -4222,7 +4222,7 @@ function deactivateChildComponent (vm, direct) {
   }
 }
 
-function callHook (vm, hook) {
+function callHook (vm, hook) {// TODO: 2-08 2-012
   // #7573 disable dep collection when invoking lifecycle hooks
   pushTarget();
   var handlers = vm.$options[hook];
@@ -4641,7 +4641,7 @@ function proxy (target, sourceKey, key) {
   Object.defineProperty(target, key, sharedPropertyDefinition);
 }
 
-function initState (vm) {
+function initState (vm) {// TODO: 2-10
   vm._watchers = [];
   var opts = vm.$options;
   if (opts.props) { initProps(vm, opts.props); }
@@ -4968,7 +4968,7 @@ function stateMixin (Vue) {
 var uid$3 = 0;
 
 function initMixin (Vue) {
-  Vue.prototype._init = function (options) {// TODO: 2 _init
+  Vue.prototype._init = function (options) {// TODO: 2 init
     var vm = this;
     // a uid
     vm._uid = uid$3++;
@@ -5024,7 +5024,7 @@ function initMixin (Vue) {
   };
 }
 
-function initInternalComponent (vm, options) {/* TODO:3 */
+function initInternalComponent (vm, options) {// TODO: 2-01
   var opts = vm.$options = Object.create(vm.constructor.options);
   // doing this because it's faster than dynamic enumeration.
   var parentVnode = options._parentVnode;
@@ -5043,7 +5043,7 @@ function initInternalComponent (vm, options) {/* TODO:3 */
   }
 }
 
-function resolveConstructorOptions (Ctor) {/* TODO:3 */
+function resolveConstructorOptions (Ctor) {// TODO: 2-02
   var options = Ctor.options;
   if (Ctor.super) {
     var superOptions = resolveConstructorOptions(Ctor.super);
@@ -5651,7 +5651,7 @@ var isSVG = makeMap(
 
 var isPreTag = function (tag) { return tag === 'pre'; };
 
-var isReservedTag = function (tag) {
+var isReservedTag = function (tag) {// TODO: mergeOptions 1-1-1 2
   return isHTMLTag(tag) || isSVG(tag)
 };
 
@@ -11923,7 +11923,7 @@ var mount = Vue.prototype.$mount;
 Vue.prototype.$mount = function (
   el,
   hydrating
-) {
+) {// TODO: 2-14
   el = el && query(el);
 
   /* istanbul ignore if */
