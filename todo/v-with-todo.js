@@ -62,7 +62,7 @@ function toRawType (value) {
  * Strict object type check. Only returns true
  * for plain JavaScript objects.
  */
-function isPlainObject (obj) {// TODO: mergeOptions 2-3
+function isPlainObject (obj) {// TODO: mergeOptions 02-3 isPlainObject
   return _toString.call(obj) === '[object Object]'
 }
 
@@ -127,7 +127,7 @@ function makeMap (
 /**
  * Check if a tag is a built-in tag.
  */
-var isBuiltInTag = makeMap('slot,component', true);// TODO: mergeOptions 1-1-1 1
+var isBuiltInTag = makeMap('slot,component', true);// TODO: mergeOptions 01-1-1 1
 
 /**
  * Check if an attribute is a reserved attribute.
@@ -169,7 +169,7 @@ function cached (fn) {
  * Camelize a hyphen-delimited string.
  */
 var camelizeRE = /-(\w)/g;
-var camelize = cached(function (str) {// TODO: mergeOptions 2-1
+var camelize = cached(function (str) {// TODO: mergeOptions 02-1 camelize
   return str.replace(camelizeRE, function (_, c) { return c ? c.toUpperCase() : ''; })
 });
 
@@ -621,7 +621,7 @@ var formatComponentName = (noop);
     .replace(classifyRE, function (c) { return c.toUpperCase(); })
     .replace(/[-_]/g, ''); };
 
-  warn = function (msg, vm) {// TODO: mergeOptions 2-2
+  warn = function (msg, vm) {// TODO: mergeOptions 02-2 warn
     var trace = vm ? generateComponentTrace(vm) : '';
 
     if (config.warnHandler) {
@@ -1216,8 +1216,8 @@ function mergeDataOrFn (
       return parentVal
     }
     if (!parentVal) {
-      return childVal
-    }
+      return childVal // TODO: mergeOptions 09 provide
+    }// TODO: mergeOptions 07-1
     // when parentVal & childVal are both present,
     // we need to return a function that returns the
     // merged result of both functions... no need to
@@ -1254,7 +1254,7 @@ strats.data = function (
 ) {
   if (!vm) {
     if (childVal && typeof childVal !== 'function') {
-      warn(
+      warn(// TODO: mergeOptions 07 data
         'The "data" option should be a function ' +
         'that returns a per-instance value in component ' +
         'definitions.',
@@ -1275,7 +1275,7 @@ strats.data = function (
 function mergeHook (
   parentVal,
   childVal
-) {
+) {// TODO: mergeOptions 05 mergeHook
   var res = childVal
     ? parentVal
       ? parentVal.concat(childVal)
@@ -1315,7 +1315,7 @@ function mergeAssets (
   vm,
   key
 ) {
-  var res = Object.create(parentVal || null);
+  var res = Object.create(parentVal || null);// TODO: mergeOptions 08 mergeAssets
   if (childVal) {
     assertObjectType(key, childVal, vm);
     return extend(res, childVal)
@@ -1345,7 +1345,7 @@ strats.watch = function (
   if (childVal === nativeWatch) { childVal = undefined; }
   /* istanbul ignore if */
   if (!childVal) { return Object.create(parentVal || null) }
-  {
+  {// TODO: mergeOptions 10 watch
     assertObjectType(key, childVal, vm);
   }
   if (!parentVal) { return childVal }
@@ -1380,7 +1380,7 @@ strats.computed = function (
     assertObjectType(key, childVal, vm);
   }
   if (!parentVal) { return childVal }
-  var ret = Object.create(null);
+  var ret = Object.create(null); // TODO: mergeOptions 06 computed/props/methods/inject
   extend(ret, parentVal);
   if (childVal) { extend(ret, childVal); }
   return ret
@@ -1390,7 +1390,7 @@ strats.provide = mergeDataOrFn;
 /**
  * Default strategy.
  */
-var defaultStrat = function (parentVal, childVal) {
+var defaultStrat = function (parentVal, childVal) {// TODO: mergeOptions 11 defaultStrat
   return childVal === undefined
     ? parentVal
     : childVal
@@ -1399,13 +1399,13 @@ var defaultStrat = function (parentVal, childVal) {
 /**
  * Validate component names
  */
-function checkComponents (options) {// TODO: mergeOptions 1-1
+function checkComponents (options) {// TODO: mergeOptions 01-1 checkComponents
   for (var key in options.components) {
     validateComponentName(key);
   }
 }
 
-function validateComponentName (name) {// TODO: mergeOptions 1-1-1
+function validateComponentName (name) {// TODO: mergeOptions 01-1-1
   if (!new RegExp(("^[a-zA-Z][\\-\\.0-9_" + (unicodeRegExp.source) + "]*$")).test(name)) {
     warn(
       'Invalid component name: "' + name + '". Component names ' +
@@ -1424,7 +1424,7 @@ function validateComponentName (name) {// TODO: mergeOptions 1-1-1
  * Ensure all props option syntax are normalized into the
  * Object-based format.
  */
-function normalizeProps (options, vm) {// TODO: mergeOptions 2
+function normalizeProps (options, vm) {// TODO: mergeOptions 02 normalizeProps
   var props = options.props;
   if (!props) { return }
   var res = {};
@@ -1461,7 +1461,7 @@ function normalizeProps (options, vm) {// TODO: mergeOptions 2
 /**
  * Normalize all injections into Object-based format
  */
-function normalizeInject (options, vm) {// TODO: mergeOptions 3
+function normalizeInject (options, vm) {// TODO: mergeOptions 03 normalizeInject
   var inject = options.inject;
   if (!inject) { return }
   var normalized = options.inject = {};
@@ -1488,7 +1488,7 @@ function normalizeInject (options, vm) {// TODO: mergeOptions 3
 /**
  * Normalize raw function directives into object format.
  */
-function normalizeDirectives (options) {
+function normalizeDirectives (options) {// TODO: mergeOptions 04 normalizeDirectives
   var dirs = options.directives;
   if (dirs) {
     for (var key in dirs) {
@@ -5651,7 +5651,7 @@ var isSVG = makeMap(
 
 var isPreTag = function (tag) { return tag === 'pre'; };
 
-var isReservedTag = function (tag) {// TODO: mergeOptions 1-1-1 2
+var isReservedTag = function (tag) {// TODO: mergeOptions 01-1-1 2
   return isHTMLTag(tag) || isSVG(tag)
 };
 
