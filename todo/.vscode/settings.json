@@ -15,7 +15,13 @@
         "02init vm.$mount",
         "03createCompileToFunctionFn",
         "04compile",
-        "05parseHTML"
+        "05parseHTML",
+        "06generate",
+        "p options.start",
+        "p closeElement",
+        "s ------------------",
+        "s genElement",
+        "s genData$2"
     ],
     "todo-tree.highlights.customHighlight": {
         "TODO": {

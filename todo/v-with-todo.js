@@ -5649,7 +5649,7 @@ var isSVG = makeMap(
   true
 );
 
-var isPreTag = function (tag) { return tag === 'pre'; };
+var isPreTag = function (tag) { return tag === 'pre'; };// p options.start 04 isPreTag
 
 var isReservedTag = function (tag) {// mergeOptions 01-1-1 2
   return isHTMLTag(tag) || isSVG(tag)
@@ -6866,7 +6866,7 @@ var klass = {
 
 var validDivisionCharRE = /[\w).+\-_$\]]/;
 
-function parseFilters (exp) {
+function parseFilters (exp) {// p closeElement 02-06-02 parseFilters
   var inSingle = false;
   var inDouble = false;
   var inTemplateString = false;
@@ -6979,12 +6979,12 @@ function pluckModuleFunction (
     : []
 }
 
-function addProp (el, name, value, range, dynamic) {
+function addProp (el, name, value, range, dynamic) {// p closeElement 02-06-05 addProp
   (el.props || (el.props = [])).push(rangeSetItem({ name: name, value: value, dynamic: dynamic }, range));
   el.plain = false;
 }
 
-function addAttr (el, name, value, range, dynamic) {
+function addAttr (el, name, value, range, dynamic) {// p closeElement 02-06-06 addAttr
   var attrs = dynamic
     ? (el.dynamicAttrs || (el.dynamicAttrs = []))
     : (el.attrs || (el.attrs = []));
@@ -7007,7 +7007,7 @@ function addDirective (
   isDynamicArg,
   modifiers,
   range
-) {
+) {// p closeElement 02-06-07 addDirective
   (el.directives || (el.directives = [])).push(rangeSetItem({
     name: name,
     rawName: rawName,
@@ -7034,7 +7034,7 @@ function addHandler (
   warn,
   range,
   dynamic
-) {
+) {// p closeElement 02-06-04 addHandler
   modifiers = modifiers || emptyObject;
   // warn prevent and passive modifier
   /* istanbul ignore if */
@@ -7229,7 +7229,7 @@ function genComponentModel (
 function genAssignmentCode (
   value,
   assignment
-) {
+) {// p closeElement 02-06-03 genAssignmentCode
   var res = parseModel(value);
   if (res.key === null) {
     return (value + "=" + assignment)
@@ -7350,7 +7350,7 @@ function model (
   el,
   dir,
   _warn
-) {
+) {   // s genData$2 01-03 model ---
   warn$1 = _warn;
   var value = dir.value;
   var modifiers = dir.modifiers;
@@ -9126,7 +9126,7 @@ var buildRegex = cached(function (delimiters) {
 function parseText (
   text,
   delimiters
-) {
+) {// p closeElement 02-06-09 parseText
   var tagRE = delimiters ? buildRegex(delimiters) : defaultTagRE;
   if (!tagRE.test(text)) {
     return
@@ -9160,7 +9160,7 @@ function parseText (
 
 /*  */
 
-function transformNode (el, options) {
+function transformNode (el, options) {// p closeElement 02-01 transformNode
   var warn = options.warn || baseWarn;
   var staticClass = getAndRemoveAttr(el, 'class');
   if (staticClass) {
@@ -9203,7 +9203,7 @@ var klass$1 = {
 
 /*  */
 
-function transformNode$1 (el, options) {
+function transformNode$1 (el, options) {// p closeElement 02-01 transformNode
   var warn = options.warn || baseWarn;
   var staticStyle = getAndRemoveAttr(el, 'style');
   if (staticStyle) {
@@ -9615,7 +9615,7 @@ function createASTElement (
   tag,
   attrs,
   parent
-) {
+) {// p options.start 02 createASTElement
   return {
     type: 1,
     tag: tag,
@@ -9669,7 +9669,7 @@ function parse (
   }
 
   function closeElement (element) {// 05parseHTML 07-01-01 closeElement ----
-    trimEndingWhitespace(element);
+    trimEndingWhitespace(element);// p closeElement
     if (!inVPre && !element.processed) {
       element = processElement(element, options);
     }
@@ -9728,7 +9728,7 @@ function parse (
     }
   }
 
-  function trimEndingWhitespace (el) {
+  function trimEndingWhitespace (el) {// p closeElement 01 trimEndingWhitespace
     // remove trailing whitespace node
     if (!inPre) {
       var lastNode;
@@ -9742,8 +9742,8 @@ function parse (
     }
   }
 
-  function checkRootConstraints (el) {
-    if (el.tag === 'slot' || el.tag === 'template') {
+  function checkRootConstraints (el) {// p options.start 09 checkRootConstraints
+    if (el.tag === 'slot' || el.tag === 'template') {// p closeElement 02 checkRootConstraints
       warnOnce(
         "Cannot use <" + (el.tag) + "> as component root element because it may " +
         'contain multiple nodes.',
@@ -9772,7 +9772,7 @@ function parse (
       // check namespace.
       // inherit parent ns if there is one
       var ns = (currentParent && currentParent.ns) || platformGetTagNamespace(tag);
-
+      // p options.start
       // handle IE svg bug
       /* istanbul ignore if */
       if (isIE && ns === 'svg') {
@@ -9866,7 +9866,7 @@ function parse (
       closeElement(element);
     },
 
-    chars: function chars (text, start, end) {// 05parseHTML 08
+    chars: function chars (text, start, end) {// 05parseHTML 08 options.charts
       if (!currentParent) {
         {
           if (text === template) {
@@ -9957,13 +9957,13 @@ function parse (
   return root
 }
 
-function processPre (el) {
+function processPre (el) {// p options.start 03 processPre
   if (getAndRemoveAttr(el, 'v-pre') != null) {
     el.pre = true;
   }
 }
 
-function processRawAttrs (el) {
+function processRawAttrs (el) {// p options.start 05 processRawAttrs
   var list = el.attrsList;
   var len = list.length;
   if (len) {
@@ -9987,7 +9987,7 @@ function processRawAttrs (el) {
 function processElement (
   element,
   options
-) {
+) {// p closeElement 02 processElement
   processKey(element);
 
   // determine whether this is a plain element after
@@ -10009,7 +10009,7 @@ function processElement (
   return element
 }
 
-function processKey (el) {
+function processKey (el) {// p closeElement 02-01 processKey
   var exp = getBindingAttr(el, 'key');
   if (exp) {
     {
@@ -10036,7 +10036,7 @@ function processKey (el) {
   }
 }
 
-function processRef (el) {
+function processRef (el) {// p closeElement 02-02 processRef
   var ref = getBindingAttr(el, 'ref');
   if (ref) {
     el.ref = ref;
@@ -10044,7 +10044,7 @@ function processRef (el) {
   }
 }
 
-function processFor (el) {
+function processFor (el) {// p options.start 06 processFor
   var exp;
   if ((exp = getAndRemoveAttr(el, 'v-for'))) {
     var res = parseFor(exp);
@@ -10061,7 +10061,7 @@ function processFor (el) {
 
 
 
-function parseFor (exp) {
+function parseFor (exp) {// p options.start 06-01 parseFor
   var inMatch = exp.match(forAliasRE);
   if (!inMatch) { return }
   var res = {};
@@ -10080,7 +10080,7 @@ function parseFor (exp) {
   return res
 }
 
-function processIf (el) {
+function processIf (el) {// p options.start 07 processIf
   var exp = getAndRemoveAttr(el, 'v-if');
   if (exp) {
     el.if = exp;
@@ -10099,7 +10099,7 @@ function processIf (el) {
   }
 }
 
-function processIfConditions (el, parent) {
+function processIfConditions (el, parent) {// p closeElement 04 processIfConditions
   var prev = findPrevElement(parent.children);
   if (prev && prev.if) {
     addIfCondition(prev, {
@@ -10115,7 +10115,7 @@ function processIfConditions (el, parent) {
   }
 }
 
-function findPrevElement (children) {
+function findPrevElement (children) {// p closeElement 04-01 findPrevElement
   var i = children.length;
   while (i--) {
     if (children[i].type === 1) {
@@ -10133,14 +10133,14 @@ function findPrevElement (children) {
   }
 }
 
-function addIfCondition (el, condition) {
-  if (!el.ifConditions) {
+function addIfCondition (el, condition) {// p options.start 07-01 addIfCondition
+  if (!el.ifConditions) {// p closeElement 03 addIfCondition
     el.ifConditions = [];
   }
   el.ifConditions.push(condition);
 }
 
-function processOnce (el) {
+function processOnce (el) {// p options.start 08 processOnce
   var once$$1 = getAndRemoveAttr(el, 'v-once');
   if (once$$1 != null) {
     el.once = true;
@@ -10149,7 +10149,7 @@ function processOnce (el) {
 
 // handle content being passed to a component as slot,
 // e.g. <template slot="xxx">, <div slot-scope="xxx">
-function processSlotContent (el) {
+function processSlotContent (el) {// p closeElement 02-03 processSlotContent
   var slotScope;
   if (el.tag === 'template') {
     slotScope = getAndRemoveAttr(el, 'scope');
@@ -10288,7 +10288,7 @@ function getSlotName (binding) {
 }
 
 // handle <slot/> outlets
-function processSlotOutlet (el) {
+function processSlotOutlet (el) {// p closeElement 02-04 processSlotOutlet
   if (el.tag === 'slot') {
     el.slotName = getBindingAttr(el, 'name');
     if (el.key) {
@@ -10302,7 +10302,7 @@ function processSlotOutlet (el) {
   }
 }
 
-function processComponent (el) {
+function processComponent (el) {// p closeElement 02-05 processComponent
   var binding;
   if ((binding = getBindingAttr(el, 'is'))) {
     el.component = binding;
@@ -10312,7 +10312,7 @@ function processComponent (el) {
   }
 }
 
-function processAttrs (el) {
+function processAttrs (el) {// p closeElement 02-06 processAttrs
   var list = el.attrsList;
   var i, l, name, rawName, value, modifiers, syncGen, isDynamic;
   for (i = 0, l = list.length; i < l; i++) {
@@ -10456,7 +10456,7 @@ function checkInFor (el) {
   return false
 }
 
-function parseModifiers (name) {
+function parseModifiers (name) {// p closeElement 02-06-01 parseModifiers
   var match = name.match(modifierRE);
   if (match) {
     var ret = {};
@@ -10465,7 +10465,7 @@ function parseModifiers (name) {
   }
 }
 
-function makeAttrsMap (attrs) {
+function makeAttrsMap (attrs) {// p options.start 02-01 makeAttrsMap
   var map = {};
   for (var i = 0, l = attrs.length; i < l; i++) {
     if (
@@ -10497,7 +10497,7 @@ var ieNSBug = /^xmlns:NS\d+/;
 var ieNSPrefix = /^NS\d+:/;
 
 /* istanbul ignore next */
-function guardIESVGBug (attrs) {
+function guardIESVGBug (attrs) {// p options.start 01 guardIESVGBug
   var res = [];
   for (var i = 0; i < attrs.length; i++) {
     var attr = attrs[i];
@@ -10509,7 +10509,7 @@ function guardIESVGBug (attrs) {
   return res
 }
 
-function checkForAliasModel (el, value) {
+function checkForAliasModel (el, value) {// p closeElement 02-06-08 checkForAliasModel
   var _el = el;
   while (_el) {
     if (_el.for && _el.alias === value) {
@@ -10528,7 +10528,7 @@ function checkForAliasModel (el, value) {
 
 /*  */
 
-function preTransformNode (el, options) {
+function preTransformNode (el, options) {// p options.start 03 preTransformNode
   if (el.tag === 'input') {
     var map = el.attrsMap;
     if (!map['v-model']) {
@@ -10606,7 +10606,7 @@ var modules$1 = [
 
 /*  */
 
-function text (el, dir) {
+function text (el, dir) {// s genData$2 01-05 text
   if (dir.value) {
     addProp(el, 'textContent', ("_s(" + (dir.value) + ")"), dir);
   }
@@ -10614,7 +10614,7 @@ function text (el, dir) {
 
 /*  */
 
-function html (el, dir) {
+function html (el, dir) {// s genData$2 01-02 html
   if (dir.value) {
     addProp(el, 'innerHTML', ("_s(" + (dir.value) + ")"), dir);
   }
@@ -10825,7 +10825,7 @@ var modifierCode = {
 function genHandlers (
   events,
   isNative
-) {
+) {// s genData$2 03 genHandlers
   var prefix = isNative ? 'nativeOn:' : 'on:';
   var staticHandlers = "";
   var dynamicHandlers = "";
@@ -10845,7 +10845,7 @@ function genHandlers (
   }
 }
 
-function genHandler (handler) {
+function genHandler (handler) {// s genData$2 03-01 genHandler
   if (!handler) {
     return 'function(){}'
   }
@@ -10933,7 +10933,7 @@ function genFilterCode (key) {
 
 /*  */
 
-function on (el, dir) {
+function on (el, dir) {// s genData$2 01-04 on
   if (dir.modifiers) {
     warn("v-on without argument does not support modifiers.");
   }
@@ -10942,7 +10942,7 @@ function on (el, dir) {
 
 /*  */
 
-function bind$1 (el, dir) {
+function bind$1 (el, dir) {// s genData$2 01-01 bind$1
   el.wrapData = function (code) {
     return ("_b(" + code + ",'" + (el.tag) + "'," + (dir.value) + "," + (dir.modifiers && dir.modifiers.prop ? 'true' : 'false') + (dir.modifiers && dir.modifiers.sync ? ',true' : '') + ")")
   };
@@ -10962,7 +10962,7 @@ var baseDirectives = {
 
 
 
-var CodegenState = function CodegenState (options) {
+var CodegenState = function CodegenState (options) {// 06generate 01 CodegenState
   this.options = options;
   this.warn = options.warn || baseWarn;
   this.transforms = pluckModuleFunction(options.modules, 'transformCode');
@@ -10981,7 +10981,7 @@ function generate (
   ast,
   options
 ) {// 04compile 01-03 generate
-  var state = new CodegenState(options);
+  var state = new CodegenState(options);// 06generate
   // fix #11483, Root level <script> tags should not be rendered.
   var code = ast ? (ast.tag === 'script' ? 'null' : genElement(ast, state)) : '_c("div")';
   return {
@@ -10990,9 +10990,9 @@ function generate (
   }
 }
 
-function genElement (el, state) {
-  if (el.parent) {
-    el.pre = el.pre || el.parent.pre;
+function genElement (el, state) {// 06generate 02 genElement
+  if (el.parent) {// s ------------------
+    el.pre = el.pre || el.parent.pre;// s genElement
   }
 
   if (el.staticRoot && !el.staticProcessed) {
@@ -11030,7 +11030,7 @@ function genElement (el, state) {
 }
 
 // hoist static sub-trees out
-function genStatic (el, state) {
+function genStatic (el, state) {// s genElement 01 genStatic
   el.staticProcessed = true;
   // Some elements (templates) need to behave differently inside of a v-pre
   // node.  All pre nodes are static roots, so we can use this as a location to
@@ -11045,7 +11045,7 @@ function genStatic (el, state) {
 }
 
 // v-once
-function genOnce (el, state) {
+function genOnce (el, state) {// s genElement 02 genOnce
   el.onceProcessed = true;
   if (el.if && !el.ifProcessed) {
     return genIf(el, state)
@@ -11077,7 +11077,7 @@ function genIf (
   state,
   altGen,
   altEmpty
-) {
+) {// s genElement 04 genIf
   el.ifProcessed = true; // avoid recursion
   return genIfConditions(el.ifConditions.slice(), state, altGen, altEmpty)
 }
@@ -11087,7 +11087,7 @@ function genIfConditions (
   state,
   altGen,
   altEmpty
-) {
+) {// s genElement 04-01 genIfConditions
   if (!conditions.length) {
     return altEmpty || '_e()'
   }
@@ -11100,7 +11100,7 @@ function genIfConditions (
   }
 
   // v-if with v-once should generate code like (a)?_m(0):_m(1)
-  function genTernaryExp (el) {
+  function genTernaryExp (el) {// s genElement 04-01-01 genTernaryExp
     return altGen
       ? altGen(el, state)
       : el.once
@@ -11114,7 +11114,7 @@ function genFor (
   state,
   altGen,
   altHelper
-) {
+) {// s genElement 03 genFor
   var exp = el.for;
   var alias = el.alias;
   var iterator1 = el.iterator1 ? ("," + (el.iterator1)) : '';
@@ -11141,8 +11141,8 @@ function genFor (
     '})'
 }
 
-function genData$2 (el, state) {
-  var data = '{';
+function genData$2 (el, state) {// s genElement 08 genData$2
+  var data = '{';// s genData$2
 
   // directives first.
   // directives may mutate the el's other properties before they are generated.
@@ -11225,7 +11225,7 @@ function genData$2 (el, state) {
   return data
 }
 
-function genDirectives (el, state) {
+function genDirectives (el, state) {// s genData$2 01 genDirectives
   var dirs = el.directives;
   if (!dirs) { return }
   var res = 'directives:[';
@@ -11268,7 +11268,7 @@ function genScopedSlots (
   el,
   slots,
   state
-) {
+) {// s genData$2 04 genScopedSlots
   // by default scoped slots are considered "stable", this allows child
   // components with only scoped slots to skip forced updates from parent.
   // but in some cases we have to bail-out of this optimization
@@ -11368,7 +11368,7 @@ function genChildren (
   checkSkip,
   altGenElement,
   altGenNode
-) {
+) {// s genElement 05 genChildren
   var children = el.children;
   if (children.length) {
     var el$1 = children[0];
@@ -11422,7 +11422,7 @@ function needsNormalization (el) {
   return el.for !== undefined || el.tag === 'template' || el.tag === 'slot'
 }
 
-function genNode (node, state) {
+function genNode (node, state) {// s genElement 05-01 genNode
   if (node.type === 1) {
     return genElement(node, state)
   } else if (node.type === 3 && node.isComment) {
@@ -11432,17 +11432,17 @@ function genNode (node, state) {
   }
 }
 
-function genText (text) {
+function genText (text) {// s genElement 05-01-02 genText
   return ("_v(" + (text.type === 2
     ? text.expression // no need for () because already wrapped in _s()
     : transformSpecialNewlines(JSON.stringify(text.text))) + ")")
 }
 
-function genComment (comment) {
+function genComment (comment) {// s genElement 05-01-01 genComment
   return ("_e(" + (JSON.stringify(comment.text)) + ")")
 }
 
-function genSlot (el, state) {
+function genSlot (el, state) {// s genElement 06 genSlot
   var slotName = el.slotName || '"default"';
   var children = genChildren(el, state);
   var res = "_t(" + slotName + (children ? (",function(){return " + children + "}") : '');
@@ -11472,13 +11472,13 @@ function genComponent (
   componentName,
   el,
   state
-) {
+) {// s genElement 07 genComponent
   var children = el.inlineTemplate ? null : genChildren(el, state, true);
   return ("_c(" + componentName + "," + (genData$2(el, state)) + (children ? ("," + children) : '') + ")")
 }
 
-function genProps (props) {
-  var staticProps = "";
+function genProps (props) {// s genElement 06-01 genProps
+  var staticProps = "";// s genData$2 02 genProps
   var dynamicProps = "";
   for (var i = 0; i < props.length; i++) {
     var prop = props[i];
