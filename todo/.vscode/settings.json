@@ -8,7 +8,14 @@
         "BUG",
         "01_init",
         "02-01 initState",
-        "mergeOptions"
+        "mergeOptions",
+        "init initEvents",
+        "init initInjections",
+        "init initState",
+        "02init vm.$mount",
+        "03createCompileToFunctionFn",
+        "04compile",
+        "05parseHTML"
     ],
     "todo-tree.highlights.customHighlight": {
         "TODO": {

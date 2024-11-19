@@ -905,7 +905,7 @@ var arrayKeys = Object.getOwnPropertyNames(arrayMethods);
  */
 var shouldObserve = true;
 
-function toggleObserving (value) {
+function toggleObserving (value) {// init initInjections 02 04 toggleObserving
   shouldObserve = value;
 }
 
@@ -982,7 +982,7 @@ function copyAugment (target, src, keys) {
  * returns the new observer if successfully observed,
  * or the existing observer if the value already has one.
  */
-function observe (value, asRootData) {
+function observe (value, asRootData) {// init initState 01-01-03 observe
   if (!isObject(value) || value instanceof VNode) {
     return
   }
@@ -1013,7 +1013,7 @@ function defineReactive$$1 (
   val,
   customSetter,
   shallow
-) {
+) {// init initInjections 03 defineReactive
   var dep = new Dep();
 
   var property = Object.getOwnPropertyDescriptor(obj, key);
@@ -1605,7 +1605,7 @@ function validateProp (
   propOptions,
   propsData,
   vm
-) {
+) {// init initState 01-01 validateProp
   var prop = propOptions[key];
   var absent = !hasOwn(propsData, key);
   var value = propsData[key];
@@ -1642,7 +1642,7 @@ function validateProp (
 /**
  * Get the default value of a prop.
  */
-function getPropDefaultValue (vm, prop, key) {
+function getPropDefaultValue (vm, prop, key) {// init initState 01-01-02 getPropDefaultValue
   // no default, return undefined
   if (!hasOwn(prop, 'default')) {
     return undefined
@@ -1771,7 +1771,7 @@ function isSameType (a, b) {
   return getType(a) === getType(b)
 }
 
-function getTypeIndex (type, expectedTypes) {
+function getTypeIndex (type, expectedTypes) {// init initState 01-01-01 getTypeIndex
   if (!Array.isArray(expectedTypes)) {
     return isSameType(expectedTypes, type) ? 0 : -1
   }
@@ -2163,7 +2163,7 @@ function _traverse (val, seen) {
 
 /*  */
 
-var normalizeEvent = cached(function (name) {
+var normalizeEvent = cached(function (name) {// init initEvents 01-01-01 normalizeEvent
   var passive = name.charAt(0) === '&';
   name = passive ? name.slice(1) : name;
   var once$$1 = name.charAt(0) === '~'; // Prefixed last, checked first
@@ -2178,7 +2178,7 @@ var normalizeEvent = cached(function (name) {
   }
 });
 
-function createFnInvoker (fns, vm) {
+function createFnInvoker (fns, vm) {// init initEvents 01-01-02 createFnInvoker
   function invoker () {
     var arguments$1 = arguments;
 
@@ -2204,7 +2204,7 @@ function updateListeners (
   remove$$1,
   createOnceHandler,
   vm
-) {
+) {// init initEvents 01-01 updateListeners
   var name, def$$1, cur, old, event;
   for (name in on) {
     def$$1 = cur = on[name];
@@ -2438,7 +2438,7 @@ function initProvide (vm) {// 01_init: 02-11 initProvide
 }
 
 function initInjections (vm) {// 01_init: 02-09 initInjections
-  var result = resolveInject(vm.$options.inject, vm);
+  var result = resolveInject(vm.$options.inject, vm);// init initInjections
   if (result) {
     toggleObserving(false);
     Object.keys(result).forEach(function (key) {
@@ -2458,7 +2458,7 @@ function initInjections (vm) {// 01_init: 02-09 initInjections
   }
 }
 
-function resolveInject (inject, vm) {
+function resolveInject (inject, vm) {// init initInjections 01 resolveInject
   if (inject) {
     // inject is :any because flow is not smart enough to figure out cached
     var result = Object.create(null);
@@ -3772,7 +3772,7 @@ function getFirstComponentChild (children) {
 /*  */
 
 function initEvents (vm) {// 01_init: 02-06 initEvents
-  vm._events = Object.create(null);
+  vm._events = Object.create(null);// init initEvents
   vm._hasHookEvent = false;
   // init parent attached events
   var listeners = vm.$options._parentListeners;
@@ -3783,15 +3783,15 @@ function initEvents (vm) {// 01_init: 02-06 initEvents
 
 var target;
 
-function add (event, fn) {
+function add (event, fn) {// init initEvents 01-01-03 add
   target.$on(event, fn);
 }
 
-function remove$1 (event, fn) {
+function remove$1 (event, fn) {// init initEvents 01-01-04 remove
   target.$off(event, fn);
 }
 
-function createOnceHandler (event, fn) {
+function createOnceHandler (event, fn) {// init initEvents 01-01-05 createOnceHandler
   var _target = target;
   return function onceHandler () {
     var res = fn.apply(null, arguments);
@@ -3805,7 +3805,7 @@ function updateComponentListeners (
   vm,
   listeners,
   oldListeners
-) {
+) {// init initEvents 01 updateComponentListeners
   target = vm;
   updateListeners(listeners, oldListeners || {}, add, remove$1, createOnceHandler, vm);
   target = undefined;
@@ -4030,7 +4030,7 @@ function mountComponent (
   vm,
   el,
   hydrating
-) {
+) {// 02init vm.$mount 04-01 mountComponent
   vm.$el = el;
   if (!vm.$options.render) {
     vm.$options.render = createEmptyVNode;
@@ -4642,7 +4642,7 @@ function proxy (target, sourceKey, key) {
 }
 
 function initState (vm) {// 01_init: 02-10 initState
-  vm._watchers = [];
+  vm._watchers = [];// init initState
   var opts = vm.$options;
   if (opts.props) { initProps(vm, opts.props); }
   if (opts.methods) { initMethods(vm, opts.methods); }
@@ -4657,7 +4657,7 @@ function initState (vm) {// 01_init: 02-10 initState
   }
 }
 
-function initProps (vm, propsOptions) {
+function initProps (vm, propsOptions) {// init initState 01 initProps
   var propsData = vm.$options.propsData || {};
   var props = vm._props = {};
   // cache prop keys so that future props updates can iterate using Array
@@ -4705,7 +4705,7 @@ function initProps (vm, propsOptions) {
   toggleObserving(true);
 }
 
-function initData (vm) {
+function initData (vm) { // init initState 03 initData
   var data = vm.$options.data;
   data = vm._data = typeof data === 'function'
     ? getData(data, vm)
@@ -4762,7 +4762,7 @@ function getData (data, vm) {
 
 var computedWatcherOptions = { lazy: true };
 
-function initComputed (vm, computed) {
+function initComputed (vm, computed) {// init initState 04 initComputed
   // $flow-disable-line
   var watchers = vm._computedWatchers = Object.create(null);
   // computed properties are just getters during SSR
@@ -4856,7 +4856,7 @@ function createGetterInvoker(fn) {
   }
 }
 
-function initMethods (vm, methods) {
+function initMethods (vm, methods) {// init initState 02 initMethods
   var props = vm.$options.props;
   for (var key in methods) {
     {
@@ -4884,7 +4884,7 @@ function initMethods (vm, methods) {
   }
 }
 
-function initWatch (vm, watch) {
+function initWatch (vm, watch) {// init initState 05 initWatch
   for (var key in watch) {
     var handler = watch[key];
     if (Array.isArray(handler)) {
@@ -4902,7 +4902,7 @@ function createWatcher (
   expOrFn,
   handler,
   options
-) {
+) {// init initState 05-01 createWatcher
   if (isPlainObject(handler)) {
     options = handler;
     handler = handler.handler;
@@ -4943,7 +4943,7 @@ function stateMixin (Vue) {
     expOrFn,
     cb,
     options
-  ) {
+  ) {// init initState 05-01-01 vm.$watch
     var vm = this;
     if (isPlainObject(cb)) {
       return createWatcher(vm, expOrFn, cb, options)
@@ -9079,7 +9079,7 @@ Vue.prototype.__patch__ = inBrowser ? patch : noop;
 Vue.prototype.$mount = function (
   el,
   hydrating
-) {
+) {// 02init vm.$mount 04 mount
   el = el && inBrowser ? query(el) : undefined;
   return mountComponent(this, el, hydrating)
 };
@@ -9299,7 +9299,7 @@ var comment = /^<!\--/;
 var conditionalComment = /^<!\[/;
 
 // Special Elements (can contain anything)
-var isPlainTextElement = makeMap('script,style,textarea', true);
+var isPlainTextElement = makeMap('script,style,textarea', true);// 05parseHTML 01 isPlainTextElement
 var reCache = {};
 
 var decodingMap = {
@@ -9323,7 +9323,7 @@ function decodeAttr (value, shouldDecodeNewlines) {
   return value.replace(re, function (match) { return decodingMap[match]; })
 }
 
-function parseHTML (html, options) {
+function parseHTML (html, options) {// 05parseHTML
   var stack = [];
   var expectHTML = options.expectHTML;
   var isUnaryTag$$1 = options.isUnaryTag || no;
@@ -9451,12 +9451,12 @@ function parseHTML (html, options) {
   // Clean up any remaining tags
   parseEndTag();
 
-  function advance (n) {
+  function advance (n) {// 05parseHTML 04 advance
     index += n;
     html = html.substring(n);
   }
 
-  function parseStartTag () {
+  function parseStartTag () {// 05parseHTML 05 parseStartTag
     var start = html.match(startTagOpen);
     if (start) {
       var match = {
@@ -9481,7 +9481,7 @@ function parseHTML (html, options) {
     }
   }
 
-  function handleStartTag (match) {
+  function handleStartTag (match) {// 05parseHTML 06 handleStartTag
     var tagName = match.tagName;
     var unarySlash = match.unarySlash;
 
@@ -9524,7 +9524,7 @@ function parseHTML (html, options) {
     }
   }
 
-  function parseEndTag (tagName, start, end) {
+  function parseEndTag (tagName, start, end) {// 05parseHTML 07 parseEndTag
     var pos, lowerCasedTagName;
     if (start == null) { start = index; }
     if (end == null) { end = index; }
@@ -9633,7 +9633,7 @@ function createASTElement (
 function parse (
   template,
   options
-) {
+) {// 04compile 01-01 parse
   warn$2 = options.warn || baseWarn;
 
   platformIsPreTag = options.isPreTag || no;
@@ -9668,7 +9668,7 @@ function parse (
     }
   }
 
-  function closeElement (element) {
+  function closeElement (element) {// 05parseHTML 07-01-01 closeElement ----
     trimEndingWhitespace(element);
     if (!inVPre && !element.processed) {
       element = processElement(element, options);
@@ -9768,7 +9768,7 @@ function parse (
     shouldDecodeNewlinesForHref: options.shouldDecodeNewlinesForHref,
     shouldKeepComment: options.comments,
     outputSourceRange: options.outputSourceRange,
-    start: function start (tag, attrs, unary, start$1, end) {
+    start: function start (tag, attrs, unary, start$1, end) {// 05parseHTML 06-01 options.start ---
       // check namespace.
       // inherit parent ns if there is one
       var ns = (currentParent && currentParent.ns) || platformGetTagNamespace(tag);
@@ -9855,7 +9855,7 @@ function parse (
       }
     },
 
-    end: function end (tag, start, end$1) {
+    end: function end (tag, start, end$1) {// 05parseHTML 07-01 options.end
       var element = stack[stack.length - 1];
       // pop stack
       stack.length -= 1;
@@ -9866,7 +9866,7 @@ function parse (
       closeElement(element);
     },
 
-    chars: function chars (text, start, end) {
+    chars: function chars (text, start, end) {// 05parseHTML 08
       if (!currentParent) {
         {
           if (text === template) {
@@ -9937,7 +9937,7 @@ function parse (
         }
       }
     },
-    comment: function comment (text, start, end) {
+    comment: function comment (text, start, end) {// 05parseHTML 02 options.comment
       // adding anything as a sibling to the root node is forbidden
       // comments should still be allowed, but ignored
       if (currentParent) {
@@ -10659,7 +10659,7 @@ var genStaticKeysCached = cached(genStaticKeys$1);
  *    create fresh nodes for them on each re-render;
  * 2. Completely skip them in the patching process.
  */
-function optimize (root, options) {
+function optimize (root, options) {// 04compile 01-02 optimize
   if (!root) { return }
   isStaticKey = genStaticKeysCached(options.staticKeys || '');
   isPlatformReservedTag = options.isReservedTag || no;
@@ -10980,7 +10980,7 @@ var CodegenState = function CodegenState (options) {
 function generate (
   ast,
   options
-) {
+) {// 04compile 01-03 generate
   var state = new CodegenState(options);
   // fix #11483, Root level <script> tags should not be rendered.
   var code = ast ? (ast.tag === 'script' ? 'null' : genElement(ast, state)) : '_c("div")';
@@ -11689,7 +11689,7 @@ function repeat$1 (str, n) {
 
 
 
-function createFunction (code, errors) {
+function createFunction (code, errors) {// 03createCompileToFunctionFn 02 createFunction
   try {
     return new Function(code)
   } catch (err) {
@@ -11705,8 +11705,8 @@ function createCompileToFunctionFn (compile) {
     template,
     options,
     vm
-  ) {
-    options = extend({}, options);
+  ) {// 02init vm.$mount 03 compileToFunctions----make render fn
+    options = extend({}, options);// 03createCompileToFunctionFn
     var warn$$1 = options.warn || warn;
     delete options.warn;
 
@@ -11805,9 +11805,9 @@ function createCompilerCreator (baseCompile) {
     function compile (
       template,
       options
-    ) {
+    ) {// 03createCompileToFunctionFn 01 compile----render fn
       var finalOptions = Object.create(baseOptions);
-      var errors = [];
+      var errors = [];// 04compile
       var tips = [];
 
       var warn = function (msg, range, tip) {
@@ -11878,7 +11878,7 @@ function createCompilerCreator (baseCompile) {
 var createCompiler = createCompilerCreator(function baseCompile (
   template,
   options
-) {
+) {// 04compile 01 baseCompile
   var ast = parse(template.trim(), options);
   if (options.optimize !== false) {
     optimize(ast, options);
@@ -11914,7 +11914,7 @@ var shouldDecodeNewlinesForHref = inBrowser ? getShouldDecode(true) : false;
 
 /*  */
 
-var idToTemplate = cached(function (id) {
+var idToTemplate = cached(function (id) {// 02init vm.$mount 01 idToTemplate
   var el = query(id);
   return el && el.innerHTML
 });
@@ -11925,7 +11925,7 @@ Vue.prototype.$mount = function (
   hydrating
 ) {// 01_init: 02-14 vm.$mount
   el = el && query(el);
-
+  // 02init vm.$mount
   /* istanbul ignore if */
   if (el === document.body || el === document.documentElement) {
     warn(
@@ -11993,7 +11993,7 @@ Vue.prototype.$mount = function (
  * Get outerHTML of elements, taking care
  * of SVG elements in IE as well.
  */
-function getOuterHTML (el) {
+function getOuterHTML (el) {// 02init vm.$mount 02 getOuterHTML
   if (el.outerHTML) {
     return el.outerHTML
   } else {
