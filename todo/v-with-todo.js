@@ -62,7 +62,7 @@ function toRawType (value) {
  * Strict object type check. Only returns true
  * for plain JavaScript objects.
  */
-function isPlainObject (obj) {// TODO: mergeOptions 02-3 isPlainObject
+function isPlainObject (obj) {// mergeOptions 02-3 isPlainObject
   return _toString.call(obj) === '[object Object]'
 }
 
@@ -127,7 +127,7 @@ function makeMap (
 /**
  * Check if a tag is a built-in tag.
  */
-var isBuiltInTag = makeMap('slot,component', true);// TODO: mergeOptions 01-1-1 1
+var isBuiltInTag = makeMap('slot,component', true);// mergeOptions 01-1-1 1
 
 /**
  * Check if an attribute is a reserved attribute.
@@ -169,7 +169,7 @@ function cached (fn) {
  * Camelize a hyphen-delimited string.
  */
 var camelizeRE = /-(\w)/g;
-var camelize = cached(function (str) {// TODO: mergeOptions 02-1 camelize
+var camelize = cached(function (str) {// mergeOptions 02-1 camelize
   return str.replace(camelizeRE, function (_, c) { return c ? c.toUpperCase() : ''; })
 });
 
@@ -621,7 +621,7 @@ var formatComponentName = (noop);
     .replace(classifyRE, function (c) { return c.toUpperCase(); })
     .replace(/[-_]/g, ''); };
 
-  warn = function (msg, vm) {// TODO: mergeOptions 02-2 warn
+  warn = function (msg, vm) {// mergeOptions 02-2 warn
     var trace = vm ? generateComponentTrace(vm) : '';
 
     if (config.warnHandler) {
@@ -639,7 +639,7 @@ var formatComponentName = (noop);
     }
   };
 
-  formatComponentName = function (vm, includeFile) {// TODO: 2-13
+  formatComponentName = function (vm, includeFile) {// 01_init: 02-13 formatComponentName
     if (vm.$root === vm) {
       return '<Root>'
     }
@@ -1216,8 +1216,8 @@ function mergeDataOrFn (
       return parentVal
     }
     if (!parentVal) {
-      return childVal // TODO: mergeOptions 09 provide
-    }// TODO: mergeOptions 07-1
+      return childVal // mergeOptions 09 provide
+    }// mergeOptions 07-1
     // when parentVal & childVal are both present,
     // we need to return a function that returns the
     // merged result of both functions... no need to
@@ -1254,7 +1254,7 @@ strats.data = function (
 ) {
   if (!vm) {
     if (childVal && typeof childVal !== 'function') {
-      warn(// TODO: mergeOptions 07 data
+      warn(// mergeOptions 07 data
         'The "data" option should be a function ' +
         'that returns a per-instance value in component ' +
         'definitions.',
@@ -1275,7 +1275,7 @@ strats.data = function (
 function mergeHook (
   parentVal,
   childVal
-) {// TODO: mergeOptions 05 mergeHook
+) {// mergeOptions 05 mergeHook
   var res = childVal
     ? parentVal
       ? parentVal.concat(childVal)
@@ -1315,7 +1315,7 @@ function mergeAssets (
   vm,
   key
 ) {
-  var res = Object.create(parentVal || null);// TODO: mergeOptions 08 mergeAssets
+  var res = Object.create(parentVal || null);// mergeOptions 08 mergeAssets
   if (childVal) {
     assertObjectType(key, childVal, vm);
     return extend(res, childVal)
@@ -1345,7 +1345,7 @@ strats.watch = function (
   if (childVal === nativeWatch) { childVal = undefined; }
   /* istanbul ignore if */
   if (!childVal) { return Object.create(parentVal || null) }
-  {// TODO: mergeOptions 10 watch
+  {// mergeOptions 10 watch
     assertObjectType(key, childVal, vm);
   }
   if (!parentVal) { return childVal }
@@ -1380,7 +1380,7 @@ strats.computed = function (
     assertObjectType(key, childVal, vm);
   }
   if (!parentVal) { return childVal }
-  var ret = Object.create(null); // TODO: mergeOptions 06 computed/props/methods/inject
+  var ret = Object.create(null); // mergeOptions 06 computed/props/methods/inject
   extend(ret, parentVal);
   if (childVal) { extend(ret, childVal); }
   return ret
@@ -1390,7 +1390,7 @@ strats.provide = mergeDataOrFn;
 /**
  * Default strategy.
  */
-var defaultStrat = function (parentVal, childVal) {// TODO: mergeOptions 11 defaultStrat
+var defaultStrat = function (parentVal, childVal) {// mergeOptions 11 defaultStrat
   return childVal === undefined
     ? parentVal
     : childVal
@@ -1399,13 +1399,13 @@ var defaultStrat = function (parentVal, childVal) {// TODO: mergeOptions 11 defa
 /**
  * Validate component names
  */
-function checkComponents (options) {// TODO: mergeOptions 01-1 checkComponents
+function checkComponents (options) {// mergeOptions 01-1 checkComponents
   for (var key in options.components) {
     validateComponentName(key);
   }
 }
 
-function validateComponentName (name) {// TODO: mergeOptions 01-1-1
+function validateComponentName (name) {// mergeOptions 01-1-1
   if (!new RegExp(("^[a-zA-Z][\\-\\.0-9_" + (unicodeRegExp.source) + "]*$")).test(name)) {
     warn(
       'Invalid component name: "' + name + '". Component names ' +
@@ -1424,7 +1424,7 @@ function validateComponentName (name) {// TODO: mergeOptions 01-1-1
  * Ensure all props option syntax are normalized into the
  * Object-based format.
  */
-function normalizeProps (options, vm) {// TODO: mergeOptions 02 normalizeProps
+function normalizeProps (options, vm) {
   var props = options.props;
   if (!props) { return }
   var res = {};
@@ -1439,7 +1439,7 @@ function normalizeProps (options, vm) {// TODO: mergeOptions 02 normalizeProps
       } else {
         warn('props must be strings when using array syntax.');
       }
-    }
+    }// mergeOptions 02 normalizeProps
   } else if (isPlainObject(props)) {
     for (var key in props) {
       val = props[key];
@@ -1461,7 +1461,7 @@ function normalizeProps (options, vm) {// TODO: mergeOptions 02 normalizeProps
 /**
  * Normalize all injections into Object-based format
  */
-function normalizeInject (options, vm) {// TODO: mergeOptions 03 normalizeInject
+function normalizeInject (options, vm) {// mergeOptions 03 normalizeInject
   var inject = options.inject;
   if (!inject) { return }
   var normalized = options.inject = {};
@@ -1488,7 +1488,7 @@ function normalizeInject (options, vm) {// TODO: mergeOptions 03 normalizeInject
 /**
  * Normalize raw function directives into object format.
  */
-function normalizeDirectives (options) {// TODO: mergeOptions 04 normalizeDirectives
+function normalizeDirectives (options) {// mergeOptions 04 normalizeDirectives
   var dirs = options.directives;
   if (dirs) {
     for (var key in dirs) {
@@ -1514,11 +1514,11 @@ function assertObjectType (name, value, vm) {
  * Merge two option objects into a new one.
  * Core utility used in both instantiation and inheritance.
  */
-function mergeOptions (// TODO: mergeOptions
+function mergeOptions (
   parent,
   child,
   vm
-) {// TODO: 2-03
+) {// 01_init: 02-03 mergeOptions
   {
     checkComponents(child);
   }
@@ -1535,7 +1535,7 @@ function mergeOptions (// TODO: mergeOptions
   // but only if it is a raw options object that isn't
   // the result of another mergeOptions call.
   // Only merged options has the _base property.
-  if (!child._base) {
+  if (!child._base) {// mergeOptions
     if (child.extends) {
       parent = mergeOptions(parent, child.extends, vm);
     }
@@ -2110,7 +2110,7 @@ var initProxy;
     }
   };
 
-  initProxy = function initProxy (vm) {// TODO: 2-04
+  initProxy = function initProxy (vm) {// 01_init: 02-04 initProxy
     if (hasProxy) {
       // determine which proxy handler to use
       var options = vm.$options;
@@ -2428,7 +2428,7 @@ function normalizeArrayChildren (children, nestedIndex) {
 
 /*  */
 
-function initProvide (vm) {// TODO: 2-11
+function initProvide (vm) {// 01_init: 02-11 initProvide
   var provide = vm.$options.provide;
   if (provide) {
     vm._provided = typeof provide === 'function'
@@ -2437,7 +2437,7 @@ function initProvide (vm) {// TODO: 2-11
   }
 }
 
-function initInjections (vm) {// TODO: 2-09
+function initInjections (vm) {// 01_init: 02-09 initInjections
   var result = resolveInject(vm.$options.inject, vm);
   if (result) {
     toggleObserving(false);
@@ -3499,7 +3499,7 @@ function registerDeepBindings (data) {
 
 /*  */
 
-function initRender (vm) {// TODO: 2-07
+function initRender (vm) {// 01_init: 02-07 initRender
   vm._vnode = null; // the root of the child tree
   vm._staticTrees = null; // v-once cached trees
   var options = vm.$options;
@@ -3771,7 +3771,7 @@ function getFirstComponentChild (children) {
 
 /*  */
 
-function initEvents (vm) {// TODO: 2-06
+function initEvents (vm) {// 01_init: 02-06 initEvents
   vm._events = Object.create(null);
   vm._hasHookEvent = false;
   // init parent attached events
@@ -3917,7 +3917,7 @@ function setActiveInstance(vm) {
   }
 }
 
-function initLifecycle (vm) {// TODO: 2-05
+function initLifecycle (vm) {// 01_init: 02-05 initLifecycle
   var options = vm.$options;
 
   // locate first non-abstract parent
@@ -4222,7 +4222,7 @@ function deactivateChildComponent (vm, direct) {
   }
 }
 
-function callHook (vm, hook) {// TODO: 2-08 2-012
+function callHook (vm, hook) {// 01_init: 02-08 02-012 callHook
   // #7573 disable dep collection when invoking lifecycle hooks
   pushTarget();
   var handlers = vm.$options[hook];
@@ -4641,7 +4641,7 @@ function proxy (target, sourceKey, key) {
   Object.defineProperty(target, key, sharedPropertyDefinition);
 }
 
-function initState (vm) {// TODO: 2-10
+function initState (vm) {// 01_init: 02-10 initState
   vm._watchers = [];
   var opts = vm.$options;
   if (opts.props) { initProps(vm, opts.props); }
@@ -4968,7 +4968,7 @@ function stateMixin (Vue) {
 var uid$3 = 0;
 
 function initMixin (Vue) {
-  Vue.prototype._init = function (options) {// TODO: 2 init
+  Vue.prototype._init = function (options) {// 01_init: 02 init
     var vm = this;
     // a uid
     vm._uid = uid$3++;
@@ -5024,7 +5024,7 @@ function initMixin (Vue) {
   };
 }
 
-function initInternalComponent (vm, options) {// TODO: 2-01
+function initInternalComponent (vm, options) {// 01_init: 02-01 initInternalComponent
   var opts = vm.$options = Object.create(vm.constructor.options);
   // doing this because it's faster than dynamic enumeration.
   var parentVnode = options._parentVnode;
@@ -5043,7 +5043,7 @@ function initInternalComponent (vm, options) {// TODO: 2-01
   }
 }
 
-function resolveConstructorOptions (Ctor) {// TODO: 2-02
+function resolveConstructorOptions (Ctor) {// 01_init: 02-02 resolveConstructorOptions
   var options = Ctor.options;
   if (Ctor.super) {
     var superOptions = resolveConstructorOptions(Ctor.super);
@@ -5080,7 +5080,7 @@ function resolveModifiedOptions (Ctor) {
   return modified
 }
 
-function Vue (options) { // TODO: 1 Vue
+function Vue (options) {
   if (!(this instanceof Vue)
   ) {
     warn('Vue is a constructor and should be called with the `new` keyword');
@@ -5651,7 +5651,7 @@ var isSVG = makeMap(
 
 var isPreTag = function (tag) { return tag === 'pre'; };
 
-var isReservedTag = function (tag) {// TODO: mergeOptions 01-1-1 2
+var isReservedTag = function (tag) {// mergeOptions 01-1-1 2
   return isHTMLTag(tag) || isSVG(tag)
 };
 
@@ -11923,7 +11923,7 @@ var mount = Vue.prototype.$mount;
 Vue.prototype.$mount = function (
   el,
   hydrating
-) {// TODO: 2-14
+) {// 01_init: 02-14 vm.$mount
   el = el && query(el);
 
   /* istanbul ignore if */

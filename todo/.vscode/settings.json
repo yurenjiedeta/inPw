@@ -1,7 +1,25 @@
 {
     "todo-tree.tree.disableCompactFolders": false,
-    "todo-tree.tree.showCountsInTree": false,
-    "editor.cursorSurroundingLines": 10,
-    "todo-tree.tree.showBadges": true
-
+    "todo-tree.tree.showBadges": true,
+    // 其他设置...
+    "todo-tree.general.tags": [
+        "TODO",
+        "FIXME",
+        "BUG",
+        "01_init",
+        "02-01 initState",
+        "mergeOptions"
+    ],
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "icon": "check",
+            "type": "line"
+        },
+        "_init": {
+            "foreground": "black",
+            "iconColour": "yellow",
+            "gutterIcon": true,
+            "icon": "beaker",
+        }
+    }
 }
