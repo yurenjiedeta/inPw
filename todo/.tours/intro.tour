@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "intro",
+  "steps": [
+    {
+      "file": "v-with-todo.js",
+      "description": "这个函数 `resolveSlots` 主要用来处理 Vue 组件中的插槽(slots)内容。我用简单的话来解释它的主要功能：\r\n\r\n1. 函数接收两个参数:\r\n   - children: 子节点数组\r\n   - context: 当前组件的上下文\r\n\r\n2. 主要处理逻辑：\r\n   - 将具名插槽(带 slot 属性的节点)按照名字分组存储\r\n   - 把不带 slot 属性的节点放入默认插槽(default)\r\n   - 特别处理 template 标签的情况,会把它的子节点展开放入对应插槽\r\n   - 会检查插槽节点是否来自同一上下文,避免作用域混乱\r\n\r\n3. 最后会清理只包含空白内容的插槽,返回处理好的插槽对象\r\n\r\n举个实际例子:\r\n```vue\r\n<my-component>\r\n  <template v-slot:header>头部内容</template>\r\n  <p>默认内容</p>\r\n</my-component>\r\n```\r\n这段代码经过这个函数处理后会得到:\r\n```js\r\n{\r\n  header: [/* 头部内容对应的 VNode */],\r\n  default: [/* p 标签对应的 VNode */]\r\n}\r\n```",
+      "line": 2504
+    }
+  ]
+}
