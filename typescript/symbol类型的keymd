@@ -1,0 +1,38 @@
+在这个 TypeScript 定义中，`[FRAGMENT]` 这样的写法使用了计算属性名(Computed Property Names)的语法。这里的 `[]` 表示使用符号(Symbol)作为对象的键。
+
+让我解释几个关键点：
+
+1. 这些 key (如 FRAGMENT, TELEPORT 等) 很可能是在其他地方定义的 Symbol：
+```typescript
+const FRAGMENT = Symbol('Fragment')
+const TELEPORT = Symbol('Teleport')
+// ... 其他 Symbol 定义
+```
+
+2. 使用 `[]` 语法允许我们：
+   - 使用 Symbol 作为对象的键
+   - 动态计算属性名
+
+3. 如果不使用 `[]`，我们就无法使用 Symbol 作为键，例如这样是错误的：
+```typescript
+// ❌ 错误写法
+const helperNameMap = {
+  FRAGMENT: 'Fragment'  // 这样会把 "FRAGMENT" 字符串作为键
+}
+```
+
+4. 正确的写法是使用 `[]`：
+```typescript
+// ✅ 正确写法
+const helperNameMap = {
+  [FRAGMENT]: 'Fragment'  // 使用 Symbol(FRAGMENT) 作为键
+}
+```
+
+这种设计的好处是：
+- 使用 Symbol 作为键可以确保键是唯一的
+- 可以避免名称冲突
+- 提供了更好的类型安全性
+- 在 Vue 的上下文中，这些 Symbol 可能被用于内部优化和特殊处理
+
+这是 Vue 的内部实现代码，使用 Symbol 作为键可以确保这些辅助函数的名称映射是唯一且类型安全的。
